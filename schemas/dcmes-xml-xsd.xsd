@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE schema PUBLIC "-//W3C//DTD XMLSchema 200102//EN"
+"http://www.w3.org/2001/XMLSchema.dtd" [
+<!ENTITY % p ''>
+<!ENTITY % s ''>
+]>
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:t="http://dublincore.org/documents/2002/07/31/dcmes-xml/"
+            targetNamespace="http://dublincore.org/documents/2002/07/31/dcmes-xml/">
+
+  <xsi:annotation>
+    <xsi:documentation xml:lang="en"
+                       source="http://dublincore.org/documents/2002/07/31/dcmes-xml/">
+
+  W3C XML Schema 2002-07-31 by Dave Beckett - http://purl.org/net/dajobe
+  for
+    Expressing Simple Dublin Core in RDF/XML - 2002-07-31
+    http://dublincore.org/documents/2002/07/31/dcmes-xml/
+
+  Based on
+    Dublin Core Metadata Element Set, Version 1.1: Reference Description
+    http://dublincore.org/documents/1999/07/02/dces/
+
+  and using schemas for the following namespaces:
+     rdf: dcmes-rdf.xsd
+     dc:  dcmes-dc.xsd  (indirectly via dcmes-rdf.xsd )
+
+    This W3C XML Schema is for information only
+
+    </xsi:documentation>
+  </xsi:annotation>
+
+ <!-- Import the RDF namespace schema for rdf:RDF -->
+ <xsi:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+             schemaLocation="dcmes-rdf.xsd"/>
+
+ <!-- Define an element 'top', abstract so it can never be used -->
+ <xsi:element name="top" abstract="true">
+   <xsi:complexType>
+     <xsi:sequence>
+       <xsi:element ref="rdf:RDF"/>
+     </xsi:sequence>
+   </xsi:complexType>
+ </xsi:element>
+
+</xsi:schema>

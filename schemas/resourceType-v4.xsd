@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://openaire.eu/schema/v4" targetNamespace="http://openaire.eu/schema/v4" elementFormDefault="qualified">
+    <xs:simpleType name="resourceType" id="resourceType">
+        <xs:annotation>
+            <xs:documentation>The type of the resource. Choose an SKOS-Concept-URI from the COAR resource type vocabulary</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:anyURI">
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_1162"/><!--annotation-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_0640"/><!--journal-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_6501"/><!--journal article-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_b239"/><!--editorial-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_7a1f"/><!--bachelor thesis-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_86bc"/><!--bibliography-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_2f33"/><!--book-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_3248"/><!--book part-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_ba08"/><!--book review-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_7ad9"/><!--website-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_e9a0"/><!--interactive resource-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_f744"/><!--conference proceedings-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_c94f"/><!--conference object-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_5794"/><!--conference paper-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_6670"/><!--conference poster-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_3e5a"/><!--contribution to journal-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_beb9"/><!--data paper-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_ddb1"/><!--dataset-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_db06"/><!--doctoral thesis-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_c513"/><!--image-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_8544"/><!--lecture-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_0857"/><!--letter-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_bdcc"/><!--master thesis-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_8a7e"/><!--moving image-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_2659"/><!--periodical-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_545b"/><!--letter to the editor-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_1843"/><!--other-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_15cd"/><!--patent-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_816b"/><!--preprint-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_93fc"/><!--report-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_ba1f"/><!--report part-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_baaf"/><!--research proposal-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_efa0"/><!--review-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_5ce6"/><!--software-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_ecc8"/><!--still image-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_71bd"/><!--technical documentation-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_393c"/><!--workflow-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_8042"/><!--working paper-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_46ec"/><!--thesis-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_12cc"/><!--cartographic material-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_12cd"/><!--map-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_12ce"/><!--video-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18cc"/><!--sound-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18cd"/><!--musical composition-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18cf"/><!--text-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18cp"/><!--conference paper not in proceedings-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18co"/><!--conference poster not in proceedings-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18cw"/><!--musical notation-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18ww"/><!--internal report-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18wz"/><!--memorandum-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18wq"/><!--other type of report-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_186u"/><!--policy report-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18op"/><!--project deliverable-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18hj"/><!--report to funding agency-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18ws"/><!--research report-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_18gh"/><!--technical report-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_dcae04bc"/><!--review article-->
+            <xs:enumeration value="http://purl.org/coar/resource_type/c_2df8fbb1"/><!--research article-->
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

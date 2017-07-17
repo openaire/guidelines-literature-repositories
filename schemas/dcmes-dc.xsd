@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE schema PUBLIC "-//W3C//DTD XMLSchema 200102//EN"
+"http://www.w3.org/2001/XMLSchema.dtd" [
+<!ENTITY % p ''>
+<!ENTITY % s ''>
+]>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        targetNamespace="http://purl.org/dc/elements/1.1/">
+
+  <annotation>
+    <documentation xml:lang="en"
+                   source="http://dublincore.org/documents/2002/07/31/dcmes-xml/">
+
+  W3C XML Schema 2002-07-31 by Dave Beckett - http://purl.org/net/dajobe
+  for
+    Expressing Simple Dublin Core in RDF/XML - 2002-07-31
+    http://dublincore.org/documents/2002/07/31/dcmes-xml/
+
+  This schema document describes the terms used by the above from
+  the DC namespace http://purl.org/dc/elements/1.1/
+  based on
+    Dublin Core Metadata Element Set, Version 1.1: Reference Description
+    http://dublincore.org/documents/1999/07/02/dces/
+
+    This W3C XML Schema is for information only.
+
+    </documentation>
+  </annotation>
+
+
+ <!-- Import the XML namespace schema for xml:lang -->
+ <import namespace="http://www.w3.org/XML/1998/namespace" 
+         schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+
+
+ <!-- Import the RDF namespace schema for rdf:resource -->
+  <import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          schemaLocation="dcmes-rdf.xsd"/>
+
+  <!-- abstract here means it cannot be used in an instance document -->
+  <element name="any" abstract="true">
+    <complexType mixed="true">
+       <sequence minOccurs="0" maxOccurs="unbounded">
+	  <any processContents="lax"/>
+       </sequence>
+       <attribute ref="xml:lang" use="optional"/>
+       <attribute ref="rdf:resource" use="optional"/>
+    </complexType>
+  </element>
+
+  <element name="title" substitutionGroup="dc:any"/>
+
+  <element name="creator" substitutionGroup="dc:any"/>
+
+  <element name="subject" substitutionGroup="dc:any"/>
+
+  <element name="description" substitutionGroup="dc:any"/>
+
+  <element name="publisher" substitutionGroup="dc:any"/>
+
+  <element name="contributor" substitutionGroup="dc:any"/>
+
+  <element name="date" substitutionGroup="dc:any"/>
+
+  <element name="type" substitutionGroup="dc:any"/>
+
+  <element name="format" substitutionGroup="dc:any"/>
+
+  <element name="identifier" substitutionGroup="dc:any"/>
+
+  <element name="source" substitutionGroup="dc:any"/>
+
+  <element name="language" substitutionGroup="dc:any"/>
+
+  <element name="relation" substitutionGroup="dc:any"/>
+
+  <element name="coverage" substitutionGroup="dc:any"/>
+
+  <element name="rights" substitutionGroup="dc:any"/>
+</schema>

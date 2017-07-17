@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://openaire.eu/schema/v4" targetNamespace="http://openaire.eu/schema/v4" elementFormDefault="qualified">
+    <xs:simpleType name="accessRight" id="accessRight">
+        <xs:annotation>
+            <xs:documentation>The main access right of the resource. Choose an SKOS-Concept-URI from the COAR access right vocabulary</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:anyURI">
+            <xs:enumeration value="http://purl.org/coar/access_right/c_abf2"/><!--open access-->
+            <xs:enumeration value="http://purl.org/coar/access_right/c_f1cf"/><!--embargoed access-->
+            <xs:enumeration value="http://purl.org/coar/access_right/c_16ec"/><!--restricted access-->
+            <xs:enumeration value="http://purl.org/coar/access_right/c_14cb"/><!--metadata only access-->
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

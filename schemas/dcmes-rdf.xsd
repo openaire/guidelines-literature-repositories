@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE schema PUBLIC "-//W3C//DTD XMLSchema 200102//EN"
+"http://www.w3.org/2001/XMLSchema.dtd" [
+<!ENTITY % p ''>
+<!ENTITY % s ''>
+]>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        targetNamespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+   <annotation>
+     <documentation xml:lang="en"
+                    source="http://dublincore.org/documents/2002/07/31/dcmes-xml/">
+
+  W3C XML Schema 2002-07-31 by Dave Beckett - http://purl.org/net/dajobe
+  for
+    Expressing Simple Dublin Core in RDF/XML - 2002-07-31
+    http://dublincore.org/documents/2002/07/31/dcmes-xml/
+
+  This schema document describes the terms used by the above from
+  the RDF namespace http://www.w3.org/1999/02/22-rdf-syntax-ns#
+
+    This W3C XML Schema is for information only
+
+     </documentation>
+   </annotation>
+
+
+
+ <!-- Import the DC namespace schema for dc:any -->
+  <import namespace="http://purl.org/dc/elements/1.1/"
+          schemaLocation="dcmes-dc.xsd"/>
+
+  <element name="RDF">
+    <complexType>
+      <sequence>
+        <element ref="rdf:Description" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>     
+    </complexType>
+  </element>
+
+  <element name="Description">
+    <complexType>
+      <sequence>
+        <element ref="dc:any" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>     
+      <attribute ref="rdf:about" use="optional"/>
+    </complexType>
+  </element>
+
+  <attribute name="about" type="anyURI"/>
+
+  <attribute name="resource" type="anyURI"/>
+
+</schema>

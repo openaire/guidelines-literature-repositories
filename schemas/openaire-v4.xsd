@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+  xmlns:xs ="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:datacite="http://datacite.org/schema/kernel-4"
+  xmlns:bibo="http://purl.org/ontology/bibo/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+  xmlns="http://openaire.eu/schema/v4"
+  targetNamespace="http://openaire.eu/schema/v4"
+  vc:minVersion="1.1">
+
+  <xs:import namespace="http://purl.org/dc/elements/1.1/"
+    schemaLocation="dcmes-dc.xsd"/>
+
+  <xs:import namespace="http://datacite.org/schema/kernel-4"
+    schemaLocation="datacite_v4.xsd"/>
+  <xs:import namespace="http://purl.org/ontology/bibo/" schemaLocation="bibo.xsd"/> 
+  <xs:include schemaLocation="resourceType-v4.xsd"/>
+  <xs:include schemaLocation="accessRight-v4.xsd"/>
+  
+<xs:element name="resource">
+  <xs:annotation>
+    <xs:documentation>
+      This schema defines the xml format for OpenAIRE Guidelines v4.
+      
+      The schema represents an application profile consisting of
+      * elements from Dublin Core with optional refinement attributes xml:lang and rdf:resource
+      * elements from DataCite metadata schema v4 to express granular information on creator, contributor, fundingReference, relatedIdentifier, alternateIdentifier
+      * elements from bibo to express information on bibliographic citation details of journal articles
+      * new elements to express information on (fulltext) files and version      
+    </xs:documentation>
+  </xs:annotation>
+  <xs:complexType>
+    <xs:all>
+      <xs:element ref="dc:coverage" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Optional</xs:documentation>
+          <xs:documentation xml:lang="en">The extent or scope of the content of the resource. Coverage will typically include spatial location (a place name or geographic coordinates), temporal period (a period label, date, or date range) or jurisdiction (such as a named administrative entity).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="datacite:creator" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Mandatory if applicable</xs:documentation>
+          <xs:documentation>An entity primarily responsible for making the resource. (DCMI definition)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element ref="datacite:contributor" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Mandatory if applicable</xs:documentation>
+          <xs:documentation>An entity responsible for making contributions to the content of the resource. Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity. (DCMI definition)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element ref="datacite:fundingReference" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Mandatory if applicable</xs:documentation>
+          <xs:documentation>Information about financial support (funding) for the resource being registered. (DataCite definition)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="datacite:alternateIdentifier" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Optional</xs:documentation>
+          <xs:documentation>An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers. AlternateIdentifier should be used for another identifier of the same instance (same location, same file).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="datacite:relatedIdentifier" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Optional</xs:documentation>
+          <xs:documentation>Identifiers of related resources. Use this property to indicate subsets of properties, as appropriate. (DataCite definition)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element ref="datacite:date" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Optional, use 'accepted' to indicate embargo start date</xs:documentation>
+          <xs:documentation xml:lang="en">Optional, use 'available' to indicate embargo end date</xs:documentation>
+          <xs:documentation xml:lang="en">(TODO compare with dc:date) Optional, use 'issued' to indicate date of publication</xs:documentation>
+        </xs:annotation>        
+      </xs:element>
+
+      <xs:element ref="dc:title" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Mandatory</xs:documentation>
+          <xs:documentation>A name given to the resource.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element ref="dc:language" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Mandatory</xs:documentation>
+          <xs:documentation>A language of the intellectual content of the resource. (DCMI definition)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="dc:publisher" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Mandatory when applicable</xs:documentation>
+          <xs:documentation>An entity responsible for making the resource available. Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity. (DCMI definition)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element ref="dc:date" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Mandatory</xs:documentation>
+          <xs:documentation>The date of publication.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="dc:type" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Mandatory</xs:documentation>
+          <xs:documentation>The type of scientific output the resource is a manifestation of. In the DC element type the kind of dissemination, or the intellectual and/or content type of the resource is described. It is used to explain to the user what kind of resource he is looking at. Is it a book or an article. Was it written for internal or external use, etc.</xs:documentation>
+          <xs:documentation>The rdf:resource attribute should contain the concept-URI chosen from the resourceType vocabulary</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+            
+      <xs:element ref="dc:description" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Mandatory when applicable</xs:documentation>
+          <xs:documentation>An account of the resource. (DCMI definition)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="dc:format">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
+          <xs:documentation>The file format, physical medium, or dimensions of the resource. (DCMI definition)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="dc:identifier" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Mandatory</xs:documentation>
+          <xs:documentation>An unambiguous reference to the resource within a given context.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="dc:rights" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
+          <xs:documentation>(TODO) reserved to provide access rights information (open, "closed", embargoed, restricted)</xs:documentation>
+          <xs:documentation>(TODO) the accessrighs attribute in the file element might be more specific</xs:documentation>
+          <xs:documentation>(TODO) the rights/license URI might be provided in the rdf:resource attribute</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="dc:source">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
+          <xs:documentation>A reference to a resource from which the present resource is derived. (DCMI definition)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="dc:subject">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Mandatory when applicable</xs:documentation>
+          <xs:documentation>(TODO) a recommended list of subjec classification scheme URIs to provide in rdf:resource attribute</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="bibo:volume" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Optional</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="bibo:issue" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Optional</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="bibo:pageStart" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Optional</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="bibo:pageEnd" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Optional</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="version" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
+          <xs:documentation>(TODO) use term from controlled list of version types; alignment with and URIfication of NISO-JAV terms pending.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <xs:element ref="file" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Optional</xs:documentation>
+          <xs:documentation>The link(s) to the fulltext file(s)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+    </xs:all>
+    
+  </xs:complexType>
+  
+</xs:element>
+
+<xs:element name="file">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="mimeType"></xs:attribute>
+        <xs:attribute name="accessRights"></xs:attribute>
+        <xs:attribute name="objectType"></xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>    
+  </xs:complexType>  
+</xs:element>
+  
+<xs:element name="version" type="versionType"/>
+
+<xs:simpleType name="versionType">
+  <xs:annotation>
+    <xs:documentation>(TODO) preliminary list of version types, derived from info:eu-repo/semantics</xs:documentation>
+  </xs:annotation>
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="accepted"></xs:enumeration>
+    <xs:enumeration value="published"></xs:enumeration>
+    <xs:enumeration value="draft"></xs:enumeration>
+    <xs:enumeration value="submitted"></xs:enumeration>
+    <xs:enumeration value="updated"></xs:enumeration>
+  </xs:restriction>  
+</xs:simpleType>
+
+</xs:schema>
