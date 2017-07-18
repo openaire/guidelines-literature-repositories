@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	targetNamespace="http://purl.org/ontology/bibo/" xmlns="http://purl.org/ontology/bibo/"
-	elementFormDefault="qualified" attributeFormDefault="unqualified">
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	targetNamespace="http://purl.org/ontology/bibo/" 
+	xmlns="http://purl.org/ontology/bibo/"
+	elementFormDefault="qualified" 
+	attributeFormDefault="unqualified"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
 	
 	<!-- This is not the full bibo, just the elements we might intend to reuse -->
 	<xs:element name="status" type="xs:string"/>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://datacite.org/schema/kernel-4"
-    targetNamespace="http://datacite.org/schema/kernel-4" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns="http://datacite.org/schema/kernel-4"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	targetNamespace="http://datacite.org/schema/kernel-4" 
+	elementFormDefault="qualified"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
 
     <xs:include schemaLocation="datacite-contributorType-v4.xsd"/>
     <xs:include schemaLocation="datacite-funderIdentifierType-v4.xsd"/>

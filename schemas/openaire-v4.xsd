@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
-  xmlns:xs ="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+	xmlns:xs ="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:datacite="http://datacite.org/schema/kernel-4"
   xmlns:bibo="http://purl.org/ontology/bibo/"
@@ -8,7 +9,8 @@
   xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
   xmlns="http://openaire.eu/schema/v4"
   targetNamespace="http://openaire.eu/schema/v4"
-  vc:minVersion="1.1">
+  vc:minVersion="1.1"
+  xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
 
   <xs:import namespace="http://purl.org/dc/elements/1.1/"
     schemaLocation="dcmes-dc.xsd"/>

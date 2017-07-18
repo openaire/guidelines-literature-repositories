@@ -3,7 +3,12 @@
    2013-05 v3.0: Addition of ID to simpleType element, added values "ResearchGroup" & "Other"
    2014-08-20 v3.1: Addition of value "DataCurator"
    2015-05-14 v4.0 dropped value "Funder", use new "funderReference" -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://datacite.org/schema/kernel-4" targetNamespace="http://datacite.org/schema/kernel-4" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns="http://datacite.org/schema/kernel-4" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	targetNamespace="http://datacite.org/schema/kernel-4" 
+	elementFormDefault="qualified"
+	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
   <xs:simpleType name="contributorType" id="contributorType">
     <xs:annotation>
       <xs:documentation>The type of contributor of the resource.</xs:documentation>
