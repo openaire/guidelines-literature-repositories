@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>guidelines-literature-repositories</groupId>
+	<artifactId>guidelines-literature-repositories</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>xml-maven-plugin</artifactId>
+				<version>1.0.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>validate</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<validationSets>
+						<validationSet>
+							<dir>samples</dir>
+							<validating>true</validating>
+						</validationSet>
+						<validationSet>
+							<dir>schemas</dir>
+							<validating>true</validating>
+							<excludes>
+								<exclude>catalog.xml</exclude>
+								<exclude>*.out.xml</exclude>
+								<exclude>scripts/*</exclude>
+								<exclude>cached/*</exclude>
+							</excludes>
+						</validationSet>
+					</validationSets>
+					<!--					<catalogs>
+						<catalog>schemas/catalog.xml</catalog>
+					</catalogs>-->
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
