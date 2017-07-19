@@ -8,3 +8,4 @@ These guidelines describe the application profile for Literature Repository mana
    :maxdepth: 1
 
    introduction
+   application_profile
