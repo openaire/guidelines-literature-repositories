@@ -9,10 +9,10 @@ This documentation uses the following namespace abbreviation:
 * ``aire``: http://openaire.eu/schema/v4
 
 ======================================== ============================ =========================================
-OpenAIRE-Field                           OAI-DC Element               Refinement by vocabulary
+OpenAIRE-Field                           Metadata Element             Refinement by vocabulary
 ======================================== ============================ =========================================
 :ref:`dc:title`                          dc:title
-:ref:`dci:creator`                       datacitec:creator
+:ref:`dci:creator`                       datacite:creator
 :ref:`dci:contributor`                   datacite:contributor         DataCite contributor type
 :ref:`dci:fundingReference`              datacite:fundingReference    DataCite funderIdentifier type
 :ref:`dci:alternativeidentfier`          datacite:alternateIdentifier   

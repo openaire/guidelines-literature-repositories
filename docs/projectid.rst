@@ -1,0 +1,2 @@
+An authoritative list of projects is exposed by OpenAIRE through `OAI-PMH <http://api.openaire.eu/oai_pmh?verb=ListRecords&set=projects&metadataPrefix=oaf>`_ and `REST <http://api.openaire.eu/search/projects>`_ as documented at `<http://api.openaire.eu>`_, and available for all repository managers. Values include the project name and project ID. The projectID equals the Grant Agreement identifier or Award number.
+
