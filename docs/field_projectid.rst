@@ -18,7 +18,7 @@ Unique identifier of the funding entity.
 
 Type of the unique identifier of the funding entity.
 
-4.3 fundingstream
+4.3 fundingStream
 -----------------
 
 Name of the funding stream (optional)
@@ -48,7 +48,7 @@ OpenAIRE Guidelines v1
 
 **Modified**
 
-adopting fundingReference elements from DataCite schema and funderId; replacing ``info:eu-repo/grantAgreement`` syntax in OpenAIRE Guidelines v4
+adopting fundingReference elements from DataCite schema and funderId; this replaces the ``info:eu-repo/grantAgreement`` syntax.
 
 **Example**
 
@@ -58,8 +58,9 @@ An example utilizing all fields:
    :linenos:
 
    <fundingReference>
-     <funderName>Horizon 2020 Framework Programme</funderName>
+     <funderName>European Commission</funderName>
      <funderIdentifier funderIdentifierType="Crossref Funder ID">http://doi.org/10.13039/100010661</funderIdentifier>
+     <fundingStream>Horizon 2020 Framework Programme</fundingStream>
      <awardNumber awardURI="http://cordis.europa.eu/project/rcn/194062_en.html">643410</awardNumber>
      <awardTitle>Open Access Infrastructure for Research in Europe 2020</awardTitle>
    </fundingReference>

@@ -18,7 +18,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier   
 :ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    DataCite relatedIdentifier type
 :ref:`dci:dateEmbargo`                   datacite:date                 DataCite dateType
-:ref:`dc:language`                       dc:language                   IETF BCP 47, ISO 639-1,2,3
+:ref:`dc:language`                       dc:language                   `IETF BCP 47`_, ISO 639-1,2,3
 :ref:`dc:publisher`                      dc:publisher
 :ref:`dc:date`                           dc:date
 :ref:`dc:typePublicationtype`            dc:type                       `COAR Resource Type Vocabulary`_
@@ -29,13 +29,13 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dc:source`                         dc:source
 :ref:`dc:subject`                        dc:subject
 :ref:`dc:rightsLicensecondition`         dc:rights
-:ref:`dc:relation_datasetreference`      dc:relation    
+:ref:`dc:relation`                       dc:relation
 :ref:`aire:version`                      aire:version        
 :ref:`aire:file`                         aire:file        
-:ref:`dc:relation`                       dc:relation
 :ref:`dc:coverage`                       dc:coverage
 :ref:`dc:audience`                       dc:audience
 ======================================== ============================= ===========================================================================
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
+.. _IETF BCP 47: http://tools.ietf.org/rfc/bcp/bcp47.txt

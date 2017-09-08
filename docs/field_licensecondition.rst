@@ -1,6 +1,6 @@
 .. _dc:rightsLicensecondition:
 
-17. License Condition (R)
+18. License Condition (R)
 =========================
 
 DC Field
