@@ -18,17 +18,22 @@ Unique identifier of the funding entity.
 
 Type of the unique identifier of the funding entity.
 
-4.3 awardNumber
+4.3 fundingstream
+-----------------
+
+Name of the funding stream (optional)
+
+4.4 awardNumber
 ---------------
 
 Project grantId or awardNumber.
 
-4.3.1 awardURI
+4.4.1 awardURI
 ^^^^^^^^^^^^^^
 
 URI of the project landing page provided by the funder. 
 
-4.4 awardTitle
+4.5 awardTitle
 --------------
 
 Title of the project, award or grant.

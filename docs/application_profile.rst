@@ -8,32 +8,34 @@ This documentation uses the following namespace abbreviation:
 * ``rdf`` : `<http://www.w3.org/1999/02/22-rdf-syntax-ns#>`__
 * ``aire``: http://openaire.eu/schema/v4
 
-======================================== ============================ =========================================
-OpenAIRE-Field                           Metadata Element             Refinement by vocabulary
-======================================== ============================ =========================================
+======================================== ============================= ===========================================================================
+OpenAIRE-Field                           Metadata Element              Refinement by vocabulary
+======================================== ============================= ===========================================================================
 :ref:`dc:title`                          dc:title
 :ref:`dci:creator`                       datacite:creator
-:ref:`dci:contributor`                   datacite:contributor         DataCite contributor type
-:ref:`dci:fundingReference`              datacite:fundingReference    DataCite funderIdentifier type
-:ref:`dci:alternativeidentfier`          datacite:alternateIdentifier   
-:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier   DataCite relatedIdentifier type
-:ref:`dci:date_embargo`                  datacite:date                DataCite dateType
-:ref:`dc:language`                       dc:language                  IETF BCP 47, ISO 639-1,2,3
+:ref:`dci:contributor`                   datacite:contributor          DataCite contributor type
+:ref:`dci:fundingReference`              datacite:fundingReference     DataCite funderIdentifier type
+:ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier   
+:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    DataCite relatedIdentifier type
+:ref:`dci:dateEmbargo`                   datacite:date                 DataCite dateType
+:ref:`dc:language`                       dc:language                   IETF BCP 47, ISO 639-1,2,3
 :ref:`dc:publisher`                      dc:publisher
 :ref:`dc:date`                           dc:date
-:ref:`dc:type`                           dc:type                      COAR Resource Type Vocabulary
+:ref:`dc:typePublicationtype`            dc:type                       `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
-:ref:`dc:identifier`                     dc:identfier
-:ref:`dc:rights_accesslevel`             dc:rights                    COAR Access Right Vocabulary
+:ref:`dc:identifier`                     dc:identifier
+:ref:`dc:rightsAccessrights`             dc:rights                     `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
 :ref:`dc:subject`                        dc:subject
-:ref:`dc:rights_licensecondition`        dc:rights
+:ref:`dc:rightsLicensecondition`         dc:rights
 :ref:`dc:relation_datasetreference`      dc:relation    
-:ref:`dc:type_publicationversion`        dc:type        
+:ref:`aire:version`                      aire:version        
+:ref:`aire:file`                         aire:file        
 :ref:`dc:relation`                       dc:relation
 :ref:`dc:coverage`                       dc:coverage
 :ref:`dc:audience`                       dc:audience
-======================================== ============================ =========================================
+======================================== ============================= ===========================================================================
 
-
+.. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
+.. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
