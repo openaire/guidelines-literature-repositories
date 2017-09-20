@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://namespace.openaire.eu/schema/oaire/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    targetNamespace="http://namespace.openaire.eu/schema/oaire/" 
+    elementFormDefault="qualified"
+    xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
+
+    <xs:element name="volume" type="xs:string"/>
+    <xs:element name="issue" type="xs:string"/>
+    <xs:element name="startPage" type="xs:string"/>
+    <xs:element name="endPage" type="xs:string"/>
+
+    <xs:element name="file">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="mimeType"></xs:attribute>
+                    <xs:attribute name="accessRights"></xs:attribute>
+                    <xs:attribute name="objectType"></xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>    
+        </xs:complexType>  
+    </xs:element>
+    
+    <xs:element name="version" type="versionType"/>
+    
+    <xs:simpleType name="versionType" id="versionType">
+        <xs:annotation>
+            <xs:documentation>(TODO) preliminary list of version types, derived from info:eu-repo/semantics</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="accepted"></xs:enumeration>
+            <xs:enumeration value="published"></xs:enumeration>
+            <xs:enumeration value="draft"></xs:enumeration>
+            <xs:enumeration value="submitted"></xs:enumeration>
+            <xs:enumeration value="updated"></xs:enumeration>
+        </xs:restriction>  
+    </xs:simpleType>
+    
+</xs:schema>

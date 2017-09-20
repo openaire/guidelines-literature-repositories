@@ -4,11 +4,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:datacite="http://datacite.org/schema/kernel-4"
-  xmlns:bibo="http://purl.org/ontology/bibo/"
+  xmlns:oaire="http://namespace.openaire.eu/schema/oaire/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
-  xmlns="http://openaire.eu/schema/v4"
-  targetNamespace="http://openaire.eu/schema/v4"
+  xmlns="http://openaire.eu/schema/oaire/v4"
+  targetNamespace="http://openaire.eu/schema/oaire/v4"
   vc:minVersion="1.1"
   xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
 
@@ -17,14 +17,14 @@
 
   <xs:import namespace="http://datacite.org/schema/kernel-4"
     schemaLocation="datacite_v4.xsd"/>
-  <xs:import namespace="http://purl.org/ontology/bibo/" schemaLocation="bibo.xsd"/> 
+  <xs:import namespace="http://namespace.openaire.eu/schema/oaire/" schemaLocation="oaire.xsd"/> 
   <xs:include schemaLocation="resourceType-v4.xsd"/>
   <xs:include schemaLocation="accessRight-v4.xsd"/>
   
 <xs:element name="resource">
   <xs:annotation>
     <xs:documentation>
-      This schema defines the xml format for OpenAIRE Guidelines v4.
+      This schema defines the xml format for OpenAIRE Guidelines for Literature Repositories v4.
       
       The schema represents an application profile consisting of
       * elements from Dublin Core with optional refinement attributes xml:lang and rdf:resource
@@ -117,7 +117,7 @@
         <xs:annotation>
           <xs:documentation>Mandatory</xs:documentation>
           <xs:documentation>The type of scientific output the resource is a manifestation of. In the DC element type the kind of dissemination, or the intellectual and/or content type of the resource is described. It is used to explain to the user what kind of resource he is looking at. Is it a book or an article. Was it written for internal or external use, etc.</xs:documentation>
-          <xs:documentation>The rdf:resource attribute should contain the concept-URI chosen from the resourceType vocabulary</xs:documentation>
+          <xs:documentation>The rdf:resource attribute should contain the concept-URI chosen from the COAR Resource Type vocabulary.</xs:documentation>
         </xs:annotation>
       </xs:element>
             
@@ -142,12 +142,12 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="dc:rights" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="dc:rights" minOccurs="1">
         <xs:annotation>
-          <xs:documentation xml:lang="en">Recommended</xs:documentation>
-          <xs:documentation>(TODO) reserved to provide access rights information (open, "closed", embargoed, restricted)</xs:documentation>
-          <xs:documentation>(TODO) the accessrighs attribute in the file element might be more specific</xs:documentation>
-          <xs:documentation>(TODO) the rights/license URI might be provided in the rdf:resource attribute</xs:documentation>
+          <xs:documentation xml:lang="en">Mandatory</xs:documentation>
+          <xs:documentation>The main access right of the resource</xs:documentation>
+          <xs:documentation>The accessright attribute in the file element might be more specific</xs:documentation>
+          <xs:documentation>The rdf:resource attribute should contain the concept-URI chosen from the COAR Access Right vocabulary.</xs:documentation>
         </xs:annotation>
       </xs:element>
       
@@ -165,38 +165,38 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="bibo:volume" minOccurs="0" maxOccurs="1">
+      <xs:element ref="oaire:volume" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="bibo:issue" minOccurs="0" maxOccurs="1">
+      <xs:element ref="oaire:issue" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="bibo:pageStart" minOccurs="0" maxOccurs="1">
+      <xs:element ref="oaire:startPage" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="bibo:pageEnd" minOccurs="0" maxOccurs="1">
+      <xs:element ref="oaire:endPage" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="version" minOccurs="0" maxOccurs="1">
+      <xs:element ref="oaire:version" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Recommended</xs:documentation>
           <xs:documentation>(TODO) use term from controlled list of version types; alignment with and URIfication of NISO-JAV terms pending.</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="file" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="oaire:file" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
           <xs:documentation>The link(s) to the fulltext file(s)</xs:documentation>
@@ -209,31 +209,5 @@
   
 </xs:element>
 
-<xs:element name="file">
-  <xs:complexType>
-    <xs:simpleContent>
-      <xs:extension base="xs:string">
-        <xs:attribute name="mimeType"></xs:attribute>
-        <xs:attribute name="accessRights"></xs:attribute>
-        <xs:attribute name="objectType"></xs:attribute>
-      </xs:extension>
-    </xs:simpleContent>    
-  </xs:complexType>  
-</xs:element>
-  
-<xs:element name="version" type="versionType"/>
-
-<xs:simpleType name="versionType">
-  <xs:annotation>
-    <xs:documentation>(TODO) preliminary list of version types, derived from info:eu-repo/semantics</xs:documentation>
-  </xs:annotation>
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="accepted"></xs:enumeration>
-    <xs:enumeration value="published"></xs:enumeration>
-    <xs:enumeration value="draft"></xs:enumeration>
-    <xs:enumeration value="submitted"></xs:enumeration>
-    <xs:enumeration value="updated"></xs:enumeration>
-  </xs:restriction>  
-</xs:simpleType>
 
 </xs:schema>
