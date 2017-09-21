@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
 	xmlns="http://namespace.openaire.eu/schema/oaire/" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	targetNamespace="http://namespace/openaire.eu/schema/oaire/" 
+	targetNamespace="http://namespace.openaire.eu/schema/oaire/" 
 	elementFormDefault="qualified"
 	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
     <xs:simpleType name="resourceType" id="resourceType">

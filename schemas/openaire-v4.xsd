@@ -4,11 +4,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:datacite="http://datacite.org/schema/kernel-4"
-  xmlns:oaire="http://namespace.openaire.eu/schema/oaire/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
-  xmlns="http://openaire.eu/schema/oaire/v4"
-  targetNamespace="http://openaire.eu/schema/oaire/v4"
+  xmlns="http://namespace.openaire.eu/schema/oaire/"
+  targetNamespace="http://namespace.openaire.eu/schema/oaire/"
   vc:minVersion="1.1"
   xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
 
@@ -17,10 +16,10 @@
 
   <xs:import namespace="http://datacite.org/schema/kernel-4"
     schemaLocation="datacite_v4.xsd"/>
-  <xs:import namespace="http://namespace.openaire.eu/schema/oaire/" schemaLocation="oaire.xsd"/> 
+  
+  <xs:include schemaLocation="oaire.xsd"/> 
   <xs:include schemaLocation="resourceType-v4.xsd"/>
   <xs:include schemaLocation="accessRight-v4.xsd"/>
-  
 <xs:element name="resource">
   <xs:annotation>
     <xs:documentation>
@@ -164,39 +163,39 @@
           <xs:documentation>(TODO) a recommended list of subjec classification scheme URIs to provide in rdf:resource attribute</xs:documentation>
         </xs:annotation>
       </xs:element>
-      
-      <xs:element ref="oaire:volume" minOccurs="0" maxOccurs="1">
+
+      <xs:element ref="volume" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="oaire:issue" minOccurs="0" maxOccurs="1">
+      <xs:element ref="issue" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="oaire:startPage" minOccurs="0" maxOccurs="1">
+      <xs:element ref="startPage" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="oaire:endPage" minOccurs="0" maxOccurs="1">
+      <xs:element ref="endPage" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="oaire:version" minOccurs="0" maxOccurs="1">
+      <xs:element ref="version" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Recommended</xs:documentation>
           <xs:documentation>(TODO) use term from controlled list of version types; alignment with and URIfication of NISO-JAV terms pending.</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="oaire:file" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="file" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
           <xs:documentation>The link(s) to the fulltext file(s)</xs:documentation>
