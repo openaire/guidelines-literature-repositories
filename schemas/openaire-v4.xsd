@@ -33,50 +33,50 @@
     </xs:documentation>
   </xs:annotation>
   <xs:complexType>
-    <xs:all>
-      <xs:element ref="dc:coverage" minOccurs="0" maxOccurs="unbounded">
+    <xs:choice maxOccurs="unbounded">
+      <xs:element ref="dc:coverage" minOccurs="0">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
           <xs:documentation xml:lang="en">The extent or scope of the content of the resource. Coverage will typically include spatial location (a place name or geographic coordinates), temporal period (a period label, date, or date range) or jurisdiction (such as a named administrative entity).</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="datacite:creator" maxOccurs="unbounded">
+      <xs:element ref="datacite:creator">
         <xs:annotation>
           <xs:documentation>Mandatory if applicable</xs:documentation>
           <xs:documentation>An entity primarily responsible for making the resource. (DCMI definition)</xs:documentation>
         </xs:annotation>
       </xs:element>
 
-      <xs:element ref="datacite:contributor" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="datacite:contributor" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Mandatory if applicable</xs:documentation>
           <xs:documentation>An entity responsible for making contributions to the content of the resource. Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity. (DCMI definition)</xs:documentation>
         </xs:annotation>
       </xs:element>
 
-      <xs:element ref="datacite:fundingReference" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="datacite:fundingReference" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Mandatory if applicable</xs:documentation>
           <xs:documentation>Information about financial support (funding) for the resource being registered. (DataCite definition)</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="datacite:alternateIdentifier" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="datacite:alternateIdentifier" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Optional</xs:documentation>
           <xs:documentation>An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers. AlternateIdentifier should be used for another identifier of the same instance (same location, same file).</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="datacite:relatedIdentifier" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="datacite:relatedIdentifier" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Optional</xs:documentation>
           <xs:documentation>Identifiers of related resources. Use this property to indicate subsets of properties, as appropriate. (DataCite definition)</xs:documentation>
         </xs:annotation>
       </xs:element>
 
-      <xs:element ref="datacite:date" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="datacite:date" minOccurs="0">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional, use 'accepted' to indicate embargo start date</xs:documentation>
           <xs:documentation xml:lang="en">Optional, use 'available' to indicate embargo end date</xs:documentation>
@@ -98,7 +98,7 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="dc:publisher" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="dc:publisher" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Mandatory when applicable</xs:documentation>
           <xs:documentation>An entity responsible for making the resource available. Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity. (DCMI definition)</xs:documentation>
@@ -120,7 +120,7 @@
         </xs:annotation>
       </xs:element>
             
-      <xs:element ref="dc:description" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="dc:description" minOccurs="0">
         <xs:annotation>
           <xs:documentation xml:lang="en">Mandatory when applicable</xs:documentation>
           <xs:documentation>An account of the resource. (DCMI definition)</xs:documentation>
@@ -195,15 +195,14 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="file" minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="file" minOccurs="0">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
           <xs:documentation>The link(s) to the fulltext file(s)</xs:documentation>
         </xs:annotation>
       </xs:element>
-      
-    </xs:all>
-    
+
+    </xs:choice>    
   </xs:complexType>
   
 </xs:element>

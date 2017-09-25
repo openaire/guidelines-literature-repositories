@@ -5,7 +5,7 @@
  xmlns:datacite="http://datacite.org/schema/kernel-4"
  xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
  xmlns:oaire="http://namespace.openaire.eu/schema/oaire/"
- xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ https://github.com/openaire/guidelines-literature-repositories/raw/master/schemas/openaire-v4.xsd">
+ xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ ../schemas/openaire-v4.xsd">
     <!-- 
     example metadata adapted from http://uu.diva-portal.org/dice/oai?verb=ListRecords&metadataPrefix=oai_dc&identifier=oai:DiVA.org:uu-160648
     and reduced to the very minimal mandatory elements

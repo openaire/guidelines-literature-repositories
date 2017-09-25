@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:datacite="http://datacite.org/schema/kernel-4"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns="http://namespace.openaire.eu/schema/oaire/"
+ xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ ../schemas/openaire-v4.xsd">
+    <!-- 
+       example of a journal article indexed in EuropePMC, metadata derived from http://europepmc.org/oai.cgi?verb=GetRecord&metadataPrefix=pmc&identifier=oai:europepmc.org:4525452
+    -->
+    <datacite:creator>
+        <datacite:creatorName>Pettersson, Fredrik</datacite:creatorName>
+    </datacite:creator>
+    <datacite:creator>
+        <datacite:creatorName>Bergonzini, Giulia</datacite:creatorName>
+    </datacite:creator>
+    <datacite:creator>
+        <datacite:creatorName>Cassani, Carlo</datacite:creatorName>
+    </datacite:creator>
+    <datacite:creator>
+        <datacite:creatorName>Wallentin, Carl‐Johan</datacite:creatorName>
+        <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="">http://orcid.org/0000-0003-1983-9378</datacite:nameIdentifier>
+    </datacite:creator>
+    <datacite:fundingReference>
+        <datacite:funderName>European Commission</datacite:funderName>
+        <datacite:fundingStream>H2020 Marie Skłodowska-Curie Actions</datacite:fundingStream>
+        <datacite:funderIdentifier funderIdentifierType="Crossref Funder ID"></datacite:funderIdentifier>
+        <datacite:awardNumber awardURI="http://cordis.europa.eu/project/rcn/195983_en.html">660668</datacite:awardNumber>
+        <datacite:awardTitle>ACT against AMR</datacite:awardTitle>
+    </datacite:fundingReference>
+    <datacite:alternateIdentifier alternateIdentifierType="DOI">10.1002/chem.201701589</datacite:alternateIdentifier>
+    <datacite:alternateIdentifier alternateIdentifierType="PMCID">PMC5574022</datacite:alternateIdentifier>
+    <dc:title xml:lang="eng">Redox‐Neutral Dual Functionalization of Electron‐Deficient Alkenes</dc:title>
+    <dc:description xml:lang="eng">Visible‐light photoredox catalysis has been utilized in a new multicomponent reaction forming β‐functionalized δ‐diketones 
+        under mild conditions in an operationally convenient manner. Single‐electron reduction of in situ generated carboxylic acid derivatives forms acyl radicals 
+        that react further via 1,2‐acylalkylation of olefins in an intermolecular, three‐components cascade reaction, giving valuable synthetic entities from readily 
+        available starting materials. A diverse set of substrates has been used, demonstrating robust methodology with broad substrate scope.</dc:description>
+    <dc:language>eng</dc:language>
+    <dc:date>2017-05-10</dc:date>
+    <dc:type rdf:resource="">journal article</dc:type>
+    <dc:identifier>http://europepmc.org/articles/PMC5574022</dc:identifier>
+    <dc:publisher>John Wiley and Sons Inc.</dc:publisher>
+    <dc:rights rdf:resource="http://purl.org/coar/access_right/c_abf2">open access</dc:rights>
+    <dc:subject>acyl radicals</dc:subject>
+    <dc:subject>carboxylic acids</dc:subject>
+    <dc:subject>cascade transformation</dc:subject>
+    <dc:subject>multicomponent reactions</dc:subject>
+    <dc:subject>photoredox catalysis</dc:subject>
+    <file accessRights="http://purl.org/coar/access_right/c_abf2" mimeType="application/pdf" objectType="">http://europepmc.org/articles/PMC5574022?pdf=render</file>
+    <volume>23</volume>
+    <issue>31</issue>
+    <startPage>7444</startPage>
+    <endPage>7447</endPage>
+</resource>

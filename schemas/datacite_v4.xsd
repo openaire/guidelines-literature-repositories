@@ -99,6 +99,14 @@
                         </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
+                <xs:element name="fundingStream" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>Name of the funding stream.</xs:documentation>
+                    </xs:annotation>
+                    <xs:simpleType>
+                        <xs:restriction base="nonemptycontentStringType"/>
+                    </xs:simpleType>
+                </xs:element>
                 <xs:element name="awardNumber" minOccurs="0">
                     <xs:annotation>
                         <xs:documentation>The code assigned by the funder to a sponsored award (grant).</xs:documentation>
