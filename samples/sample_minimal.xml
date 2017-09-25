@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oaire:resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:datacite="http://datacite.org/schema/kernel-4"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:oaire="http://namespace.openaire.eu/schema/oaire/"
+ xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ https://github.com/openaire/guidelines-literature-repositories/raw/master/schemas/openaire-v4.xsd">
+    <!-- 
+    example metadata adapted from http://uu.diva-portal.org/dice/oai?verb=ListRecords&metadataPrefix=oai_dc&identifier=oai:DiVA.org:uu-160648
+    and reduced to the very minimal mandatory elements
+    -->
+    <dc:title>A general approach to finite dimensional division algebras</dc:title>
+    <datacite:creator>
+        <datacite:creatorName>Dieterich, Ernst</datacite:creatorName>
+    </datacite:creator>    
+    <dc:language>eng</dc:language>
+    <dc:date>2011</dc:date>
+    <dc:type rdf:resource="http://purl.org/coar/resource_type/c_93fc">report</dc:type>
+    <dc:identifier>http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-160648</dc:identifier>
+    <dc:rights rdf:resource="http://purl.org/coar/access_right/c_abf2">open access</dc:rights>
+</oaire:resource>
