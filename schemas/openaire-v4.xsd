@@ -48,14 +48,14 @@
         </xs:annotation>
       </xs:element>
 
-      <xs:element ref="datacite:contributor" maxOccurs="unbounded">
+      <xs:element ref="datacite:contributor" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation>Mandatory if applicable</xs:documentation>
           <xs:documentation>An entity responsible for making contributions to the content of the resource. Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity. (DCMI definition)</xs:documentation>
         </xs:annotation>
       </xs:element>
 
-      <xs:element ref="datacite:fundingReference" maxOccurs="unbounded">
+      <xs:element ref="datacite:fundingReference" minOccurs="0" maxOccurs="unbounded">
         <xs:annotation>
           <xs:documentation>Mandatory if applicable</xs:documentation>
           <xs:documentation>Information about financial support (funding) for the resource being registered. (DataCite definition)</xs:documentation>
@@ -127,7 +127,7 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="dc:format">
+      <xs:element ref="dc:format" minOccurs="0">
         <xs:annotation>
           <xs:documentation xml:lang="en">Recommended</xs:documentation>
           <xs:documentation>The file format, physical medium, or dimensions of the resource. (DCMI definition)</xs:documentation>
@@ -150,14 +150,14 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="dc:source">
+      <xs:element ref="dc:source" minOccurs="0">
         <xs:annotation>
           <xs:documentation xml:lang="en">Recommended</xs:documentation>
           <xs:documentation>A reference to a resource from which the present resource is derived. (DCMI definition)</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="dc:subject">
+      <xs:element ref="dc:subject" minOccurs="0">
         <xs:annotation>
           <xs:documentation xml:lang="en">Mandatory when applicable</xs:documentation>
           <xs:documentation>(TODO) a recommended list of subjec classification scheme URIs to provide in rdf:resource attribute</xs:documentation>

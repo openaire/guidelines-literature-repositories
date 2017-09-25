@@ -16,6 +16,7 @@
             <xs:simpleContent>
                 <xs:extension base="xs:string">
                     <xs:attribute name="mimeType"></xs:attribute>
+                    <xs:attribute name="accessRightsURI"></xs:attribute>
                     <xs:attribute name="accessRights"></xs:attribute>
                     <xs:attribute name="objectType"></xs:attribute>
                 </xs:extension>
