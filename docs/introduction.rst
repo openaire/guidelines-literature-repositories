@@ -38,9 +38,9 @@ What's new
 In comparison with previous versions of the Guidelines, this 4.0 version introduces
 the following major changes:
 
-* todo 
-* todo 
-* todo 
+* an application profile and schema based on Dublin Core and DataCite 
+* support of identifier schemes for authors, organizations, funders, scholarly resources
+
 
 Acknowledgements & Contributors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

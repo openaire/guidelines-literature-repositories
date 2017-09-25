@@ -2,6 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
 	xmlns="http://datacite.org/schema/kernel-4"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:oaire="http://namespace.openaire.eu/schema/oaire/"
 	targetNamespace="http://datacite.org/schema/kernel-4" 
 	elementFormDefault="qualified"
 	xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
@@ -11,6 +12,7 @@
     <xs:include schemaLocation="datacite-relatedIdentifierType-v4.xsd"/>
     <xs:include schemaLocation="datacite-relationType-v4.xsd"/>
     <xs:include schemaLocation="datacite-dateType-v4.xsd"/>
+    <xs:import namespace="http://namespace.openaire.eu/schema/oaire/" schemaLocation="oaire.xsd"/>
     
     <xs:element name="creator"> <!--   maxOccurs="unbounded" -->
         <xs:annotation>
@@ -99,13 +101,10 @@
                         </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="fundingStream" minOccurs="0">
+                <xs:element name="fundingStream" type="oaire:fundingStreamType" minOccurs="0">
                     <xs:annotation>
                         <xs:documentation>Name of the funding stream.</xs:documentation>
                     </xs:annotation>
-                    <xs:simpleType>
-                        <xs:restriction base="nonemptycontentStringType"/>
-                    </xs:simpleType>
                 </xs:element>
                 <xs:element name="awardNumber" minOccurs="0">
                     <xs:annotation>

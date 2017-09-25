@@ -6,7 +6,7 @@ This documentation uses the following namespace abbreviation:
 * ``dc``: http://purl.org/dc/elements/1.1/
 * ``datacite``: http://datacite.org/schema/kernel-4
 * ``rdf`` : `<http://www.w3.org/1999/02/22-rdf-syntax-ns#>`__
-* ``aire``: http://openaire.eu/schema/v4
+* ``oaire``: http://namespaceopenaire.eu/schema/oaire/
 
 ======================================== ============================= ===========================================================================
 OpenAIRE-Field                           Metadata Element              Refinement by vocabulary

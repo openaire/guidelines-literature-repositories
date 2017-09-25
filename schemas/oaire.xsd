@@ -39,4 +39,17 @@
         </xs:restriction>  
     </xs:simpleType>
     
+    <xs:simpleType name="fundingStreamType">
+        <xs:annotation>
+            <xs:documentation>Name of the funding stream.</xs:documentation>
+        </xs:annotation>
+            <xs:restriction base="nonemptycontentStringType"/>
+    </xs:simpleType>
+    
+    <xs:simpleType name="nonemptycontentStringType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
 </xs:schema>
