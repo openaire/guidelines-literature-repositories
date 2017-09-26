@@ -101,7 +101,7 @@
                         </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="fundingStream" type="oaire:fundingStreamType" minOccurs="0">
+                <xs:element ref="oaire:fundingStream" minOccurs="0">
                     <xs:annotation>
                         <xs:documentation>Name of the funding stream.</xs:documentation>
                     </xs:annotation>

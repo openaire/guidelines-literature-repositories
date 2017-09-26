@@ -31,6 +31,8 @@
     </datacite:fundingReference>
     <datacite:alternateIdentifier alternateIdentifierType="DOI">10.1002/chem.201701589</datacite:alternateIdentifier>
     <datacite:alternateIdentifier alternateIdentifierType="PMCID">PMC5574022</datacite:alternateIdentifier>
+    <datacite:relatedIdentifier relatedIdentifierType="ISSN" relationType="IsPartOf">0947-6539</datacite:relatedIdentifier>
+    <datacite:relatedIdentifier relatedIdentifierType="EISSN" relationType="IsPartOf">1521-3765</datacite:relatedIdentifier>
     <dc:title xml:lang="eng">Redox‐Neutral Dual Functionalization of Electron‐Deficient Alkenes</dc:title>
     <dc:description xml:lang="eng">Visible‐light photoredox catalysis has been utilized in a new multicomponent reaction forming β‐functionalized δ‐diketones 
         under mild conditions in an operationally convenient manner. Single‐electron reduction of in situ generated carboxylic acid derivatives forms acyl radicals 
@@ -38,16 +40,18 @@
         available starting materials. A diverse set of substrates has been used, demonstrating robust methodology with broad substrate scope.</dc:description>
     <dc:language>eng</dc:language>
     <dc:date>2017-05-10</dc:date>
-    <dc:type rdf:resource="">journal article</dc:type>
+    <dc:type rdf:resource="http://purl.org/coar/resource_type/c_6501">journal article</dc:type>
     <dc:identifier>http://europepmc.org/articles/PMC5574022</dc:identifier>
     <dc:publisher>John Wiley and Sons Inc.</dc:publisher>
     <dc:rights rdf:resource="http://purl.org/coar/access_right/c_abf2">open access</dc:rights>
+    <dc:rights rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution‐NonCommercial</dc:rights>
     <dc:subject>acyl radicals</dc:subject>
     <dc:subject>carboxylic acids</dc:subject>
     <dc:subject>cascade transformation</dc:subject>
     <dc:subject>multicomponent reactions</dc:subject>
     <dc:subject>photoredox catalysis</dc:subject>
     <file accessRights="http://purl.org/coar/access_right/c_abf2" mimeType="application/pdf" objectType="">http://europepmc.org/articles/PMC5574022?pdf=render</file>
+    <journalTitle>Chemistry</journalTitle>
     <volume>23</volume>
     <issue>31</issue>
     <startPage>7444</startPage>

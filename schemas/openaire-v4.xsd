@@ -164,6 +164,12 @@
         </xs:annotation>
       </xs:element>
 
+      <xs:element ref="journalTitle" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Optional</xs:documentation>          
+        </xs:annotation>
+      </xs:element>
+      
       <xs:element ref="volume" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>

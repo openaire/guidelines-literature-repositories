@@ -6,6 +6,13 @@
     elementFormDefault="qualified"
     xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
 
+    <xs:annotation>
+        <xs:documentation>
+            The schema describes elements that extend the schemes of Dublin Core and DataCite
+        </xs:documentation>
+    </xs:annotation>
+    
+    <xs:element name="journalTitle" type="xs:string"/>
     <xs:element name="volume" type="xs:string"/>
     <xs:element name="issue" type="xs:string"/>
     <xs:element name="startPage" type="xs:string"/>
@@ -28,7 +35,7 @@
     
     <xs:simpleType name="versionType" id="versionType">
         <xs:annotation>
-            <xs:documentation>(TODO) preliminary list of version types, derived from info:eu-repo/semantics</xs:documentation>
+            <xs:documentation>(TODO) preliminary list of version types, derived from info:eu-repo/semantics.</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:string">
             <xs:enumeration value="accepted"></xs:enumeration>
@@ -38,7 +45,8 @@
             <xs:enumeration value="updated"></xs:enumeration>
         </xs:restriction>  
     </xs:simpleType>
-    
+
+    <xs:element name="fundingStream" type="fundingStreamType"/>
     <xs:simpleType name="fundingStreamType">
         <xs:annotation>
             <xs:documentation>Name of the funding stream.</xs:documentation>
