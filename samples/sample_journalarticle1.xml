@@ -24,7 +24,7 @@
     </datacite:creator>
     <datacite:fundingReference>
         <datacite:funderName>European Commission</datacite:funderName>
-        <datacite:fundingStream>H2020 Marie Skłodowska-Curie Actions</datacite:fundingStream>
+        <fundingStream>H2020 Marie Skłodowska-Curie Actions</fundingStream>
         <datacite:funderIdentifier funderIdentifierType="Crossref Funder ID"></datacite:funderIdentifier>
         <datacite:awardNumber awardURI="http://cordis.europa.eu/project/rcn/195983_en.html">660668</datacite:awardNumber>
         <datacite:awardTitle>ACT against AMR</datacite:awardTitle>
