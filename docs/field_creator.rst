@@ -10,54 +10,76 @@ The authors of the publication in priority order. May be a corporate/institution
 2.1 creatorName (M)
 -------------------
 
+The name of the author.
+Use inverted name, so the syntax will be the following: “surname”, “initials” (“first name”) “prefix”.
+
+.. _dci:creator_givenName:
+
+2.2 givenName (R)
+-----------------
+
+The personal or first name of the author.
+
+.. _dci:creator_familyName:
+
+2.3 familyName (R)
+------------------
+
+The surname or last name of the author.
+
 .. _dci:creator_nameIdentifier:
 
-2.2 nameIdentifier (R)
+2.4 nameIdentifier (R)
 ----------------------
+
+Uniquely identifies an individual or legal entity, according to various schemes.
 
 .. _dci:creator_nameIdentifier_nameIdentifierScheme:
 
-2.2.1 nameIdentifierScheme (R)
+2.4.1 nameIdentifierScheme (R)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-attribute
+The name of the name identifier scheme.
 
 .. _dci:creator_nameIdentifier_schemeURI:
 
-2.2.2 schemeURI (O)
+2.4.2 schemeURI (O)
 ^^^^^^^^^^^^^^^^^^^
+
+The URI of the name identifier scheme.
 
 .. _dci:creator_affiliation:
 
-
-2.3 affiliation (O)
+2.5 affiliation (O)
 -------------------
 
-some text
+The organizational or institutional affiliation of the creator.
 
 **Usage Instruction**
 
-Examples of a Creator include a person, an organization, or a service. If necessary, repeat this element for multiple authors.
-
-Use inverted name, so the syntax will be the following: “surname”, “initials” (“first name”) “prefix”. For example Jan Hubert de Smit becomes
+ For example John Hubert de Smit becomes
 
 .. code-block:: xml
 
-   <creator>Smit, J.H. (John) de</creator>
-
-Within the scope of e.g. unqualified DC it is recommended to use a standardised writing style for names, use the writing style used by the publisher when this is available. When that is not available use the encoding of the APA bibliographic writing style as in a reference list when applicable. (outside the scope of Unqualified DC more precise and granular formatting methods are available.)
+  <creator>
+     <creatorName>Smit, J.H. (John Hubert) de</creatorName>
+  </creator>
 
 When initials and first name are both available use this formatting:
 
 .. code-block:: xml
 
-   <creator>Janssen, J. (John)</creator>
+  <creator>
+    <creatorName>Janssen, J. (John)</creatorName>
+  </creator>
 
 Generational suffixes (Jr., Sr., etc.) should follow the surname. When in doubt, give the name as it appears, and do not invert. Omit titles (like “Dr”). For example: “Dr. John H. de Smit Jr.” becomes
 
 .. code-block:: xml
 
-   <creator>Smit Jr., J.H. (John) de</creator>
+  <creator>
+    <creatorName>Smit Jr., J.H. (John) de</creatorName>
+  </creator>
 
 In the case of an organization name which clearly includes an organizational hierarchy, list the parts of the hierarchy from largest to smallest, separated by full stops.
 
@@ -65,7 +87,9 @@ For example:
 
 .. code-block:: xml
 
-   <creator>Utrecht University. Department of Computer Sciences</creator>
+  <creator>
+    <creatorName>Utrecht University. Department of Computer Sciences</creatorName>
+  </creator>
 
 If it is not clear whether there is a hierarchy present, or unclear which is the larger or smaller portion of the body, give the name as it appears in the resource. Only encode organisations in this element to indicate corporate authorship, not to indicate the affiliation of an individual.
 
@@ -75,7 +99,13 @@ It is recommended to encode thesauri with an URI, for service providers to recog
 
 .. code-block:: xml
 
-   <creator>urn:NationalOrgThesaurus:nl/234</creator>
+  <creator>
+    <creatorName>Smit Jr., J.H. (John) de</creatorName>
+    <affiliation>Institute of Science and Technology</affiliation>
+    <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org">
+        1234-5678-0987-1234
+    </nameIdentifier>
+  </creator>
 
 In cases of lesser responsibility, other than authorship, use ``dci:contributor``. If the nature of the responsibility is ambiguous, recommended best practice is to use ``dc:publisher`` for organizations, and ``dci:creator`` for individuals.
 
@@ -90,11 +120,11 @@ In cases of lesser responsibility, other than authorship, use ``dci:contributor`
 .. code-block:: xml
    :linenos:
 
-   <creator>Evans, R.J.</creator>
-   <creator>Walker Jnr., John</creator>
    <creator>
-     International Human Genome Sequencing Consortium
-   <creator>
-   <creator>
-     Loughborough University. Department of Computer Science
+     <creatorName>Evans, R.J.</creatorName>
+     <affiliation></affiliation>
+     <nameIdentifier nameIdentifierScheme="ORCID"
+                     schemeURI="http://orcid.org">
+       1234-1234-1234-1234
+     </nameIdentifier>
    </creator>
