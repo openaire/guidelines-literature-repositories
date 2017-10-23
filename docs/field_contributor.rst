@@ -3,33 +3,50 @@
 3. Contributor (R)
 ==================
 
+The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource.
+
 .. _dci:contributor_contributorName:
 
 3.1 contributorName (M)
 -----------------------
 
+The name of the contributor.
+
 3.2 givenName (O)
 -----------------
+
+The personal or first name of the contributor.
 
 3.3 familyName (O)
 ------------------
 
+The surname or last name of the contributor.
+
 3.4 nameIdentifier (R)
 ----------------------
+
+Uniquely identifies an individual or legal entity, according to various schemes.
 
 3.4.1 nameIdentifierScheme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The name of the name identifier scheme.
+
 3.4.2 schemeURI
 ^^^^^^^^^^^^^^^
+
+The URI of the name identifier scheme.
+
 
 3.5 affiliation
 ---------------
 
+The organisational or institutional affiliation of the contributor.
+
 3.6 contributorType
 -------------------
 
-attribute
+The type of contributor of the resource
 
 
 **DCMI Definition**
