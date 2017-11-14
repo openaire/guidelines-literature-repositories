@@ -11,7 +11,7 @@ An identifier or identifiers other than the primary Identifier applied to the re
 
 **Usage Instruction**
 
-List alternative identifiers for this publication that are not the primary identifier (repository splash page), e.g., the DOI of publisher’s version, the PubMed/arXiv ID. The term is defined by ``info:eu-repo/semantics/altIdentifier/<scheme>/<identifier>`` where ``<scheme>`` must be one of the following:
+List alternative identifiers for this publication that are not the primary identifier (repository splash page), e.g., the DOI of publisher’s version, the PubMed/arXiv ID. The value is defined in a controlled list:
 
 * ``ark`` – Archival Resource Key
 * ``arxiv`` – arXiv.org identifier
@@ -25,15 +25,3 @@ List alternative identifiers for this publication that are not the primary ident
 * ``urn`` – Uniform Resource Name
 * ``wos`` – Web of Science accession number
 
-**Since**
-
-OpenAIRE Guidelines v3
-
-**Example**
-
-.. code-block:: xml
-   :linenos:
-
-   <dc:relation>
-     info:eu-repo/semantics/altIdentifier/doi/10.1234/789.1
-   </dc:relation>

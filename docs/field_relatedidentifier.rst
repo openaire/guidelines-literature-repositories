@@ -3,15 +3,16 @@
 6. RelatedIdentifier (R)
 ========================
 
-An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers. AlternateIdentifier should be used for another identifier of the same instance (same location, same file).
+An identifier of a related resource other than the primary Identifier applied to the resource being registered. 
 
-5.1 alternateIdentifierType (O)
+6.1 relatedIdentifierType (M)
 -------------------------------
 
+The type of the RelatedIdentifier
 
 **Usage Instruction**
 
-List alternative identifiers for this publication that are not the primary identifier (repository splash page), e.g., the DOI of publisher’s version, the PubMed/arXiv ID. The term is defined by ``info:eu-repo/semantics/altIdentifier/<scheme>/<identifier>`` where ``<scheme>`` must be one of the following:
+ the value is defined in a controlled list:
 
 * ``ark`` – Archival Resource Key
 * ``arxiv`` – arXiv.org identifier
@@ -25,15 +26,3 @@ List alternative identifiers for this publication that are not the primary ident
 * ``urn`` – Uniform Resource Name
 * ``wos`` – Web of Science accession number
 
-**Since**
-
-OpenAIRE Guidelines v3
-
-**Example**
-
-.. code-block:: xml
-   :linenos:
-
-   <dc:relation>
-     info:eu-repo/semantics/altIdentifier/doi/10.1234/789.1
-   </dc:relation>

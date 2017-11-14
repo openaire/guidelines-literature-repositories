@@ -1,6 +1,6 @@
 .. _aire:version:
 
-20. Publication Version (R)
+21. Publication Version (R)
 ===========================
 
 AIRE Field
@@ -12,29 +12,26 @@ Usage
 
 *Recommended*: Version (controlled): to indicate the status in the publication process.
 
-DCMI Definition
-~~~~~~~~~~~~~~~
+A COAR Version Types Vocabulary is under construction.
+Alternatively use terms from the  "Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group".
 
 Usage Instruction
 ~~~~~~~~~~~~~~~~~
 
 **Version (controlled):**
 
-be used for the version of the scientific output based on the DRIVER-version ``info:eu-repo`` version terms. vocabulary. Use exact text as shown in the list below. For more information about the version model see http://www.lse.ac.uk/library/versions/.
-
-* ``info:eu-repo/semantics/draft``
-* ``info:eu-repo/semantics/submittedVersion``
-* ``info:eu-repo/semantics/acceptedVersion``
-* ``info:eu-repo/semantics/publishedVersion``
-* ``info:eu-repo/semantics/updatedVersion``
-
-Since
-~~~~~
-DRIVER Guidelines v2
+* ``AO = Author's Original``
+* ``SMUR = Submitted Manuscript Under Review``
+* ``AM = Accepted Manuscript``
+* ``P = Proof``
+* ``VoR = Version of Record``
+* ``CVoR = Corrected Version of Record``
+* ``EVoR = Enhanced Version of Record``
+* ``NA = Not Applicable (or Unknown)``
 
 Example
 ~~~~~~~
 .. code-block:: xml
    :linenos:
 
-   <dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+   <aire:version>AM (Accepted Manuscript)</aire:version>

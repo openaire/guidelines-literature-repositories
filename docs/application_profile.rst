@@ -30,10 +30,9 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dc:subject`                        dc:subject
 :ref:`dc:rightsLicensecondition`         dc:rights
 :ref:`dc:relation`                       dc:relation
+:ref:`dc:coverage`                       dc:coverage
 :ref:`aire:version`                      aire:version        
 :ref:`aire:file`                         aire:file        
-:ref:`dc:coverage`                       dc:coverage
-:ref:`dc:audience`                       dc:audience
 ======================================== ============================= ===========================================================================
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/

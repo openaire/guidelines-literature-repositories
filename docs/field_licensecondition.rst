@@ -46,9 +46,7 @@ Using Creative Commons right services, makes the usage rights much more clear to
    :linenos:
 
    <!-- example 1 -->
-   <dc:rights>
-     http://creativecommons.org/licenses/by-sa/2.0/uk/
-   </dc:rights>
+   <dc:rights rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial</dc:rights>
 
 The URL provides the location where the license can be read. With creative common licenses the type of license can be recognized in the URL name itself. A pro for having the license point to an URL in this way, is that this is machine readable.
 

@@ -26,9 +26,6 @@ Open Access requirements, and eventually also the requirements of other
 but also incorporating their publications into the OpenAIRE infrastructure for
 discoverability and utilizing value-added services provided by the OpenAIRE portal.
 
-According to the ongoing expansion and anticipating the merger of the DRIVER
-Guidelines into the context of OpenAIRE Guidelines, detailed content from the
-DRIVER Guidelines 2.0 was adapted and added into this version of the Guidelines.
 The OpenAIRE Guidelines for Literature Repository Managers 4.0 are 
 part of a set of OpenAIRE Guidelines that also includes the OpenAIRE Guidelines
 for Data Archive Managers  and the OpenAIRE CERIF-XML profile.
@@ -45,26 +42,20 @@ the following major changes:
 Acknowledgements & Contributors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**former Editors of previous versions**
+**Editors**
 
-* Mathias Loesch (Bielefeld University, Germany)
-* Eloy Rodrigues (University of Minho, Portugal)
-* Pedro Principe (University of Minho, Portugal)
 * Jochen Schirrwagen (Bielefeld University, Germany)
 
-**former Experts & Reviewers of previous versions**
+**Experts & Reviewers**
 
-* Jordan Biserkov (Pensoft, Bulgaria)
-* Natasa Bulatovic (Max Planck Digital Library, Germany)
+* Pedro Principe (University of Minho, Portugal)
 * Paolo Manghi (CNR, Italy)
-* Natalia Manola (University of Athens, Greece)
-* Najla Rettberg (University of Goettingen, Germany)
-* Birgit Schmidt (University of Goettingen,Germany)
-* Peter Stanchev (Kettering University, USA)
+* Alberto Cabezas (LA Referencia, Chile)
+* Paola Azrilevich (MinCyT, Argentina)
 
 Versions
 ^^^^^^^^
-* 4.0 draft, January 2017
+* 4.0 draft, November 2017
 
 * 3.0, April 2013
 

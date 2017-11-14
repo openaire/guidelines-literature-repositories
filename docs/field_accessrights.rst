@@ -6,16 +6,11 @@
 
 **Usage Instruction**
 
-Use terms from the `info:eu-repo-Access-Terms vocabulary <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_ . The values are:
-
-* ``info:eu-repo/semantics/closedAccess``
-* ``info:eu-repo/semantics/embargoedAccess``
-* ``info:eu-repo/semantics/restrictedAccess``
-* ``info:eu-repo/semantics/openAccess``
+Use terms from the COAR Access Rights Vocabulary
 
 **Example**
 
 .. code-block:: xml
    :linenos:
 
-   <dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+   <dc:rights rdf:resource="http://purl.org/coar/access_right/c_abf2">open access</dc:rights>
