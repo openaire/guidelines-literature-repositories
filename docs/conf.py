@@ -107,6 +107,8 @@ pygments_style = 'sphinx'
 # If true, keep warnings as "system message" paragraphs in the built documents.
 #keep_warnings = False
 
+def setup(app):
+    app.add_javascript('https://hypothes.is/embed.js')
 
 # -- Options for HTML output ----------------------------------------------
 
