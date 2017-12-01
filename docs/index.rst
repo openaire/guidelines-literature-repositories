@@ -18,6 +18,6 @@ This draft is open for consultation until 15-January-2018.
 Your feedback, esp. as a repository manager, is important for us. You can provide us feedback using the following channels:
 
 * by creating an issue in our guidelines github repository (you need to have a github account): https://github.com/openaire/guidelines-literature-repositories/issues
-* by making annotations on the guidelines pages (you need to have an account for https://web.hypothes.is)
+* by making annotations on the guidelines pages (you need to have an account for https://web.hypothes.is): just highlight some text and you can annotate the document
 * by making comments at the blog post: https://blogs.openaire.eu/?p=2397
 * by sending an e-mail: guidelines@openaire.eu
