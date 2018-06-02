@@ -164,31 +164,31 @@
         </xs:annotation>
       </xs:element>
 
-      <xs:element ref="journalTitle" minOccurs="0" maxOccurs="1">
+      <xs:element ref="citationTitle" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>          
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="volume" minOccurs="0" maxOccurs="1">
+      <xs:element ref="citationVolume" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="issue" minOccurs="0" maxOccurs="1">
+      <xs:element ref="citationIssue" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="startPage" minOccurs="0" maxOccurs="1">
+      <xs:element ref="citationStartPage" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="endPage" minOccurs="0" maxOccurs="1">
+      <xs:element ref="citationEndPage" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional</xs:documentation>
         </xs:annotation>

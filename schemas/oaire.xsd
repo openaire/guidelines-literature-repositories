@@ -12,11 +12,11 @@
         </xs:documentation>
     </xs:annotation>
     
-    <xs:element name="journalTitle" type="xs:string"/>
-    <xs:element name="volume" type="xs:string"/>
-    <xs:element name="issue" type="xs:string"/>
-    <xs:element name="startPage" type="xs:string"/>
-    <xs:element name="endPage" type="xs:string"/>
+    <xs:element name="citationTitle" type="xs:string"/>
+    <xs:element name="citationVolume" type="xs:string"/>
+    <xs:element name="citationIssue" type="xs:string"/>
+    <xs:element name="citationStartPage" type="xs:string"/>
+    <xs:element name="citationEndPage" type="xs:string"/>
 
     <xs:element name="file">
         <xs:complexType>
