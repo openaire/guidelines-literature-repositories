@@ -1,0 +1,21 @@
+.. _aire:citationStartPage:
+
+26. Citation Start Page (O)
+===========================
+
+OAIRE Field
+~~~~~~~~~~~
+``oaire:citationStartPage``
+
+Usage
+~~~~~
+
+The start page of the work published in a container (e.g. journal issue)
+
+Example
+~~~~~~~
+
+.. code-block:: xml
+   :linenos:
+
+   <oaire:citationStartPage>100</oaire:citationStartPage>

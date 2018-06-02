@@ -31,8 +31,13 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dc:rightsLicensecondition`         dc:rights
 :ref:`dc:relation`                       dc:relation
 :ref:`dc:coverage`                       dc:coverage
-:ref:`aire:version`                      aire:version        
-:ref:`aire:file`                         aire:file        
+:ref:`aire:version`                      oaire:version        
+:ref:`aire:file`                         oaire:file        
+:ref:`aire:citationTitle`                oaire:citationTitle 	
+:ref:`aire:citationVolume`               oaire:citationVolume
+:ref:`aire:citationIssue`                oaire:citationIssue
+:ref:`aire:citationStartPage`            oaire:citationStartPage
+:ref:`aire:citationEndPage`              oaire:citationEndPage
 ======================================== ============================= ===========================================================================
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
