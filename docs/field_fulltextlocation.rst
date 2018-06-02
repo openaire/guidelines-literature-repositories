@@ -1,9 +1,14 @@
 .. _aire:file:
 
 22. Fulltext Location (M)
-========================
+=========================
 
 An unambiguous reference to the fulltext resource.
+
+OAIRE Field
+~~~~~~~~~~~
+``oaire:file``
+
 
 22.1 accessRights (R)
 ---------------------
@@ -22,5 +27,5 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <aire:file accessRights="http://purl.org/coar/access_right/c_abf2" mimeType="application/pdf">http://link-to-the-fulltext.org</aire:file>
+   <oaire:file accessRights="http://purl.org/coar/access_right/c_abf2" mimeType="application/pdf">http://link-to-the-fulltext.org</oaire:file>
 

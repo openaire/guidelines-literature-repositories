@@ -6,7 +6,7 @@
 .. _dc:description_lang:
 
 12.1 lang (O)
-^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 The language of the description (occurences: 0-n)
 

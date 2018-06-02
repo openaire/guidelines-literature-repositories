@@ -3,9 +3,9 @@
 21. Publication Version (R)
 ===========================
 
-AIRE Field
-~~~~~~~~
-``aire:version``
+OAIRE Field
+~~~~~~~~~~~
+``oaire:version``
 
 Usage
 ~~~~~
@@ -34,4 +34,4 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <aire:version>AM (Accepted Manuscript)</aire:version>
+   <oaire:version>AM (Accepted Manuscript)</oaire:version>
