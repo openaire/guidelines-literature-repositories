@@ -1,6 +1,21 @@
 Application Profile Overview
 ----------------------------
 
+The properties of the Application Profile for OpenAIRE Literature Repository Guidelines are listed in this section.
+The following requirement levels for the metadata properties are used:
+
+Mandatory (M)
+  The property must always be present in the metadata. An empty value for the property is not allowed.
+
+Mandatory if Applicable (MA)
+  When the property value can be obtained it must be present in the metadata
+
+Recommended (R)
+  The use of the property is recommended
+
+Optional (O)
+  It is not important whether the property is used or not
+
 This documentation uses the following namespace abbreviation:
 
 * ``dc``: http://purl.org/dc/elements/1.1/
