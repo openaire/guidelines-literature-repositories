@@ -1,6 +1,6 @@
 .. _aire:citationVolume:
 
-24. Citation Volume (O)
+24. Citation Volume (R)
 =======================
 
 OAIRE Field

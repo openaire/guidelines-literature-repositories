@@ -1,6 +1,6 @@
 .. _aire:citationConferenceDate:
 
-30. Citation Conference Date (O)
+30. Citation Conference Date (R)
 ================================
 
 OAIRE Field

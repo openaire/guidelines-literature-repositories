@@ -1,6 +1,6 @@
 .. _aire:citationStartPage:
 
-26. Citation Start Page (O)
+26. Citation Start Page (R)
 ===========================
 
 OAIRE Field

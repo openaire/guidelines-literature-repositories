@@ -1,6 +1,6 @@
 .. _aire:citationConferencePlace:
 
-29. Citation Conference Place (O)
+29. Citation Conference Place (R)
 =================================
 
 OAIRE Field

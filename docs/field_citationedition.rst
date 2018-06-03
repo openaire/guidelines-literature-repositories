@@ -1,6 +1,6 @@
 .. _aire:citationEdition:
 
-28. Citation Edition (O)
+28. Citation Edition (R)
 ========================
 
 OAIRE Field

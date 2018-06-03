@@ -1,6 +1,6 @@
 .. _aire:citationTitle:
 
-23. Citation Title (O)
+23. Citation Title (R)
 ======================
 
 OAIRE Field

@@ -1,6 +1,6 @@
 .. _aire:citationIssue:
 
-25. Citation Issue (O)
+25. Citation Issue (R)
 ======================
 
 OAIRE Field
