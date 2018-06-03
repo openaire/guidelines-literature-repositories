@@ -12,4 +12,4 @@ install:
 
 script:
     - "sphinx-build -qnN docs docs/_build/html"
-    - mvn test
+#    - mvn test
