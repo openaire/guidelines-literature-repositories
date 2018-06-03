@@ -19,7 +19,7 @@ If one specific resource (an instance of scientific output) has more than one ph
 
 **Do Not Confuse With**
 
-* :ref:`dc:type`
+* :ref:`dc:typePublicationtype`
 * :ref:`dc:identifier`
 
 DC element ``format`` describes the media type of this resource. DC element ``type`` describes the kind of academic output the resource is a representation of. ``dc:identifier`` is used to represent manifestations of digital resources.

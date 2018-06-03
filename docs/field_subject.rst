@@ -38,7 +38,7 @@ More information about the DDC and the DDC Summaries can be found at https://www
 Do Not Confuse With
 ~~~~~~~~~~~~~~~~~~~
 
-* :ref:`dc:type`
+* :ref:`dc:typePublicationtype`
 
 Since
 ~~~~~

@@ -15,7 +15,7 @@ Usage
 DCMI Definition
 ~~~~~~~~~~~~~~~
 
-Information about rights held in and over the resource.
+Information about license ights held in and over the resource.
 
 Usage Instruction
 ~~~~~~~~~~~~~~~~~
@@ -30,18 +30,6 @@ OpenAIRE Guidelines v3
 Example
 ~~~~~~~
 
-.. FIXME
-
-Generic usage examples:
-
-.. code-block:: xml
-   :linenos:
-
-   <dc:rights>(c) University of Bath, 2003</dc:rights>
-   <dc:rights>(c) Andrew Smith, 2003</dc:rights>
-
-Using Creative Commons right services, makes the usage rights much more clear to the end user. More information see "Use of Intellectual Property Rights". In this case Andrew Smith referring to http://creativecommons.org/licenses/by-sa/2.0/uk/
-
 .. code-block:: xml
    :linenos:
 
@@ -49,26 +37,3 @@ Using Creative Commons right services, makes the usage rights much more clear to
    <dc:rights rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial</dc:rights>
 
 The URL provides the location where the license can be read. With creative common licenses the type of license can be recognized in the URL name itself. A pro for having the license point to an URL in this way, is that this is machine readable.
-
-.. code-block:: xml
-   :linenos:
-
-   <!-- example 2 -->
-   <dc:rights>cc-by-sa, Andrew Smith</dc:rights>
-
-The string cc-by-sa provides the licence type in a rough sense. The name is the person or party where the rights apply to.
-
-.. code-block:: xml
-   :linenos:
-
-   <!-- example 3 -->
-   <dc:rights>cc-by-sa, info:eu-repo/dai/nl/344568</dc:rights>
-
-or:
-
-.. code-block:: xml
-   :linenos:
-
-   <dc:rights>cc-by-nc-sa, urn:isni:234562-2</dc:rights>
-
-Also a Digital Author Identifier (DAI) or International Standard Name Identifier (ISNI) can be used to globally uniquely identify persons and organisations and relate these names with the appropriate rights.
