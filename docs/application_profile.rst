@@ -38,6 +38,9 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`aire:citationIssue`                oaire:citationIssue
 :ref:`aire:citationStartPage`            oaire:citationStartPage
 :ref:`aire:citationEndPage`              oaire:citationEndPage
+:ref:`aire:citationEdition`              oaire:citationEdition
+:ref:`aire:citationConferencePlace`      oaire:citationConferencePlace
+:ref:`aire:citationConferenceDate`       oaire:citationConferenceDate
 ======================================== ============================= ===========================================================================
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
