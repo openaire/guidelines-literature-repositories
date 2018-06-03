@@ -43,7 +43,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dc:rightsAccessrights`             dc:rights                     `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
 :ref:`dc:subject`                        dc:subject
-:ref:`dc:rightsLicensecondition`         dc:rights
+:ref:`aire:licenseCondition`             oaire:licenseCondition
 :ref:`dc:relation`                       dc:relation
 :ref:`dc:coverage`                       dc:coverage
 :ref:`aire:version`                      oaire:version        

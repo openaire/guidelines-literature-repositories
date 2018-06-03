@@ -17,6 +17,20 @@
     <xs:element name="citationIssue" type="xs:string"/>
     <xs:element name="citationStartPage" type="xs:string"/>
     <xs:element name="citationEndPage" type="xs:string"/>
+    <xs:element name="citationEdition" type="xs:string"/>
+    <xs:element name="citationConferencePlace" type="xs:string"/>
+    <xs:element name="citationConferenceDate" type="xs:string"/>
+
+    <xs:element name="licenseCondition">
+	    <xs:complexType>
+                  <xs:simpleContent>
+			  <xs:extension base="xs:string">
+				  <xs:attribute name="startDate"></xs:attribute>
+				  <xs:attribute name="licenseURI"></xs:attribute>
+			  </xs:extension>
+		  </xs:simpleContent>
+	    </xs:complexType>
+    </xs:element>
 
     <xs:element name="file">
         <xs:complexType>

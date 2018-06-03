@@ -166,31 +166,49 @@
 
       <xs:element ref="citationTitle" minOccurs="0" maxOccurs="1">
         <xs:annotation>
-          <xs:documentation xml:lang="en">Optional</xs:documentation>          
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>          
         </xs:annotation>
       </xs:element>
       
       <xs:element ref="citationVolume" minOccurs="0" maxOccurs="1">
         <xs:annotation>
-          <xs:documentation xml:lang="en">Optional</xs:documentation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
         </xs:annotation>
       </xs:element>
       
       <xs:element ref="citationIssue" minOccurs="0" maxOccurs="1">
         <xs:annotation>
-          <xs:documentation xml:lang="en">Optional</xs:documentation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
         </xs:annotation>
       </xs:element>
       
       <xs:element ref="citationStartPage" minOccurs="0" maxOccurs="1">
         <xs:annotation>
-          <xs:documentation xml:lang="en">Optional</xs:documentation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
         </xs:annotation>
       </xs:element>
       
       <xs:element ref="citationEndPage" minOccurs="0" maxOccurs="1">
         <xs:annotation>
-          <xs:documentation xml:lang="en">Optional</xs:documentation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element ref="citationEdition" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element ref="citationConferencePlace" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element ref="citationConferenceDate" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
         </xs:annotation>
       </xs:element>
       
@@ -203,8 +221,15 @@
       
       <xs:element ref="file" minOccurs="0">
         <xs:annotation>
-          <xs:documentation xml:lang="en">Optional</xs:documentation>
+          <xs:documentation xml:lang="en">Mandatory if applicable</xs:documentation>
           <xs:documentation>The link(s) to the fulltext file(s)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <xs:element ref="licenseCondition" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">Recommended</xs:documentation>
+          <xs:documentation>License condition</xs:documentation>
         </xs:annotation>
       </xs:element>
 
