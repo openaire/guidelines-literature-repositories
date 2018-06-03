@@ -1,7 +1,7 @@
 .. _dci:contributor:
 
-3. Contributor (R)
-==================
+3. Contributor (MA)
+===================
 
 The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource.
 

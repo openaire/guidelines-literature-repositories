@@ -1,7 +1,7 @@
 .. _dci:dateEmbargo:
 
-7. Embargo Period Date (M)
-==========================
+7. Embargo Period Date (MA)
+===========================
 
 Dates relevant to describe an embargo period.
 

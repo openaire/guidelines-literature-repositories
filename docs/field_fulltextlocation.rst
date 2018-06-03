@@ -1,7 +1,7 @@
 .. _aire:file:
 
-22. Fulltext Location (M)
-=========================
+22. Fulltext Location (MA)
+==========================
 
 An unambiguous reference to the fulltext resource.
 
