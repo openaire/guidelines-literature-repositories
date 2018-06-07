@@ -40,6 +40,13 @@
 						<catalog>schemas/catalog.xml</catalog>
 					</catalogs>-->
 				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>net.sf.saxon</groupId>
+						<artifactId>Saxon-HE</artifactId>
+						<version>9.8.0-12</version>
+					</dependency>
+				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
