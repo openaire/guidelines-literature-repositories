@@ -15,6 +15,16 @@ Use inverted name, so the syntax will be the following: “surname”, “initia
 
 .. _dci:creator_givenName:
 
+2.1.1 nameType (R)
+------------------
+
+The type of name.
+
+*Controlled list values*
+
+* Organizational
+* Personal
+
 2.2 givenName (R)
 -----------------
 

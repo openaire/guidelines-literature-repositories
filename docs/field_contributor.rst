@@ -12,6 +12,16 @@ The institution or person responsible for collecting, managing, distributing, or
 
 The name of the contributor.
 
+3.1.1 nameType (R)
+------------------
+
+The type of name.
+
+*Controlled list values*
+
+* Organizational
+* Personal
+
 3.2 givenName (O)
 -----------------
 
