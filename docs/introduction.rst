@@ -35,9 +35,9 @@ What's new
 In comparison with previous versions of the Guidelines, this 4.0 version introduces
 the following major changes:
 
-* an application profile and schema based on Dublin Core and DataCite 
+* an application profile and schema based on Dublin Core and DataCite incl. a new OAI-metadataPrefix
 * support of identifier schemes for authors, organizations, funders, scholarly resources
-
+* introduction of COAR Controlled Vocabularies
 
 Acknowledgements & Contributors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -55,6 +55,8 @@ Acknowledgements & Contributors
 
 Versions
 ^^^^^^^^
+* 4.0, June 2018
+
 * 4.0 draft, November 2017
 
 * 3.0, April 2013
