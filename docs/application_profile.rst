@@ -1,3 +1,5 @@
+.. _application_profile:
+
 Application Profile Overview
 ----------------------------
 
@@ -14,7 +16,7 @@ Recommended (R)
   The use of the property is recommended
 
 Optional (O)
-  It is not important whether the property is used or not
+  It is not important whether the property is used or not, but if used it may provide complementary information about the resource
 
 This documentation uses the following namespace abbreviation:
 
@@ -42,11 +44,11 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dc:identifier`                     dc:identifier
 :ref:`dc:rightsAccessrights`             dc:rights                     `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
-:ref:`dc:subject`                        dc:subject
+:ref:`dci:subject`                       datacite:subject
 :ref:`aire:licenseCondition`             oaire:licenseCondition
 :ref:`dc:relation`                       dc:relation
 :ref:`dc:coverage`                       dc:coverage
-:ref:`aire:version`                      oaire:version        
+:ref:`aire:version`                      oaire:version                 `COAR Version Vocabulary`_ 
 :ref:`aire:file`                         oaire:file        
 :ref:`aire:citationTitle`                oaire:citationTitle 	
 :ref:`aire:citationVolume`               oaire:citationVolume
@@ -60,4 +62,5 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
+.. _COAR Version Vocabulary: http://vocabularies.coar-repositories.org/documentation/versions/
 .. _IETF BCP 47: http://tools.ietf.org/rfc/bcp/bcp47.txt
