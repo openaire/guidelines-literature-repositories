@@ -6,7 +6,18 @@
 
 **Usage Instruction**
 
-Use terms from the COAR Access Rights Vocabulary
+Use terms from the `COAR Access Right Vocabulary`_.
+
+======================================== ========================
+conceptURI                               label
+======================================== ========================
+http://purl.org/coar/access_right/c_abf2 ``open access``
+http://purl.org/coar/access_right/c_f1cf ``embargoed access``
+http://purl.org/coar/access_right/c_16ec ``restricted access``
+http://purl.org/coar/access_right/c_14cb ``metadata only access``
+======================================== ========================
+
+
 
 **Example**
 
@@ -14,3 +25,5 @@ Use terms from the COAR Access Rights Vocabulary
    :linenos:
 
    <dc:rights rdf:resource="http://purl.org/coar/access_right/c_abf2">open access</dc:rights>
+
+.. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
