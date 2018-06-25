@@ -58,6 +58,29 @@ The organisational or institutional affiliation of the contributor.
 
 The type of contributor of the resource
 
+*Controlled list values*
+
+* ContactPerson
+* DataCollector
+* DataCurator
+* DataManager
+* Distributor
+* Editor
+* HostingInstitution
+* Producer
+* ProjectLeader
+* ProjectManager
+* ProjectMember
+* RegistrationAgency
+* RegistrationAuthority
+* RelatedPerson
+* Researcher
+* ResearchGroup
+* RightsHolder
+* Sponsor
+* Supervisor
+* WorkPackageLeader
+* Other
 
 **DCMI Definition**
 
@@ -67,7 +90,7 @@ An entity responsible for making contributions to the content of the resource. E
 
 Examples of contributors are: a supervisor, editor, technician or data collector.
 
-Personal names should be listed as: see instructions under Creator. A “promotor”, i.e. a professor supervising a student’s work for a doctor’s degree - is considered a contributor of a dissertation in his or her role as promotor/examiner. In less-rich Unqualified DC it is difficult to express all roles in different contexts. In the PhD thesis as a document, the key figures are the author and the supervisor. In the overall PhD process other roles are involved, such as committee members and the Master of Ceremonies, but in Unqualified these roles have to be sacrificed.
+Personal names should be listed as: see instructions under Creator. A “supervisor”, i.e. a professor supervising a student’s work for a doctor’s degree - is considered a contributor of a dissertation in his or her role as promotor/examiner. In the PhD thesis as a document, the key figures are the author and the supervisor. 
 
 In the case of organizations : see instructions under Creator The inclusion of personal and corporate name headings from authority lists constructed according to local or national thesaurus files is optional.
 
@@ -75,12 +98,9 @@ In the case of organizations : see instructions under Creator The inclusion of p
 
 * :ref:`dc:publisher`
 * :ref:`dci:creator`
+* :ref:`dci:fundingReference`
 
 The element ``contributor`` describes the scientist(s) that has/have made contributions to the given scientific output, not as a primary creator or (commercial) publisher.
-
-**Since**
-
-DRIVER Guidelines v2
 
 **Modified**
 
