@@ -27,9 +27,8 @@
       
       The schema represents an application profile consisting of
       * elements from Dublin Core with optional refinement attributes xml:lang and rdf:resource
-      * elements from DataCite metadata schema v4 to express granular information on creator, contributor, fundingReference, relatedIdentifier, alternateIdentifier
-      * elements from bibo to express information on bibliographic citation details of journal articles
-      * new elements to express information on (fulltext) files and version      
+      * elements from DataCite metadata schema v4.1 to express granular information on creator, contributor, fundingReference, relatedIdentifier, alternateIdentifier, date, subject
+      * elements from OpenAIRE to express information on bibliographic citation details, (fulltext) files,  version and license condition
     </xs:documentation>
   </xs:annotation>
   <xs:complexType>
