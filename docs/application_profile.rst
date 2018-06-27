@@ -64,3 +64,38 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
 .. _COAR Version Vocabulary: http://vocabularies.coar-repositories.org/documentation/versions/
 .. _IETF BCP 47: http://tools.ietf.org/rfc/bcp/bcp47.txt
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   field_title
+   field_creator
+   field_contributor
+   field_projectid
+   field_alternativeidentifier
+   field_relatedidentifier
+   field_embargoenddate
+   field_language
+   field_publisher
+   field_publicationdate
+   field_publicationtype
+   field_description
+   field_format
+   field_resourceidentifier
+   field_accessrights
+   field_source
+   field_subject
+   field_licensecondition
+   field_relation
+   field_coverage
+   field_publicationversion
+   field_fulltextlocation
+   field_citationtitle
+   field_citationvolume
+   field_citationissue
+   field_citationstartpage
+   field_citationendpage
+   field_citationedition
+   field_citationconferenceplace
+   field_citationconferencedate
