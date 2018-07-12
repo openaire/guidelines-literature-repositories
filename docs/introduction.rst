@@ -48,10 +48,23 @@ Acknowledgements & Contributors
 
 **Experts & Reviewers**
 
+*OpenAIRE*
+
 * Pedro Principe (University of Minho, Portugal)
 * Paolo Manghi (CNR, Italy)
+
+*LA Referencia*
+
 * Alberto Cabezas (LA Referencia, Chile)
 * Paola Azrilevich (MinCyT, Argentina)
+
+*JPCOAR*
+
+* Tomoko Kataoka (Ochanomizu University, Japan)
+
+*Antleaf*
+
+* Paul Walk (Antleaf, UK)
 
 Versions
 ^^^^^^^^
