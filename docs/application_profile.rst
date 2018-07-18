@@ -62,7 +62,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
-.. _COAR Version Vocabulary: http://vocabularies.coar-repositories.org/documentation/versions/
+.. _COAR Version Vocabulary: http://vocabularies.coar-repositories.org/documentation/version_types/
 .. _IETF BCP 47: http://tools.ietf.org/rfc/bcp/bcp47.txt
 
 .. toctree::
