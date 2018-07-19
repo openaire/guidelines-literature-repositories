@@ -24,14 +24,7 @@ or repeat the element for each term. There are no requirements regarding the cap
 
 Where terms are taken from a standard classification schema: encode each term using the additional attributes of the subject property. Encode the complete subject descriptor according to the relevant scheme. Use the capitalisation and punctuation used in the original scheme.
 
-It is recommended to use an URI when using classification schemes or controlled vocabularies especially when codified schemes are used DDC or UDC. Service providers can recognise encoding schemas more easy when the schema is “URI-fied” by an authority namespace. When the classification scheme is codified, use a human readable text of the code, preferably in English, directly below the codified element. For example:
-
-.. code-block:: xml
-   :linenos:
-
-   <dc:subject>info:eu-repo/classification/ddc/641</dc:subject>
-   <dc:subject>Anatomy</dc:subject>
-
+It is recommended to use an URI when using classification schemes or controlled vocabularies especially when codified schemes are used DDC or UDC. Service providers can recognise encoding schemas more easy when the schema is “URI-fied” by an authority namespace. 
 
 If no specific classification scheme is used we recommend the Dewey Decimal Classification (DDC). 
 More information about the DDC and the DDC Summaries can be found at https://www.oclc.org/en/dewey/resources.html . Please note that OCLC owns all copyright rights in the Dewey Decimal Classification system. Dewey, Dewey Decimal Classification, DDC, OCLC and WebDewey are registered trademarks of OCLC.
