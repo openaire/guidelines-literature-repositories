@@ -1,7 +1,7 @@
 .. _dc:language:
 
-8. Language (R)
-===============
+8. Language (MA)
+================
 
 **DC Field**
 
