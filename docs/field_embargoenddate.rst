@@ -10,7 +10,7 @@ A date associated with an event in the life cycle of the resource. Typically, Da
 7.1 dateType (M)
 ----------------
 
-The type of date.
+The type of date. Use the controlled term ``Accepted`` to indicate the start and the term ``Available`` to indicate the end of an embargo period.
 
 Example
 ~~~~~~~
