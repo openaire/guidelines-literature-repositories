@@ -1,15 +1,15 @@
-.. _dc:audience:
+.. _aire:audience:
 
-Audience (R)
-^^^^^^^^^^^^
+32. Audience (O)
+================
 
-DC Field
-~~~~~~~~
-``dc:audience``
+OAIRE Field
+~~~~~~~~~~~
+``oaire:audience``
 
 Usage
 ~~~~~
-*Recommended*
+*Optional*
 
 DCMI Definition
 ~~~~~~~~~~~~~~~
@@ -34,14 +34,11 @@ A class of entity may be determined by the creator or the publisher or by a thir
 * Students
 * Teachers
 
-Since
-~~~~~
-DRIVER Guidelines v2
 
 Example
 ~~~~~~~
 .. code-block:: xml
    :linenos:
 
-   <dc:audience>Researchers</dc:audience>
-   <dc:audience>Students</dc:audience>
+   <oaire:audience>Researchers</oaire:audience>
+   <oaire:audience>Students</oaire:audience>
