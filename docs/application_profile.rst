@@ -28,26 +28,27 @@ This documentation uses the following namespace abbreviation:
 ======================================== ============================= ===========================================================================
 OpenAIRE-Field                           Metadata Element              Refinement by vocabulary
 ======================================== ============================= ===========================================================================
-:ref:`dc:title`                          dc:title
-:ref:`dci:creator`                       datacite:creator
-:ref:`dci:contributor`                   datacite:contributor          DataCite contributor type
+:ref:`dci:title`                         dci:title                     DataCite title type
+:ref:`dci:creator`                       datacite:creator              DataCite name type
+:ref:`dci:contributor`                   datacite:contributor          DataCite name type, contributor type
 :ref:`dci:fundingReference`              datacite:fundingReference     DataCite funderIdentifier type
-:ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier   
+:ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  alternateIdentifier type
 :ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    DataCite relatedIdentifier type
 :ref:`dci:dateEmbargo`                   datacite:date                 DataCite dateType
 :ref:`dc:language`                       dc:language                   `IETF BCP 47`_, ISO 639-1,2,3
 :ref:`dc:publisher`                      dc:publisher
-:ref:`dc:date`                           dc:date
+:ref:`dci:datePublication`               datacite:date                 DataCite dateType
 :ref:`dc:typePublicationtype`            dc:type                       `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
 :ref:`dc:identifier`                     dc:identifier
 :ref:`dc:rightsAccessrights`             dc:rights                     `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
-:ref:`dci:subject`                       datacite:subject
+:ref:`dci:subject`                       datacite:subject              
 :ref:`aire:licenseCondition`             oaire:licenseCondition
-:ref:`dc:relation`                       dc:relation
 :ref:`dc:coverage`                       dc:coverage
+:ref:`dci:size`                          datacite:size
+:ref:`dci:geolocation`                   datacite:geoLocation
 :ref:`aire:version`                      oaire:version                 `COAR Version Vocabulary`_ 
 :ref:`aire:file`                         oaire:file        
 :ref:`aire:citationTitle`                oaire:citationTitle 	
@@ -58,6 +59,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`aire:citationEdition`              oaire:citationEdition
 :ref:`aire:citationConferencePlace`      oaire:citationConferencePlace
 :ref:`aire:citationConferenceDate`       oaire:citationConferenceDate
+:ref:`aire:audience`                     oaire:audience
 ======================================== ============================= ===========================================================================
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
@@ -87,8 +89,9 @@ OpenAIRE-Field                           Metadata Element              Refinemen
    field_source
    field_subject
    field_licensecondition
-   field_relation
    field_coverage
+   field_size
+   field_geolocation
    field_publicationversion
    field_fulltextlocation
    field_citationtitle
@@ -99,3 +102,4 @@ OpenAIRE-Field                           Metadata Element              Refinemen
    field_citationedition
    field_citationconferenceplace
    field_citationconferencedate
+   field_audience
