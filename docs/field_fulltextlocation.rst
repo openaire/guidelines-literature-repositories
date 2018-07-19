@@ -1,6 +1,6 @@
 .. _aire:file:
 
-22. Fulltext Location (MA)
+23. Fulltext Location (MA)
 ==========================
 
 An unambiguous reference to the fulltext resource.
@@ -10,15 +10,15 @@ OAIRE Field
 ``oaire:file``
 
 
-22.1 accessRights (R)
+23.1 accessRights (R)
 ---------------------
 
 
-22.2 mimeType (R)
+23.2 mimeType (R)
 -----------------
 
 
-22.3 objectType (R)
+23.3 objectType (R)
 -------------------
 
 Example

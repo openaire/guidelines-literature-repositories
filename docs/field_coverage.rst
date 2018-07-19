@@ -1,6 +1,6 @@
 .. _dc:coverage:
 
-20. Coverage (R)
+19. Coverage (R)
 ================
 
 DC Field

@@ -1,6 +1,6 @@
 .. _aire:citationEndPage:
 
-27. Citation End Page (R)
+28. Citation End Page (R)
 =========================
 
 OAIRE Field

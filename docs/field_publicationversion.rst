@@ -1,6 +1,6 @@
 .. _aire:version:
 
-21. Resource Version (R)
+22. Resource Version (MA)
 ===========================
 
 OAIRE Field
