@@ -1,24 +1,39 @@
-.. _dc:title:
+.. _dci:title:
 
 1. Title (M)
-============
+------------
+A name or title by which a resource is known (occurrences: 1-n).
 
-A name given to the resource.
+**Allowed values, examples, other constraints**
 
-.. _dc:title_lang:
+Free text.
 
 1.1 lang (O)
-^^^^^^^^^^^^
+~~~~~~~~~~~~
 
 The language of the title (occurences: 0-n)
 
-**Usage Instruction**
+1.2 titleType (O)
+~~~~~~~~~~~~~~~~~
+The type of Title (occurrences: 0-1).
 
-Preserve the original wording, order and spelling of the resource title. Only capitalize proper nouns. Punctuation need not reflect the usage of the original. Subtitles should be separated from the title by a colon. This instruction would result in Title:Subtitle (i.e. no space). If necessary, repeat this element for multiple titles.
+**Allowed values, examples, other constraints**
 
-**Example**
+*Controlled List Values:*
 
+* Alternative Title
+* Subtitle
+* TranslatedTitle
+
+Example
+^^^^^^^
 .. code-block:: xml
    :linenos:
 
-   <dc:title xml:lang="en">Main title:Subtitle</dc:title>
+   <titles>
+    <title xml:lang="en-US">
+     National Institute for Environmental Studies and Center
+     for Climate System Research Japan
+    </title>
+    <title xml:lang="en-US" titleType="Subtitle">A survey</title>
+   </titles>
