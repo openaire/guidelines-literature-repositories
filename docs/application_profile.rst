@@ -93,7 +93,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
    field_size
    field_geolocation
    field_publicationversion
-   field_fulltextlocation
+   field_filelocation
    field_citationtitle
    field_citationvolume
    field_citationissue
