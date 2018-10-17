@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns="http://namespace.openaire.eu/schema/oaire/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     targetNamespace="http://namespace.openaire.eu/schema/oaire/" 
     elementFormDefault="qualified"
@@ -45,8 +46,16 @@
         </xs:complexType>  
     </xs:element>
     
-    <xs:element name="version" type="versionType"/>
-    
+    <xs:element name="version" type="versionType">
+	    <xs:complexType>
+		    <xs:simpleContent>
+			    <xs:extension base="xs:string">
+				    <xs:attribute name="rdf:resource"></xs:attribute>
+			    </xs:extension>
+		    </xs:simpleContent>
+	    </xs:complexType>
+    </xs:element>
+    <!--
     <xs:simpleType name="versionType" id="versionType">
         <xs:annotation>
             <xs:documentation>(TODO) preliminary list of version types, derived from info:eu-repo/semantics.</xs:documentation>
@@ -59,7 +68,7 @@
             <xs:enumeration value="updated"></xs:enumeration>
         </xs:restriction>  
     </xs:simpleType>
-
+    -->
     <xs:element name="fundingStream" type="fundingStreamType"/>
     <xs:simpleType name="fundingStreamType">
         <xs:annotation>
