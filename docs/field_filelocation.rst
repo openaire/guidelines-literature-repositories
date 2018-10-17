@@ -1,25 +1,43 @@
 .. _aire:file:
 
-23. Fulltext Location (MA)
-==========================
+23. File Location (MA)
+======================
 
-An unambiguous reference to the fulltext resource.
+An unambiguous reference to the files, e.g. fulltext, the resource is associated with.
 
 OAIRE Field
 ~~~~~~~~~~~
 ``oaire:file``
 
 
-23.1 accessRights (R)
----------------------
+23.1 accessRightsURI (R)
+------------------------
 
+Use terms from the `COAR Access Right Vocabulary`_.
+
+======================================== ========================
+conceptURI                               label
+======================================== ========================
+http://purl.org/coar/access_right/c_abf2 ``open access``
+http://purl.org/coar/access_right/c_f1cf ``embargoed access``
+http://purl.org/coar/access_right/c_16ec ``restricted access``
+http://purl.org/coar/access_right/c_14cb ``metadata only access``
+======================================== ========================
 
 23.2 mimeType (R)
 -----------------
 
+Specify the file format. It is recommended to select it from the MIME media type which is registered in IANA. For the full list see http://www.iana.org/assignments/media-types
 
 23.3 objectType (R)
 -------------------
+
+Specify the type of object the file represents. Select it from the following controlled list:
+
+* ``fulltext``
+* ``dataset``
+* ``software``
+* ``other``
 
 Example
 ~~~~~~~
@@ -27,5 +45,6 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <oaire:file accessRights="http://purl.org/coar/access_right/c_abf2" mimeType="application/pdf">http://link-to-the-fulltext.org</oaire:file>
+   <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_abf2" mimeType="application/pdf" objectType="fulltext">http://link-to-the-fulltext.org</oaire:file>
 
+.. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/

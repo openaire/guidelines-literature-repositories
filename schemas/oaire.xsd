@@ -39,12 +39,23 @@
                 <xs:extension base="xs:string">
                     <xs:attribute name="mimeType"></xs:attribute>
                     <xs:attribute name="accessRightsURI"></xs:attribute>
-                    <xs:attribute name="accessRights"></xs:attribute>
-                    <xs:attribute name="objectType"></xs:attribute>
+                    <xs:attribute name="objectType" type="objectType"></xs:attribute>
                 </xs:extension>
             </xs:simpleContent>    
         </xs:complexType>  
     </xs:element>
+
+    <xs:simpleType name="objectType" id="objectType">
+        <xs:annotation>
+            <xs:documentation>The type of object of the file</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="fulltext"/>
+            <xs:enumeration value="dataset"/>
+            <xs:enumeration value="software"/>
+            <xs:enumeration value="other"/>
+        </xs:restriction>
+    </xs:simpleType>
     
     <xs:element name="version" type="versionType">
 	    <xs:complexType>
