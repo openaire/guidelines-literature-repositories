@@ -8,7 +8,7 @@ Metadata Format
 OpenAIRE expects metadata to be encoded following the metadata format defined in the OpenAIRE Application Profile.
 The recommended metadataPrefix is ``oai_openaire``. 
 For information on how to use the individual properties, please refer to the section :ref:`application_profile`.
-to the section "Use of OAI-DC" below.
+
 
 OpenAIRE OAI Set
 ~~~~~~~~~~~~~~~~
