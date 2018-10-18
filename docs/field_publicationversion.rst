@@ -12,7 +12,7 @@ Usage
 
 *Recommended*: Version (controlled): to indicate the status in the publication process.
 
-Use terms from the COAR Version Types Vocabulary which reuses
+Use terms from the `COAR Version Types Vocabulary`_ which reuses
 terms from the  "Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group".
 
 Usage Instruction
@@ -39,3 +39,5 @@ Example
    :linenos:
 
    <oaire:version rdf:resource="http://purl.org/coar/version/c_be7fb7dd8ff6fe43">AM</oaire:version>
+
+.. _COAR Version Types Vocabulary: http://vocabularies.coar-repositories.org/documentation/version_types/
