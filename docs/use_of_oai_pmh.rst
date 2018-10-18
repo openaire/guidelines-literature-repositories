@@ -9,30 +9,35 @@ OpenAIRE expects metadata to be encoded following the metadata format defined in
 The recommended metadataPrefix is ``oai_openaire``. 
 For information on how to use the individual properties, please refer to the section :ref:`application_profile`.
 
+Metadata Content
+^^^^^^^^^^^^^^^^
 
-OpenAIRE OAI Set
-~~~~~~~~~~~~~~~~
-For harvesting the records relevant to OpenAIRE, the use of a specific `OAI-Set <http://www.openarchives.org/OAI/openarchivesprotocol.html#Set>`_ at the local repository is *mandatory*. The set must have the following characteristics:
+OpenAIRE collects metadata of scientific products according to the OpenAIRE Content Acquisition Policy published at https://doi.org/10.5281/zenodo.1446407 .
+This includes bibliographic metadata describing open access and non open access items.
+
+.. OpenAIRE OAI Set
+   ~~~~~~~~~~~~~~~~
+   For harvesting the records relevant to OpenAIRE, the use of a specific `OAI-Set <http://www.openarchives.org/OAI/openarchivesprotocol.html#Set>`_ at the local repository is *mandatory*. The set must have the following characteristics:
 
 .. FIXME
 
-======== ============
-setName  setSpec
-======== ============
-OpenAIRE ``openaire``
-======== ============
+.. ======== ============
+   setName  setSpec
+   ======== ============
+   OpenAIRE ``openaire``
+   ======== ============
 
-.. note::
+.. note
    A harvester only uses the **setSpec** value to perform selective harvesting. The letters of the setSpec must be in small caps.
 
-Set content
-~~~~~~~~~~~
+.. Set content
+   ~~~~~~~~~~~
 
-Publications to be inserted in the OpenAIRE set must conform to **at least one**
-of the following criteria:
+   Publications to be inserted in the OpenAIRE set must conform to **at least one**
+   of the following criteria:
 
-* They are available in Open Access (full text with no access restrictions)
-* They are the outcome of a funded research project identified by a project identifier (see below) regardless of their access status (see section below on [[Literature Guidelines: Metadata Field Access Level|Application Profile Field Access Level]]).
+   * They are available in Open Access (full text with no access restrictions)
+   * They are the outcome of a funded research project identified by a project identifier (see below) regardless of their access status (see section below on [[Literature Guidelines: Metadata Field Access Level|Application Profile Field Access Level]]).
 
 .. FIXME
 
