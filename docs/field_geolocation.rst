@@ -46,6 +46,11 @@ Description of a geographic location (occurrences: 0-1).
 
 Free text. Use to describe a geographic location.
 
+21.4 geoLocationPolygon (O)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A drawn polygon area, defined by a set of points and lines connecting the points in a closed chain (occurrences: 0-1).
+
 .. _d:geolocation_instructions:
 
 Detailed usage instructions

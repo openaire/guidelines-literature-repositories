@@ -197,12 +197,76 @@
         </xs:complexType>
     </xs:element>
     
-    
+    <xs:element name="size" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+            <xs:documentation>Unstructures size information about the resource.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <xs:element name="geoLocation" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded">
+                    <xs:element name="geoLocationPlace" minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>Spatial region or named place where the data was gathered or about which the data is focused.</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="geoLocationPoint" type="point" minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>A point contains a single latitude-longitude pair, separated by whitespace.</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="geoLocationBox" type="box" minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>A box contains two white space separated latitude-longitude pairs, with each pair separated by whitespace. The first pair is the lower corner, the second is the upper corner.</xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="geoLocationPolygon" minOccurs="0" maxOccurs="unbounded">
+                      <xs:annotation>
+                        <xs:documentation>A drawn polygon area, defined by a set of points and lines connecting the points in a closed chain.</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="polygonPoint" type="point" minOccurs="4" maxOccurs="unbounded"/>
+                          <xs:element name="inPolygonPoint" type="point" minOccurs="0" maxOccurs="1"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+    </xs:element>    
+
     <!-- defines value for mandatory fields -->
     <xs:simpleType name="nonemptycontentStringType">
         <xs:restriction base="xs:string">
             <xs:minLength value="1"/>
         </xs:restriction>
     </xs:simpleType>
-    
+  <!-- definitions for geoLocation -->
+  <xs:complexType name="point">
+    <xs:all>
+      <xs:element name="pointLongitude" type="longitudeType" minOccurs="1"/>
+      <xs:element name="pointLatitude" type="latitudeType" minOccurs="1"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="box">
+    <xs:all>
+      <xs:element name="westBoundLongitude" type="longitudeType" minOccurs="1"/>
+      <xs:element name="eastBoundLongitude" type="longitudeType" minOccurs="1"/>
+      <xs:element name="southBoundLatitude" type="latitudeType" minOccurs="1"/>
+      <xs:element name="northBoundLatitude" type="latitudeType" minOccurs="1"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="longitudeType">
+    <xs:restriction base="xs:float">
+      <xs:minInclusive value="-180"/>
+      <xs:maxInclusive value="180"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="latitudeType">
+    <xs:restriction base="xs:float">
+      <xs:minInclusive value="-90"/>
+      <xs:maxInclusive value="90"/>
+    </xs:restriction>
+  </xs:simpleType>    
 </xs:schema>
