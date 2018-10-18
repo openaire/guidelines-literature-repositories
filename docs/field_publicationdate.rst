@@ -49,6 +49,4 @@ To express more about that temporal period, one can use the ``dc:coverage`` fiel
 .. code-block:: xml
    :linenos:
 
-   <datacite:dates>
-     <datacite:date dateType="Issued">2000-12-25</datacite:date>
-   </datacite:dates>
+   <datacite:date dateType="Issued">2000-12-25</datacite:date>
