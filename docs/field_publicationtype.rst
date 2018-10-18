@@ -18,7 +18,8 @@ The type of scientific output the resource is a manifestation of. In the DC elem
 
 **Publication types (controlled):**
 
-The first occurrence of the DC Element ``type`` is mandatory and should be used for the type indication of the scientific output based on the COAR Resource Type Vocabulary.
+The first occurrence of the DC Element ``type`` is mandatory and should be used for the type indication of the scientific output based on the `COAR Resource Type Vocabulary`_.
+
 
 **Publication types (free text):**
 
@@ -36,3 +37,5 @@ DC element `type` describes the kind of academic output the resource is a repres
    :linenos:
 
    <dc:type rdf:resource="http://purl.org/coar/resource_type/c_6501">journal article</dc:type>
+
+.. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
