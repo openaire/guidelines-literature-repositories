@@ -40,9 +40,13 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="creatorName">
-                    <xs:simpleType>
-                        <xs:restriction base="nonemptycontentStringType"/>
-                    </xs:simpleType>
+                    <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="nonemptycontentStringType">
+                            <xs:attribute name="nameType" type="nameType" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
                 </xs:element>
                 <xs:element name="givenName" minOccurs="0"/>
                 <xs:element name="familyName" minOccurs="0"/>
@@ -69,11 +73,13 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="contributorName">
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                        <xs:minLength value="1"/>
-                                    </xs:restriction>
-                                </xs:simpleType>
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                   <xs:extension base="nonemptycontentStringType">
+                                     <xs:attribute name="nameType" type="nameType" use="optional"/>
+                                   </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
                             </xs:element>
                             <xs:element name="givenName" minOccurs="0"/>
                             <xs:element name="familyName" minOccurs="0"/>
