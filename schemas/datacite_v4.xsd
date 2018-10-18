@@ -13,6 +13,7 @@
     <xs:include schemaLocation="datacite-relationType-v4.xsd"/>
     <xs:include schemaLocation="datacite-dateType-v4.xsd"/>
     <xs:include schemaLocation="datacite-titleType-v4.xsd"/>
+    <xs:include schemaLocation="datacite-nameType-v4.xsd"/>
     <xs:import namespace="http://namespace.openaire.eu/schema/oaire/" schemaLocation="oaire.xsd"/>
     
 
