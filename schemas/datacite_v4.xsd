@@ -12,8 +12,24 @@
     <xs:include schemaLocation="datacite-relatedIdentifierType-v4.xsd"/>
     <xs:include schemaLocation="datacite-relationType-v4.xsd"/>
     <xs:include schemaLocation="datacite-dateType-v4.xsd"/>
+    <xs:include schemaLocation="datacite-titleType-v4.xsd"/>
     <xs:import namespace="http://namespace.openaire.eu/schema/oaire/" schemaLocation="oaire.xsd"/>
     
+
+    <xs:element name="title" maxOccurs="unbounded">
+        <xs:annotation>
+            <xs:documentation>A name or title by which a resource is known.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="nonemptycontentStringType">
+                      <xs:attribute name="titleType" type="titleType" use="optional"/>
+                      <xs:attribute ref="xml:lang"/>
+                    </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="creator"> <!--   maxOccurs="unbounded" -->
         <xs:annotation>
             <xs:documentation>The main researchers involved working on the data, or the authors of the publication in priority order. May be a corporate/institutional or personal name.</xs:documentation>

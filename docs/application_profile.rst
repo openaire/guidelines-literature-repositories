@@ -28,7 +28,7 @@ This documentation uses the following namespace abbreviation:
 ======================================== ============================= ===========================================================================
 OpenAIRE-Field                           Metadata Element              Refinement by vocabulary
 ======================================== ============================= ===========================================================================
-:ref:`dci:title`                         dci:title                     DataCite title type
+:ref:`dci:title`                         datacite:title                DataCite title type
 :ref:`dci:creator`                       datacite:creator              DataCite name type
 :ref:`dci:contributor`                   datacite:contributor          DataCite name type, contributor type
 :ref:`dci:fundingReference`              datacite:fundingReference     DataCite funderIdentifier type

@@ -30,10 +30,8 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <titles>
     <title xml:lang="en-US">
      National Institute for Environmental Studies and Center
      for Climate System Research Japan
     </title>
     <title xml:lang="en-US" titleType="Subtitle">A survey</title>
-   </titles>
