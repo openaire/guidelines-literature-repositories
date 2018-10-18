@@ -20,6 +20,10 @@
       <xs:enumeration value="IsSupplementedBy"/>
       <xs:enumeration value="IsContinuedBy"/>
       <xs:enumeration value="Continues"/>
+      <xs:enumeration value="IsDescribedBy"/>
+      <xs:enumeration value="Describes"/>
+      <xs:enumeration value="HasVersion"/>
+      <xs:enumeration value="IsVersionOf"/>
       <xs:enumeration value="IsNewVersionOf"/>
       <xs:enumeration value="IsPreviousVersionOf"/>
       <xs:enumeration value="IsPartOf"/>
@@ -39,6 +43,8 @@
       <xs:enumeration value="IsReviewedBy"/>
       <xs:enumeration value="IsDerivedFrom"/>
       <xs:enumeration value="IsSourceOf"/>
+      <xs:enumeration value="IsRequiredBy"/>
+      <xs:enumeration value="Requires"/>
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
