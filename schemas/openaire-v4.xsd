@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema 
-	xmlns:xs ="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xs ="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:datacite="http://datacite.org/schema/kernel-4"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
   xmlns="http://namespace.openaire.eu/schema/oaire/"
   targetNamespace="http://namespace.openaire.eu/schema/oaire/"
-  vc:minVersion="1.1"
   xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
 
   <xs:import namespace="http://purl.org/dc/elements/1.1/"
@@ -40,42 +38,42 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="datacite:creator">
+      <xs:element ref="datacite:creators">
         <xs:annotation>
           <xs:documentation>Mandatory if applicable</xs:documentation>
           <xs:documentation>An entity primarily responsible for making the resource. (DCMI definition)</xs:documentation>
         </xs:annotation>
       </xs:element>
 
-      <xs:element ref="datacite:contributor" minOccurs="0">
+      <xs:element ref="datacite:contributors" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Mandatory if applicable</xs:documentation>
           <xs:documentation>An entity responsible for making contributions to the content of the resource. Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity. (DCMI definition)</xs:documentation>
         </xs:annotation>
       </xs:element>
 
-      <xs:element ref="datacite:fundingReference" minOccurs="0">
+      <xs:element ref="fundingReferences" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Mandatory if applicable</xs:documentation>
           <xs:documentation>Information about financial support (funding) for the resource being registered. (DataCite definition)</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="datacite:alternateIdentifier" minOccurs="0">
+      <xs:element ref="datacite:alternateIdentifiers" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Optional</xs:documentation>
           <xs:documentation>An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers. AlternateIdentifier should be used for another identifier of the same instance (same location, same file).</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="datacite:relatedIdentifier" minOccurs="0">
+      <xs:element ref="datacite:relatedIdentifiers" minOccurs="0">
         <xs:annotation>
           <xs:documentation>Optional</xs:documentation>
           <xs:documentation>Identifiers of related resources. Use this property to indicate subsets of properties, as appropriate. (DataCite definition)</xs:documentation>
         </xs:annotation>
       </xs:element>
 
-      <xs:element ref="datacite:date" minOccurs="0">
+      <xs:element ref="datacite:dates" minOccurs="0">
         <xs:annotation>
           <xs:documentation xml:lang="en">Optional, use 'accepted' to indicate embargo start date</xs:documentation>
           <xs:documentation xml:lang="en">Optional, use 'available' to indicate embargo end date</xs:documentation>
@@ -83,7 +81,7 @@
         </xs:annotation>        
       </xs:element>
 
-      <xs:element ref="dc:title" minOccurs="1">
+      <xs:element ref="datacite:titles" minOccurs="1">
         <xs:annotation>
           <xs:documentation>Mandatory</xs:documentation>
           <xs:documentation>A name given to the resource.</xs:documentation>
@@ -104,18 +102,11 @@
         </xs:annotation>
       </xs:element>
 
-      <xs:element ref="dc:date" maxOccurs="1">
-        <xs:annotation>
-          <xs:documentation>Mandatory</xs:documentation>
-          <xs:documentation>The date of publication.</xs:documentation>
-        </xs:annotation>
-      </xs:element>
       
-      <xs:element ref="dc:type" minOccurs="1">
+      <xs:element ref="type" minOccurs="1">
         <xs:annotation>
           <xs:documentation>Mandatory</xs:documentation>
-          <xs:documentation>The type of scientific output the resource is a manifestation of. In the DC element type the kind of dissemination, or the intellectual and/or content type of the resource is described. It is used to explain to the user what kind of resource he is looking at. Is it a book or an article. Was it written for internal or external use, etc.</xs:documentation>
-          <xs:documentation>The rdf:resource attribute should contain the concept-URI chosen from the COAR Resource Type vocabulary.</xs:documentation>
+          <xs:documentation>The type of scientific output the resource is a manifestation of. </xs:documentation>
         </xs:annotation>
       </xs:element>
             
@@ -133,14 +124,14 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="dc:identifier" minOccurs="1" maxOccurs="1">
+      <xs:element ref="identifier" minOccurs="1" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Mandatory</xs:documentation>
           <xs:documentation>An unambiguous reference to the resource within a given context.</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="dc:rights" minOccurs="1">
+      <xs:element ref="rights" minOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Mandatory</xs:documentation>
           <xs:documentation>The main access right of the resource</xs:documentation>
@@ -156,13 +147,22 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="dc:subject" minOccurs="0">
+      <xs:element ref="datacite:subjects" minOccurs="0">
         <xs:annotation>
           <xs:documentation xml:lang="en">Mandatory when applicable</xs:documentation>
           <xs:documentation>(TODO) a recommended list of subjec classification scheme URIs to provide in rdf:resource attribute</xs:documentation>
         </xs:annotation>
       </xs:element>
-
+      <xs:element ref="datacite:geoLocations" minOccurs="0" maxOccurs="unbounded">
+  <xs:annotation>
+    <xs:documentation>Spatial region or named place where the data was gathered or about which the data is focused </xs:documentation>
+  </xs:annotation>
+</xs:element>
+  <xs:element ref="datacite:sizes" minOccurs="0" maxOccurs="unbounded">
+    <xs:annotation>
+      <xs:documentation>Unstructured size information about the resource (occurrences: 0-n).</xs:documentation>
+    </xs:annotation>
+  </xs:element>
       <xs:element ref="citationTitle" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Recommended</xs:documentation>          
@@ -232,6 +232,11 @@
         </xs:annotation>
       </xs:element>
 
+    <xs:element ref="audience" minOccurs="0" maxOccurs="unbounded">
+      <xs:annotation>
+        <xs:documentation>A class of entity for whom the resource is intended or useful.</xs:documentation>
+      </xs:annotation>
+    </xs:element>
     </xs:choice>    
   </xs:complexType>
   

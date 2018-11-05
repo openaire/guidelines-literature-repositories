@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns="http://namespace.openaire.eu/schema/oaire/"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    targetNamespace="http://namespace.openaire.eu/schema/oaire/" 
-    elementFormDefault="qualified"
-    xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
-
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns="http://namespace.openaire.eu/schema/oaire/" 
+           targetNamespace="http://namespace.openaire.eu/schema/oaire/" 
+           elementFormDefault="qualified" 
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd" >
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd"/>
+    
+    <xs:include schemaLocation="versions-v4.xsd"/>
+    <xs:include schemaLocation="accessRight-v4.xsd"/>
+    <xs:include schemaLocation="resourceType-v4.xsd"></xs:include>
+    <!-- Import the RDF namespace schema for rdf:resource -->
+    <xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="dcmes-rdf.xsd"/>
+    
     <xs:annotation>
         <xs:documentation>
             The schema describes elements that extend the schemes of Dublin Core and DataCite
@@ -21,16 +28,64 @@
     <xs:element name="citationEdition" type="xs:string"/>
     <xs:element name="citationConferencePlace" type="xs:string"/>
     <xs:element name="citationConferenceDate" type="xs:string"/>
-
+    
+    <xs:element name="identifier">
+        
+        <xs:annotation>
+            <xs:documentation>
+                A persistent identifier that identifies a resource.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="identifierType" use="required" type="idType"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:simpleType name="idType" id="idType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="DOI"/>
+            <xs:enumeration value="URI"/>
+            <xs:enumeration value="PURL"/>
+           <xs:enumeration value="URL"/>
+            <xs:enumeration value="HANDLE"/>
+            <xs:enumeration value="ARK"/>
+        </xs:restriction>
+    </xs:simpleType>
+  
+    <xs:element name="audience">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Administrators"/>
+                 <xs:enumeration value="Community Groups"/>
+                <xs:enumeration value="Counsellors"/>
+                <xs:enumeration value="Federal Funds Recipients and Applicants"/>
+                <xs:enumeration value="Librarians"/>
+                <xs:enumeration value="News Media"/>
+                <xs:enumeration value="Other"/>
+                <xs:enumeration value="Parents and Families"/>
+                <xs:enumeration value="Policymakers"/>
+                <xs:enumeration value="Researchers"/>
+                <xs:enumeration value="School Support Staff"/>
+                <xs:enumeration value="Student Financial Aid Providers"/>
+                <xs:enumeration value="Students"/>
+                <xs:enumeration value="Teachers"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+  
     <xs:element name="licenseCondition">
-	    <xs:complexType>
+        <xs:complexType>
                   <xs:simpleContent>
-			  <xs:extension base="xs:string">
-				  <xs:attribute name="startDate"></xs:attribute>
-				  <xs:attribute name="licenseURI"></xs:attribute>
-			  </xs:extension>
-		  </xs:simpleContent>
-	    </xs:complexType>
+              <xs:extension base="xs:string">
+                  <xs:attribute name="startDate"></xs:attribute>
+                  <xs:attribute name="licenseURI"></xs:attribute>
+              </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
     </xs:element>
 
     <xs:element name="file">
@@ -38,7 +93,7 @@
             <xs:simpleContent>
                 <xs:extension base="xs:string">
                     <xs:attribute name="mimeType"></xs:attribute>
-                    <xs:attribute name="accessRightsURI"></xs:attribute>
+                    <xs:attribute name="accessRightsURI" type="accessRight"></xs:attribute>
                     <xs:attribute name="objectType" type="objectType"></xs:attribute>
                 </xs:extension>
             </xs:simpleContent>    
@@ -57,29 +112,125 @@
         </xs:restriction>
     </xs:simpleType>
     
-    <xs:element name="version" type="versionType">
-	    <xs:complexType>
-		    <xs:simpleContent>
-			    <xs:extension base="xs:string">
-				    <xs:attribute name="rdf:resource"></xs:attribute>
-			    </xs:extension>
-		    </xs:simpleContent>
-	    </xs:complexType>
-    </xs:element>
-    <!--
-    <xs:simpleType name="versionType" id="versionType">
+    <xs:element name="version">
+        <xs:complexType>
         <xs:annotation>
-            <xs:documentation>(TODO) preliminary list of version types, derived from info:eu-repo/semantics.</xs:documentation>
+            <xs:documentation>Version types from coar vocabulary. </xs:documentation>
+        </xs:annotation>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="uri" type="version"/>
+            </xs:extension>
+        </xs:simpleContent>
+            
+    </xs:complexType>
+    </xs:element>
+
+    <xs:element name="type">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>The type of scientific output the resource is a manifestation of. Allowed values for the attribute URI belongs to the COAR vocabulary for Resource Type Genres (version 1.1) </xs:documentation>
+            </xs:annotation>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="uri" type="resourceType"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+ 
+    <xs:element name="rights">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>Main access right for the resource from coar vocabulary. </xs:documentation>
+            </xs:annotation>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="uri" type="accessRight"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    
+    
+    <xs:element name="fundingReferences">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="fundingReference" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Information about financial support (funding) for the resource being registered.
+                        </xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="funderName" minOccurs="1" maxOccurs="1">
+                                <xs:annotation>
+                                    <xs:documentation>Name of the funding provider.</xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="nonemptycontentStringType"/>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="funderIdentifier" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Uniquely identifies a funding entity, according to various types.
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="funderIdentifierType" type="funderIdentifierType" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element ref="fundingStream" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>Name of the funding stream.</xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="awardNumber" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        The code assigned by the funder to a sponsored award (grant).
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="awardURI" type="xs:anyURI" use="optional"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="awardTitle" minOccurs="0">
+                                <xs:annotation>
+                                    <xs:documentation>The human readable title of the award (grant).</xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="nonemptycontentStringType"/>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:simpleType name="funderIdentifierType" id="funderIdentifierType">
+        <xs:annotation>
+            <xs:documentation>The type of the funderIdentifier.</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:string">
-            <xs:enumeration value="accepted"></xs:enumeration>
-            <xs:enumeration value="published"></xs:enumeration>
-            <xs:enumeration value="draft"></xs:enumeration>
-            <xs:enumeration value="submitted"></xs:enumeration>
-            <xs:enumeration value="updated"></xs:enumeration>
-        </xs:restriction>  
+            <xs:enumeration value="ISNI"/>
+            <xs:enumeration value="GRID"/>
+            <xs:enumeration value="Crossref Funder ID"/>
+            <xs:enumeration value="Other"/>
+        </xs:restriction>
     </xs:simpleType>
-    -->
     <xs:element name="fundingStream" type="fundingStreamType"/>
     <xs:simpleType name="fundingStreamType">
         <xs:annotation>
@@ -93,5 +244,6 @@
             <xs:minLength value="1"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
+
 </xs:schema>
