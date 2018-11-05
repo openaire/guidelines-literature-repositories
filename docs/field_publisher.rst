@@ -3,6 +3,8 @@
 9. Publisher (MA)
 =================
 
+``dc:publisher``
+
 **DCMI Definition**
 
 An entity responsible for making the resource available. Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.
@@ -26,7 +28,8 @@ In most cases the publisher and the creator are not the same.
 
 DRIVER Guidelines v2
 
-**Example**
+Example
+~~~~~~~
 
 .. code-block:: xml
    :linenos:

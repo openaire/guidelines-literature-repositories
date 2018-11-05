@@ -3,6 +3,8 @@
 4. FundingReference (MA)
 ========================
 
+``datacite:fundingReference``
+
 4.1 funderName
 --------------
 
@@ -50,18 +52,20 @@ OpenAIRE Guidelines v1
 
 adopting fundingReference elements from DataCite schema and funderId; this replaces the ``info:eu-repo/grantAgreement`` syntax.
 
-**Example**
+Example
+-------
 
 An example utilizing all fields:
 
 .. code-block:: xml
    :linenos:
 
-   <fundingReference>
-     <funderName>European Commission</funderName>
-     <funderIdentifier funderIdentifierType="Crossref Funder ID">http://doi.org/10.13039/100010661</funderIdentifier>
-     <fundingStream>Horizon 2020 Framework Programme</fundingStream>
-     <awardNumber awardURI="http://cordis.europa.eu/project/rcn/194062_en.html">643410</awardNumber>
-     <awardTitle>Open Access Infrastructure for Research in Europe 2020</awardTitle>
-   </fundingReference>
-
+   <datacite:fundingReferences>
+   <datacite:fundingReference>
+     <datacite:funderName>European Commission</datacite:funderName>
+     <datacite:funderIdentifier funderIdentifierType="Crossref Funder ID">http://doi.org/10.13039/100010661</datacite:funderIdentifier>
+     <oaire:fundingStream>Horizon 2020 Framework Programme</oaire:fundingStream>
+     <datacite:awardNumber awardURI="http://cordis.europa.eu/project/rcn/194062_en.html">643410</datacite:awardNumber>
+     <datacite:awardTitle>Open Access Infrastructure for Research in Europe 2020</datacite:awardTitle>
+   </datacite:fundingReference>
+   </datacite:fundingReferences>

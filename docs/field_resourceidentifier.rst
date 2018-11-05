@@ -3,6 +3,7 @@
 14 Resource Identifier (M)
 ==========================
 
+``dc:identifier``
 
 **DCMI Definition**
 
@@ -27,7 +28,8 @@ Smart practice:
 * :ref:`aire:file` (Use ``oaire:file`` to point to the resource being desccribed by this metadata, e.g. the fulltext file.)
 * :ref:`dc:source` (Use ``dc:source`` for bibliographic citation of the originating resource.)
 
-**Example**
+Example
+~~~~~~~
 
 In this example the handle redirects to the jump-off page. A jump-off page is a good way to refer to. The end-user has the opportunity to see more information about the object(s) he has found, see the context and enjoy the other services a local repository has to offer:
 

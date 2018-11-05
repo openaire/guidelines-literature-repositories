@@ -2,6 +2,9 @@
 
 1. Title (M)
 ------------
+
+``datacite:title``
+
 A name or title by which a resource is known (occurrences: 1-n).
 
 **Allowed values, examples, other constraints**
@@ -26,12 +29,12 @@ The type of Title (occurrences: 0-1).
 * TranslatedTitle
 
 Example
-^^^^^^^
+~~~~~~~
 .. code-block:: xml
    :linenos:
 
-    <title xml:lang="en-US">
+    <datacite:title xml:lang="en-US">
      National Institute for Environmental Studies and Center
      for Climate System Research Japan
-    </title>
-    <title xml:lang="en-US" titleType="Subtitle">A survey</title>
+    </datacite:title>
+    <datacite:title xml:lang="en-US" titleType="Subtitle">A survey</datacite:title>

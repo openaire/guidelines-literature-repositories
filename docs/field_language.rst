@@ -32,7 +32,8 @@ DRIVER Guidelines v2
 
 recommendation of IETF BCP 47 in OpenAIRE Guidelines v4
 
-**Example**
+Example
+~~~~~~~
 
 .. code-block:: xml
    :linenos:

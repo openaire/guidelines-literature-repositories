@@ -3,6 +3,8 @@
 12. Description (MA)
 ====================
 
+``dc:description``
+
 .. _dc:description_lang:
 
 12.1 lang (O)
@@ -18,7 +20,8 @@ This element is used for a textual description of the content. When a resource c
 
 DRIVER Guidelines v2
 
-**Example**
+Example
+^^^^^^^
 
 .. code-block:: xml
    :linenos:

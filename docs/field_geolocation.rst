@@ -3,6 +3,8 @@
 21. GeoLocation (O)
 -------------------
 
+``datacite:geoLocation``
+
 Spatial region or named place where the data was gathered or about which the data is focused (occurrences: 0-n).
 
 **Allowed values, examples, other constraints**
@@ -63,10 +65,10 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <geoLocations>
-     <geoLocation>
-       <geoLocationPoint>31.233 -67.302</geoLocationPoint>
-       <geoLocationBox>41.090 -71.032 42.893 -68.211</geoLocationBox>
-       <geoLocationPlace>Atlantic Ocean</geoLocationPlace>
-     </geoLocation>
-   </geoLocations>
+   <datacite:geoLocations>
+     <datacite:geoLocation>
+       <datacite:geoLocationPoint>31.233 -67.302</datacite:geoLocationPoint>
+       <datacite:geoLocationBox>41.090 -71.032 42.893 -68.211</datacite:geoLocationBox>
+       <datacite:geoLocationPlace>Atlantic Ocean</datacite:geoLocationPlace>
+     </datacite:geoLocation>
+   </datacite:geoLocations>

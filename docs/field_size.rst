@@ -3,6 +3,8 @@
 20. Size (O)
 ^^^^^^^^^^^^
 
+``datacite:size``
+
 Unstructured size information about the resource (occurrences: 0-n).
 
 **Allowed values, examples, other constraints**
@@ -16,5 +18,7 @@ Example
 .. code-block:: xml
    :linenos:
 
-     <datacite:size>15 pages</datacite:size>
-     <datacite:size>6 MB</datacite:size>
+     <datacite.sizes>
+	     <datacite:size>15 pages</datacite:size>
+	     <datacite:size>6 MB</datacite:size>
+     </datacite.sizes>

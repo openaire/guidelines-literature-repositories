@@ -3,6 +3,8 @@
 11. Publication Type (M)
 ========================
 
+``dc:type``
+
 **Usage**
 
 Publication type is used for the following purposes:
@@ -31,7 +33,8 @@ The second occurrence of the DC Element ``type`` is optional and should be used 
 
 DC element `type` describes the kind of academic output the resource is a representation of. DC element ‘format’ describes the media type of this resource.
 
-**Example**
+Example
+~~~~~~~
 
 .. code-block:: xml
    :linenos:

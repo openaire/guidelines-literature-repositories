@@ -3,6 +3,8 @@
 13. Format (R)
 ==============
 
+``dc:format``
+
 **DCMI Definition**
 
 The physical or digital manifestation of the resource. Typically, Format may include the media-type or dimensions of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Examples of dimensions include size and duration. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of Internet Media Types [MIME] defining computer media formats).
@@ -28,7 +30,8 @@ DC element ``format`` describes the media type of this resource. DC element ``ty
 
 DRIVER Guidelines v2
 
-**Example**
+Example
+~~~~~~~
 
 .. code-block:: xml
    :linenos:

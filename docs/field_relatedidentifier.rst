@@ -3,10 +3,12 @@
 6. RelatedIdentifier (R)
 ========================
 
+``datacite:relatedIdentifier``
+
 An identifier of a related resource other than the primary Identifier applied to the resource being registered. 
 
 6.1 relatedIdentifierType (M)
--------------------------------
+-----------------------------
 
 The type of the RelatedIdentifier
 
@@ -36,7 +38,7 @@ The type of the RelatedIdentifier
 * ``wos`` – Web of Science accession number
 
 6.2 relationType (M)
--------------------------------
+--------------------
 
  the value is defined in a controlled list:
 
@@ -104,5 +106,11 @@ Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 Examples: ``XSD``, ``DDT``, ``Turtle``
 
 Example
-~~~~~~~
+-------
 
+.. code-block:: xml
+   :linenos:
+
+   <datacite:relatedIdentifiers>
+      <datacite:relatedIdentifier relatedIdentifierType="url" relationType="HasPart">http://someUrl</datacite:relatedIdentifier>
+   </datacite:relatedIdentifiers>

@@ -3,6 +3,8 @@
 5. AlternateIdentifier (R)
 ==========================
 
+``datacite:alternateIdentifier``
+
 An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers. AlternateIdentifier should be used for another identifier of the same instance (same location, same file).
 
 5.1 alternateIdentifierType (O)
@@ -33,3 +35,13 @@ List alternative identifiers for this publication that are not the primary ident
 * ``url`` – Uniform Resource Locator
 * ``urn`` – Uniform Resource Name
 * ``wos`` – Web of Science accession number
+
+Example
+-------
+
+.. code-block:: xml
+   :linenos:
+
+   <datacite:alternateIdentifiers>
+      <datacite:alternateIdentifier alternateIdentifierType="url">http://someUrl</datacite:alternateIdentifier>
+   </datacite:alternateIdentifiers>

@@ -18,9 +18,10 @@ Recommended (R)
 Optional (O)
   It is not important whether the property is used or not, but if used it may provide complementary information about the resource
 
-This documentation uses the following namespace abbreviation:
+This documentation uses the following namespace abbreviations:
 
 * ``dc``: http://purl.org/dc/elements/1.1/
+* ``dcterms``: http://purl.org/dc/terms/
 * ``datacite``: http://datacite.org/schema/kernel-4
 * ``rdf`` : `<http://www.w3.org/1999/02/22-rdf-syntax-ns#>`__
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
@@ -42,7 +43,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
 :ref:`dc:identifier`                     dc:identifier
-:ref:`dc:rightsAccessrights`             dc:rights                     `COAR Access Right Vocabulary`_
+:ref:`dc:rightsAccessrights`             dcterms:accessRights          `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
 :ref:`dci:subject`                       datacite:subject              
 :ref:`aire:licenseCondition`             oaire:licenseCondition

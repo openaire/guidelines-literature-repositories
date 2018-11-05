@@ -4,11 +4,17 @@
 ==============
 
 
+``dc:source``
+
 **DCMI Definition**
 
 A reference to a resource from which the present resource is derived.
 
-**Usage Instruction**
+Usage Instruction
+~~~~~~~~~~~~~~~~~
+*Recommended*
+
+*Occurences: 0-n*
 
 The present resource may be derived from the Source resource in whole or in part. Recommended best practice is to reference the resource by means of a string or number conforming to a formal identification system.
 
@@ -24,8 +30,8 @@ Use: Guidelines for Encoding Bibliographic Citation Information in Dublin Core M
 
 DRIVER Guidelines v2
 
-**Example**
-
+Example
+~~~~~~~
 .. code-block:: xml
    :linenos:
 

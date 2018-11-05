@@ -3,6 +3,8 @@
 2. Creator (M)
 ==============
 
+``datacite:creator``
+
 The authors of the publication in priority order. May be a corporate/institutional or personal name.
 
 .. _dci:creator_creatorName:
@@ -125,16 +127,18 @@ In cases of lesser responsibility, other than authorship, use ``dci:contributor`
 * :ref:`dci:contributor`
 * :ref:`dc:publisher`
 
-**Example**
-
+Example
+-------
 .. code-block:: xml
    :linenos:
 
-   <creator>
-     <creatorName>Evans, R.J.</creatorName>
-     <affiliation></affiliation>
-     <nameIdentifier nameIdentifierScheme="ORCID"
-                     schemeURI="http://orcid.org">
-       1234-1234-1234-1234
-     </nameIdentifier>
-   </creator>
+   <datacite:creators>
+     <datacite:creator>
+       <datacite:creatorName>Evans, R.J.</datacite:creatorName>
+       <datacite:affiliation></datacite:affiliation>
+       <datacite:nameIdentifier nameIdentifierScheme="ORCID"
+                       schemeURI="http://orcid.org">
+         1234-1234-1234-1234
+       </datacite:nameIdentifier>
+     </datacite:creator>
+   </datacite:creators>

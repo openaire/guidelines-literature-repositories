@@ -3,6 +3,8 @@
 7. Embargo Period Date (MA)
 ===========================
 
+``datacite:date``
+
 Dates relevant to describe an embargo period.
 
 A date associated with an event in the life cycle of the resource. Typically, Date will be associated with the creation or availability of the resource. Recommended best practice for encoding the date value is defined in a profile of ISO 8601 [W3CDTF] and follows the ``YYYY-MM-DD`` format.
@@ -13,7 +15,7 @@ A date associated with an event in the life cycle of the resource. Typically, Da
 The type of date. Use the controlled term ``Accepted`` to indicate the start and the term ``Available`` to indicate the end of an embargo period.
 
 Example
-~~~~~~~
+-------
 .. code-block:: xml
    :linenos:
 

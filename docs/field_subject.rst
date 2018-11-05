@@ -3,6 +3,8 @@
 17. Subject (MA)
 ^^^^^^^^^^^^^^^^
 
+``datacite:subject``
+
 Subject, keyword, classification code, or key phrase describing the resource (occurrences: 0-n).
 
 Field under the DataCite namespace
@@ -59,9 +61,9 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <subjects>
-    <subject>Earth sciences and geology</subject>
-    <subject subjectScheme="DDC" schemeURI="http://dewey.info/" valueURI="">
+   <datacite:subjects>
+    <datacite:subject>Earth sciences and geology</datacite:subject>
+    <datacite:subject subjectScheme="DDC" schemeURI="http://dewey.info/" valueURI="">
     551 Geology, hydrology, meteorology
-    </subject>
-   </subjects>
+    </datacite:subject>
+   </datacite:subjects>

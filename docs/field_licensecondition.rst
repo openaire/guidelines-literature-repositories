@@ -3,8 +3,6 @@
 18. License Condition (R)
 =========================
 
-OAIRE Field
-~~~~~~~~~~~
 ``oaire:licenseCondition``
 
 18.1 licenseURI (MA)
@@ -36,11 +34,11 @@ Typically, a rights element will contain a rights management statement for the a
 
 
 Example
-~~~~~~~
+-------
 
 .. code-block:: xml
    :linenos:
 
    <!-- example 1 -->
-   <oaire:licenseCondition startDate="2019-02-01" licenseURI="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial</dc:rights>
+   <oaire:licenseCondition startDate="2019-02-01" licenseURI="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial</oaire:licenseCondition>
 

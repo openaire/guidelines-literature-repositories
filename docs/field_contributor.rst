@@ -106,14 +106,17 @@ The element ``contributor`` describes the scientist(s) that has/have made contri
 
 adopted ``contributor`` elements from DataCite schema in OpenAIRE Guidelines v4
 
-**Example**
+Example
+-------
 
 .. code-block:: xml
    :linenos:
 
-   <contributor>
-     <contributorName>Evans, R. J.</contributorName>
-   <contributor>
-   <contributor>
-     <contributorName>International Human Genome Sequencing Consortium</contributorName>
-   </contributor>
+   <datacite:contributors>
+	   <datacite:contributor>
+	     <datacite:contributorName>Evans, R. J.</datacite:contributorName>
+	   <datacite:contributor>
+	   <datacite:contributor>
+	     <datacite:contributorName>International Human Genome Sequencing Consortium</datacite:contributorName>
+	   </datacite:contributor>
+   </datacite:contributors>
