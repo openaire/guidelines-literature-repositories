@@ -3,12 +3,17 @@
 24. Citation Title (R)
 ======================
 
-OAIRE Field
-~~~~~~~~~~~
 ``oaire:citationTitle``
 
-Usage
-~~~~~
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-1*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The title name of the container (e.g. journal, book, conference) this work is published in.
 
@@ -17,4 +22,4 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <oaire:citationTitle></oaire:citationTitle>
+   <oaire:citationTitle>some Journal Title</oaire:citationTitle>

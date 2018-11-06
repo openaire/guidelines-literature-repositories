@@ -1,59 +1,79 @@
-.. _dci:fundingReference:
+.. _aire:fundingReference:
 
-4. FundingReference (MA)
-========================
+4. Funding Reference (MA)
+=========================
 
-``datacite:fundingReference``
+``oaire:fundingReference``
 
-4.1 funderName
---------------
+Cardinality
+~~~~~~~~~~~
 
-Name of the funding provider.
+*Mandatory if applicable*
 
-4.2 funderIdentifier
---------------------
+*Occurence: 0-n*
 
-Unique identifier of the funding entity.
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-4.2.1 funderIdentifiertype
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Type of the unique identifier of the funding entity.
-
-4.3 fundingStream
------------------
-
-Name of the funding stream (optional)
-
-4.4 awardNumber
----------------
-
-Project grantId or awardNumber.
-
-4.4.1 awardURI
-^^^^^^^^^^^^^^
-
-URI of the project landing page provided by the funder. 
-
-4.5 awardTitle
---------------
-
-Title of the project, award or grant.
+Information about financial support (funding) for the resource being registered.
 
 **Usage Instruction**
 
 .. include:: projectid.rst
 
-**Since**
+**Remarks**
 
-OpenAIRE Guidelines v1
+* introduced as "info:eu-repo/grantAgreement/[Funder]/[FundingProgram]/[ProjectID]/[Jurisdiction]/[ProjectName]/[ProjectAcronym] in previous versions of the OpenAIRE Guidelines
+* adopting fundingReference element and subproperties from DataCite MetadataKernel v4.1 which replaces the ``info:eu-repo/grantAgreement`` syntax.
+* adding subproperty fundingStream to this application profile
 
-**Modified**
 
-adopting fundingReference elements from DataCite schema and funderId; this replaces the ``info:eu-repo/grantAgreement`` syntax.
+Subproperty funderName (M)
+--------------------------
+
+Name of the funding provider (occurence: 1). Mandatory if *FundingReference* is used.
+
+Subproperty funderIdentifier (R)
+--------------------------------
+
+Unique identifier of the funding entity (occurence: 0-1).
+
+Attribute funderIdentifiertype (R)
+**********************************
+
+Type of the unique identifier of the funding entity (occurence: 0-1).
+
+*Controlled list values*
+
+* ISNI
+* GRID
+* Crossref Funder
+
+see also `Open Funder Registry`_
+
+Subproperty fundingStream (O)
+-----------------------------
+
+Name of the funding stream (optional) (occurence: 0-1).
+
+Subproperty awardNumber (MA)
+----------------------------
+
+Project grantId or awardNumber (occurence: 1).
+
+Attribute awardURI (R)
+**********************
+
+URI of the project landing page provided by the funder for more information about the award (grant) (occurence: 0-1). 
+
+Subproperty awardTitle (R)
+--------------------------
+
+Title of the project, award or grant (occurence: 0-1).
+
 
 Example
--------
+~~~~~~~
 
 An example utilizing all fields:
 
@@ -69,3 +89,5 @@ An example utilizing all fields:
      <datacite:awardTitle>Open Access Infrastructure for Research in Europe 2020</datacite:awardTitle>
    </datacite:fundingReference>
    </datacite:fundingReferences>
+
+.. _Open Funder Registry: http://fundref.org/fundingdata/registry.html

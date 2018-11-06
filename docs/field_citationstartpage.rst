@@ -3,12 +3,17 @@
 27. Citation Start Page (R)
 ===========================
 
-OAIRE Field
-~~~~~~~~~~~
 ``oaire:citationStartPage``
 
-Usage
-~~~~~
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-1*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The start page of the work published in a container (e.g. journal issue)
 

@@ -3,12 +3,17 @@
 31. Citation Conference Date (R)
 ================================
 
-OAIRE Field
-~~~~~~~~~~~
 ``oaire:citationConferenceDate``
 
-Usage
-~~~~~
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-1*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The date when the conference took place
 

@@ -3,12 +3,17 @@
 30. Citation Conference Place (R)
 =================================
 
-OAIRE Field
-~~~~~~~~~~~
 ``oaire:citationConferencePlace``
 
-Usage
-~~~~~
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-1*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The place where the conference took place
 

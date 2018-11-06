@@ -1,20 +1,32 @@
 .. _dci:relatedIdentifier:
 
-6. RelatedIdentifier (R)
-========================
+6. Related Identifier (R)
+=========================
 
 ``datacite:relatedIdentifier``
 
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 An identifier of a related resource other than the primary Identifier applied to the resource being registered. 
 
-6.1 relatedIdentifierType (M)
------------------------------
+**Remarks**
 
-The type of the RelatedIdentifier
+* adapted from `DataCite MetadataKernel`_ v4.1
 
-**Usage Instruction**
+Attribute relatedIdentifierType (M)
+-----------------------------------
 
- the value is defined in a controlled list:
+The type of the RelatedIdentifier (occurence: 1). Mandatory if *RelatedIdentifier* is used.
+
+The type value is defined in a controlled list:
 
 * ``ark`` – Archival Resource Key
 * ``arxiv`` – arXiv.org identifier
@@ -37,10 +49,12 @@ The type of the RelatedIdentifier
 * ``urn`` – Uniform Resource Name
 * ``wos`` – Web of Science accession number
 
-6.2 relationType (M)
---------------------
+Attribute relationType (M)
+--------------------------
 
- the value is defined in a controlled list:
+Description of the relationship of the resource being registered (A) and the related resource (B) (occurence: 1). Mandatory if *RelatedIdentifier* is used.
+
+The type value is defined in a controlled list:
 
 * ``IsCitedBy`` (indicates that B includes A in a citation)
 * ``Cites`` (indicates that A includes B in a citation)
@@ -74,8 +88,8 @@ The type of the RelatedIdentifier
 * ``IsRequiredBy`` (indicates A is required by B)
 * ``Requires`` (indicates A requires B)
 
-6.3 relatedMetadataScheme (O)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Attribute relatedMetadataScheme (O)
+-----------------------------------
 
 The name of the scheme (occurrences: 0-1).
 
@@ -84,8 +98,8 @@ The name of the scheme (occurrences: 0-1).
 Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
 
-6.4 schemeURI (O)
-~~~~~~~~~~~~~~~~~~
+Attribute schemeURI (O)
+-----------------------
 
 The URI of the relatedMetadataScheme (occurrences: 0-1).
 
@@ -94,8 +108,8 @@ The URI of the relatedMetadataScheme (occurrences: 0-1).
 Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
 
-6.5 schemeType (O)
-~~~~~~~~~~~~~~~~~~~
+Attribute schemeType (O)
+------------------------
 
 The type of the relatedMetadataScheme, linked with the schemeURI (occurrences: 0-1).
 
@@ -105,8 +119,32 @@ Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
 Examples: ``XSD``, ``DDT``, ``Turtle``
 
+Attribute resourceTypeGeneral (O)
+---------------------------------
+
+The general type of the related resource (occurrences: 0-1).
+
+The type value is defined in a controlled list:
+
+* Audiovisual
+* Collection
+* DataPaper
+* Dataset
+* Event
+* Image
+* InteractiveResource
+* Model
+* PhysicalObject
+* Service
+* Software
+* Sound
+* Text24
+* Workflow
+* Other
+
+
 Example
--------
+~~~~~~~
 
 .. code-block:: xml
    :linenos:
@@ -114,3 +152,5 @@ Example
    <datacite:relatedIdentifiers>
       <datacite:relatedIdentifier relatedIdentifierType="url" relationType="HasPart">http://someUrl</datacite:relatedIdentifier>
    </datacite:relatedIdentifiers>
+
+.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/

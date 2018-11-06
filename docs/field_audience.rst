@@ -1,23 +1,27 @@
-.. _aire:audience:
+.. _dct:audience:
 
 32. Audience (O)
 ================
 
-OAIRE Field
-~~~~~~~~~~~
-``oaire:audience``
+``dcterms:audience``
 
-Usage
-~~~~~
+Cardinality
+~~~~~~~~~~~
+
 *Optional*
 
-DCMI Definition
-~~~~~~~~~~~~~~~
+*Occurence: 0-n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**DCMI Definition**
+
 A class of entity for whom the resource is intended or useful.
 
-Usage Instruction
-~~~~~~~~~~~~~~~~~
-A class of entity may be determined by the creator or the publisher or by a third party. On the U.S. Department of Education, Metadata Reference site, an example is given of audiences: http://www.ed.gov/admin/reference/index.jsp :
+**Usage Instruction**
+
+A class of entity may be determined by the creator or the publisher or by a third party. An example of audiences given is derived from the `Common Education Data Standards vocabulary`_. Please note the list is not exhaustive.
 
 * Administrators
 * Community Groups
@@ -34,11 +38,17 @@ A class of entity may be determined by the creator or the publisher or by a thir
 * Students
 * Teachers
 
+**Remarks**
+
+* introduced in `DRIVER Guidelines v2 element audience`_
 
 Example
 ~~~~~~~
 .. code-block:: xml
    :linenos:
 
-   <oaire:audience>Researchers</oaire:audience>
-   <oaire:audience>Students</oaire:audience>
+   <dcterms:audience>Researchers</dcterms:audience>
+   <dcterms:audience>Students</dcterms:audience>
+
+.. _Common Education Data Standards vocabulary: https://ceds.ed.gov/element/001492
+.. _DRIVER Guidelines v2 element audience: https://wiki.surfnet.nl/display/DRIVERguidelines/Audience

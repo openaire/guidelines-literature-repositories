@@ -32,18 +32,18 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dci:title`                         datacite:title                DataCite title type
 :ref:`dci:creator`                       datacite:creator              DataCite name type
 :ref:`dci:contributor`                   datacite:contributor          DataCite name type, contributor type
-:ref:`dci:fundingReference`              datacite:fundingReference     DataCite funderIdentifier type
+:ref:`aire:fundingReference`             oaire:fundingReference        DataCite funderIdentifier type
 :ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  alternateIdentifier type
 :ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    DataCite relatedIdentifier type
 :ref:`dci:dateEmbargo`                   datacite:date                 DataCite dateType
 :ref:`dc:language`                       dc:language                   `IETF BCP 47`_, ISO 639-1,2,3
 :ref:`dc:publisher`                      dc:publisher
 :ref:`dci:datePublication`               datacite:date                 DataCite dateType
-:ref:`dc:typePublicationtype`            dc:type                       `COAR Resource Type Vocabulary`_
+:ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
 :ref:`dc:identifier`                     dc:identifier
-:ref:`dc:rightsAccessrights`             dcterms:accessRights          `COAR Access Right Vocabulary`_
+:ref:`dct:accessrights`                  dcterms:accessRights          `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
 :ref:`dci:subject`                       datacite:subject              
 :ref:`aire:licenseCondition`             oaire:licenseCondition
@@ -60,7 +60,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`aire:citationEdition`              oaire:citationEdition
 :ref:`aire:citationConferencePlace`      oaire:citationConferencePlace
 :ref:`aire:citationConferenceDate`       oaire:citationConferenceDate
-:ref:`aire:audience`                     oaire:audience
+:ref:`dct:audience`                      dcterms:audience
 ======================================== ============================= ===========================================================================
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/

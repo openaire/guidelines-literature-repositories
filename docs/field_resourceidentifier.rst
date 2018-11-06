@@ -5,11 +5,19 @@
 
 ``dc:identifier``
 
+Cardinality
+~~~~~~~~~~~
+
+*Mandatory*
+
+*Occurence: 1*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **DCMI Definition**
 
 An unambiguous reference to the resource within a given context.
-
-(occurences: 1)
 
 **Usage Instruction**
 
@@ -28,6 +36,10 @@ Smart practice:
 * :ref:`aire:file` (Use ``oaire:file`` to point to the resource being desccribed by this metadata, e.g. the fulltext file.)
 * :ref:`dc:source` (Use ``dc:source`` for bibliographic citation of the originating resource.)
 
+**Remarks**
+
+* introduced in `DRIVER Guidelines v2 element identifier`_
+
 Example
 ~~~~~~~
 
@@ -37,3 +49,5 @@ In this example the handle redirects to the jump-off page. A jump-off page is a 
    :linenos:
 
    <dc:identifier>http://hdl.handle.net/1234/5628</dc:identifier>
+
+.. _DRIVER Guidelines v2 element identifier: https://wiki.surfnet.nl/display/DRIVERguidelines/Identifier

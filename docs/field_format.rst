@@ -5,6 +5,16 @@
 
 ``dc:format``
 
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **DCMI Definition**
 
 The physical or digital manifestation of the resource. Typically, Format may include the media-type or dimensions of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Examples of dimensions include size and duration. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of Internet Media Types [MIME] defining computer media formats).
@@ -21,14 +31,14 @@ If one specific resource (an instance of scientific output) has more than one ph
 
 **Do Not Confuse With**
 
-* :ref:`dc:typePublicationtype`
+* :ref:`aire:resourceType`
 * :ref:`dc:identifier`
 
 DC element ``format`` describes the media type of this resource. DC element ``type`` describes the kind of academic output the resource is a representation of. ``dc:identifier`` is used to represent manifestations of digital resources.
 
-**Since**
+**Remarks**
 
-DRIVER Guidelines v2
+* introduced in `DRIVER Guidelines v2 element format`_
 
 Example
 ~~~~~~~
@@ -42,3 +52,5 @@ Example
    <dc:format>application/xhtml+xml</dc:format>
    <dc:format>application/html</dc:format>
    <dc:format>application/vnd.oasis.opendocument.text</dc:format>
+
+.. _DRIVER Guidelines v2 element format: https://wiki.surfnet.nl/display/DRIVERguidelines/Format

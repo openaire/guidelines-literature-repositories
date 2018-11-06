@@ -5,18 +5,21 @@
 
 ``datacite:subject``
 
+Cardinality
+~~~~~~~~~~~
+
+*Mandatory if applicable*
+
+*Occurence: 0-n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Subject, keyword, classification code, or key phrase describing the resource (occurrences: 0-n).
 
-Field under the DataCite namespace
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-``datacite:subject``
 
-Usage
-~~~~~
-*Mandatory when applicable (MA)*
+**Usage Instruction**
 
-Usage Instruction
-~~~~~~~~~~~~~~~~~
 In the subject property two kinds of values are possible: encode either a keyword or a classification. 
 
 In general, choose the most significant and unique words for keywords, avoiding those too general to describe a particular resource. 
@@ -31,18 +34,24 @@ It is recommended to use an URI when using classification schemes or controlled 
 If no specific classification scheme is used we recommend the Dewey Decimal Classification (DDC). 
 More information about the DDC and the DDC Summaries can be found at https://www.oclc.org/en/dewey/resources.html . Please note that OCLC owns all copyright rights in the Dewey Decimal Classification system. Dewey, Dewey Decimal Classification, DDC, OCLC and WebDewey are registered trademarks of OCLC.
 
-17.1 subjectScheme (O)
-~~~~~~~~~~~~~~~~~~~~~~
-The name of the subject scheme or classification code or authority if one is used (occurrences: 01).
+**Remarks**
+
+* adapted from `DataCite MetadataKernel`_ v4.1
+
+.. _dci:subject_subjectScheme:
+
+Attribute subjectScheme (O)
+---------------------------
+The name of the subject scheme or classification code or authority if one is used (occurrences: 0-1).
 
 **Allowed values, examples, other constraints**
 
 Free text.
 
-.. _d:subject_schemeuri:
+.. _dci:subject_schemeUri:
 
-17.2 schemeURI (O)
-~~~~~~~~~~~~~~~~~~
+Attribute schemeURI (O)
+-----------------------
 The URI of the subject identifier scheme (occurrences: 0-1).
 
 **Allowed values, examples, other constraints**
@@ -52,8 +61,8 @@ Examples:
 * http://id.loc.gov/authorities/subjects
 * http://dewey.info/
 
-17.3 valueURI
-~~~~~~~~~~~~~
+Attribute valueURI (O)
+----------------------
 The URI of the subject term.
 
 Example
@@ -67,3 +76,5 @@ Example
     551 Geology, hydrology, meteorology
     </datacite:subject>
    </datacite:subjects>
+
+.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/

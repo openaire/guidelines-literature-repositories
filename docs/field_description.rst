@@ -5,10 +5,16 @@
 
 ``dc:description``
 
-.. _dc:description_lang:
 
-12.1 lang (O)
-^^^^^^^^^^^^^
+Cardinality
+~~~~~~~~~~~
+
+*Mandatory if applicable*
+
+*Occurence: 0-n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The language of the description (occurences: 0-n)
 
@@ -16,13 +22,20 @@ The language of the description (occurences: 0-n)
 
 This element is used for a textual description of the content. When a resource consists of several separate physical object files, do not use ``dc:description`` to list the URLs of these files.
 
-**Since**
+**Remarks**
 
-DRIVER Guidelines v2
+* introduced in `DRIVER Guidelines v2 element description`_
+
+.. _dc:description_lang:
+
+Attribute lang (O)
+------------------
+
+The language of the description (occurences: 0-1).
+
 
 Example
-^^^^^^^
-
+~~~~~~~
 .. code-block:: xml
    :linenos:
 
@@ -31,7 +44,9 @@ Example
      transformation of a society; Consciousness as causal reality [etc]
    </dc:description>
 
-   <dc:description>
+   <dc:description xml:lang="en-US">
      A number of problems in quantum state and system identification are
      addressed.
    </dc:description>
+
+.. _DRIVER Guidelines v2 element description: https://wiki.surfnet.nl/display/DRIVERguidelines/Description

@@ -3,12 +3,17 @@
 25. Citation Volume (R)
 =======================
 
-OAIRE Field
-~~~~~~~~~~~
 ``oaire:citationVolume``
 
-Usage
-~~~~~
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-1*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The volume, typically a number, of the container (e.g. journal)
 

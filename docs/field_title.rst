@@ -5,19 +5,34 @@
 
 ``datacite:title``
 
-A name or title by which a resource is known (occurrences: 1-n).
+Cardinality
+~~~~~~~~~~~
+
+*Mandatory*
+
+*Occurence: 1-n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A name or title by which a resource is known.
 
 **Allowed values, examples, other constraints**
 
 Free text.
 
-1.1 lang (O)
-~~~~~~~~~~~~
+**Remarks**
 
-The language of the title (occurences: 0-n)
+* adapted from `DataCite MetadataKernel`_ v4.1
 
-1.2 titleType (O)
-~~~~~~~~~~~~~~~~~
+Attribute lang (O)
+******************
+
+The language of the title (occurences: 0-1)
+
+Attribute titleType (O)
+***********************
+
 The type of Title (occurrences: 0-1).
 
 **Allowed values, examples, other constraints**
@@ -27,6 +42,7 @@ The type of Title (occurrences: 0-1).
 * Alternative Title
 * Subtitle
 * TranslatedTitle
+
 
 Example
 ~~~~~~~
@@ -38,3 +54,5 @@ Example
      for Climate System Research Japan
     </datacite:title>
     <datacite:title xml:lang="en-US" titleType="Subtitle">A survey</datacite:title>
+
+.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/

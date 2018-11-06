@@ -3,12 +3,17 @@
 28. Citation End Page (R)
 =========================
 
-OAIRE Field
-~~~~~~~~~~~
 ``oaire:citationEndPage``
 
-Usage
-~~~~~
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-1*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The end page of the work published in a container (e.g. journal issue)
 

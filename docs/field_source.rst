@@ -3,22 +3,27 @@
 16. Source (R)
 ==============
 
-
 ``dc:source``
+
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **DCMI Definition**
 
 A reference to a resource from which the present resource is derived.
 
-Usage Instruction
-~~~~~~~~~~~~~~~~~
-*Recommended*
+**Usage Instruction**
 
-*Occurences: 0-n*
+The present resource may be derived from the *Source* resource in whole or in part. Recommended best practice is to reference the resource by means of a string or number conforming to a formal identification system.
 
-The present resource may be derived from the Source resource in whole or in part. Recommended best practice is to reference the resource by means of a string or number conforming to a formal identification system.
-
-Best practice: Use only when the described resource is the result of digitization of non-digital originals. Otherwise, use Relation. Optionally metadata about the current location and call number of the digitized publication can be added.
+Best practice: Use only when the described resource is the result of digitization of non-digital originals. Otherwise, use *:ref:`dci:relatedIdentifier`*. Optionally metadata about the current location and call number of the digitized publication can be added.
 
 Use: Guidelines for Encoding Bibliographic Citation Information in Dublin Core Metadata (http://dublincore.org/documents/dc-citation-guidelines/).
 
@@ -26,9 +31,9 @@ Use: Guidelines for Encoding Bibliographic Citation Information in Dublin Core M
 
 * :ref:`dc:identifier`
 
-**Since**
+**Remarks**
 
-DRIVER Guidelines v2
+* introduced in `DRIVER Guidelines v2 element source`_
 
 Example
 ~~~~~~~
@@ -36,4 +41,5 @@ Example
    :linenos:
 
    <dc:source>Ecology  Letters (1461023X)  vol.4 (2001)</dc:source>
-   <dc:source>ISSN: 0928-0987</dc:source>
+
+.. _DRIVER Guidelines v2 element source: https://wiki.surfnet.nl/display/DRIVERguidelines/Source

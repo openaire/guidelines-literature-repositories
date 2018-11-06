@@ -3,60 +3,36 @@
 3. Contributor (MA)
 ===================
 
+``datacite:contributor``
+
+Cardinality
+~~~~~~~~~~~
+
+*Mandatory if applicable*
+
+*Occurence: 0-n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource.
 
-.. _dci:contributor_contributorName:
+**Do Not Confuse With**
 
-3.1 contributorName (M)
------------------------
+* :ref:`dc:publisher`
+* :ref:`dci:creator`
+* :ref:`aire:fundingReference`
 
-The name of the contributor.
+**Remarks**
 
-3.1.1 nameType (R)
-------------------
+* adapted from `DataCite MetadataKernel`_ v4.1
 
-The type of name.
+.. _dci:contributor_contributorType:
 
-*Controlled list values*
+Attribute contributorType (M)
+-----------------------------
 
-* Organizational
-* Personal
-
-3.2 givenName (O)
------------------
-
-The personal or first name of the contributor.
-
-3.3 familyName (O)
-------------------
-
-The surname or last name of the contributor.
-
-3.4 nameIdentifier (R)
-----------------------
-
-Uniquely identifies an individual or legal entity, according to various schemes.
-
-3.4.1 nameIdentifierScheme
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The name of the name identifier scheme.
-
-3.4.2 schemeURI
-^^^^^^^^^^^^^^^
-
-The URI of the name identifier scheme.
-
-
-3.5 affiliation
----------------
-
-The organisational or institutional affiliation of the contributor.
-
-3.6 contributorType
--------------------
-
-The type of contributor of the resource
+The type of contributor of the resource (occurence: 1). Mandatory if *Contributor* is used.
 
 *Controlled list values*
 
@@ -82,32 +58,70 @@ The type of contributor of the resource
 * WorkPackageLeader
 * Other
 
-**DCMI Definition**
+.. _dci:contributor_contributorName:
 
-An entity responsible for making contributions to the content of the resource. Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity.
+Subproperty contributorName (M)
+-------------------------------
 
-**Usage Instruction**
+The name of the contributor (occurence: 1). Mandatory if *Contributor* is used.
 
-Examples of contributors are: a supervisor, editor, technician or data collector.
+.. _dci:contributor_nameType:
 
-Personal names should be listed as: see instructions under Creator. A “supervisor”, i.e. a professor supervising a student’s work for a doctor’s degree - is considered a contributor of a dissertation in his or her role as promotor/examiner. In the PhD thesis as a document, the key figures are the author and the supervisor. 
+Attribute nameType (R)
+**********************
 
-In the case of organizations : see instructions under Creator The inclusion of personal and corporate name headings from authority lists constructed according to local or national thesaurus files is optional.
+The type of name (occurence: 0-1).
 
-**Do Not Confuse With**
+*Controlled list values*
 
-* :ref:`dc:publisher`
-* :ref:`dci:creator`
-* :ref:`dci:fundingReference`
+* Organizational
+* Personal
 
-The element ``contributor`` describes the scientist(s) that has/have made contributions to the given scientific output, not as a primary creator or (commercial) publisher.
+.. _dci:contributor_familyName:
 
-**Modified**
+Subproperty familyName (O)
+--------------------------
 
-adopted ``contributor`` elements from DataCite schema in OpenAIRE Guidelines v4
+The surname or last name of the contributor (occurence: 0-1).
+
+.. _dci:contributor_givenName:
+
+Subproperty givenName (O)
+-------------------------
+
+The personal or first name of the contributor (occurence: 0-1).
+
+
+.. _dci:contributor_nameIdentifier:
+
+Subproperty nameIdentifier (R)
+------------------------------
+
+Uniquely identifies an individual or legal entity, according to various schemes (occurence: 0-n).
+
+.. _dci:contributor_nameIdentifierScheme:
+
+Attribute nameIdentifierScheme (M)
+**********************************
+
+The name of the name identifier scheme (occurence: 1). Mandatory if *nameIdentifier* is used.
+
+.. _dci:contributor_schemeURI:
+
+Attribute schemeURI (R)
+***********************
+
+The URI of the name identifier scheme (occurence: 0-1).
+
+.. _dci:contributor_affiliation:
+
+Subproperty affiliation (R)
+---------------------------
+
+The organisational or institutional affiliation of the contributor.
 
 Example
--------
+~~~~~~~
 
 .. code-block:: xml
    :linenos:
@@ -120,3 +134,5 @@ Example
 	     <datacite:contributorName>International Human Genome Sequencing Consortium</datacite:contributorName>
 	   </datacite:contributor>
    </datacite:contributors>
+
+.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/

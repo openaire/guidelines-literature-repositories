@@ -3,12 +3,17 @@
 29. Citation Edition (R)
 ========================
 
-OAIRE Field
-~~~~~~~~~~~
 ``oaire:citationEdition``
 
-Usage
-~~~~~
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-1*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The edition the work was published in (e.g. book edition)
 

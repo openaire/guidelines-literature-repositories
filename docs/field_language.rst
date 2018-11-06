@@ -3,9 +3,17 @@
 8. Language (MA)
 ================
 
-**DC Field**
-
 ``dc:language``
+
+Cardinality
+~~~~~~~~~~~
+
+*Mandatory if applicable*
+
+*Occurence: 0..n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **DCMI Definition**
 
@@ -24,13 +32,10 @@ If necessary, repeat this element to indicate multiple languages.
 
 If ISO 639-2 and 639-1 are sufficient for the contents of a repository they can be used alternatively. Since there is a unique mapping this can be done during an aggregation process.
 
-**Since**
+**Remarks**
 
-DRIVER Guidelines v2
+* introduced in `DRIVER Guidelines v2 element language`_
 
-**Modified**
-
-recommendation of IETF BCP 47 in OpenAIRE Guidelines v4
 
 Example
 ~~~~~~~
@@ -45,3 +50,5 @@ Example
    <dc:language>nld/dut</dc:language>
    <dc:language>dut</dc:language>
    <dc:language>nl</dc:language>
+
+.. _DRIVER Guidelines v2 element language: https://wiki.surfnet.nl/display/DRIVERguidelines/Language

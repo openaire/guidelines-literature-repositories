@@ -3,20 +3,26 @@
 22. Resource Version (MA)
 ===========================
 
-OAIRE Field
-~~~~~~~~~~~
 ``oaire:version``
 
-Usage
-~~~~~
+Cardinality
+~~~~~~~~~~~
+
+*Mandatory if applicable*
+
+*Occurence: 0-1*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Usage**
 
 *Recommended*: Version (controlled): to indicate the status in the publication process.
 
-Use terms from the `COAR Version Types Vocabulary`_ which reuses
-terms from the  "Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group".
+Terms are reused from the  "Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group" (`JAV`_).
 
-Usage Instruction
-~~~~~~~~~~~~~~~~~
+This property *must* include the attribute 'uri'.  Allowed HTTP URI are from the `COAR Version Types Vocabulary`_.
+The value of the property is the corresponding label of the HTTP URI.
 
 **Version (controlled):**
 
@@ -38,6 +44,7 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <oaire:version rdf:resource="http://purl.org/coar/version/c_be7fb7dd8ff6fe43">AM</oaire:version>
+   <oaire:version uri="http://purl.org/coar/version/c_be7fb7dd8ff6fe43">AM</oaire:version>
 
 .. _COAR Version Types Vocabulary: http://vocabularies.coar-repositories.org/documentation/version_types/
+.. _JAV: https://www.niso.org/publications/niso-rp-8-2008-jav

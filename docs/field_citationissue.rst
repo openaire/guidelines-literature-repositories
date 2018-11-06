@@ -3,12 +3,17 @@
 26. Citation Issue (R)
 ======================
 
-OAIRE Field
-~~~~~~~~~~~
 ``oaire:citationIssue``
 
-Usage
-~~~~~
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-1*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The issue of the container (e.g. journal)
 

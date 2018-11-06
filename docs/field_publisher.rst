@@ -5,6 +5,16 @@
 
 ``dc:publisher``
 
+Cardinality
+~~~~~~~~~~~
+
+*Mandatory if applicable*
+
+*Occurence: 0..n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **DCMI Definition**
 
 An entity responsible for making the resource available. Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.
@@ -24,9 +34,9 @@ The use of publisher names from authority lists constructed according to local o
 
 In most cases the publisher and the creator are not the same.
 
-**Since**
+**Remarks**
 
-DRIVER Guidelines v2
+* introduced in `DRIVER Guidelines v2 element publisher`_
 
 Example
 ~~~~~~~
@@ -38,3 +48,5 @@ Example
      Loughborough University. Department of Computer Science
    </dc:publisher>
    <dc:publisher>John Wiley &amp; Sons, Inc. (US)</dc:publisher>
+
+.. _DRIVER Guidelines v2 element publisher: https://wiki.surfnet.nl/display/DRIVERguidelines/Publisher

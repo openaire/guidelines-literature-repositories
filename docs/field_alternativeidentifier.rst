@@ -1,19 +1,32 @@
 .. _dci:alternativeIdentifier:
 
-5. AlternateIdentifier (R)
-==========================
+5. Alternate Identifier (R)
+===========================
 
 ``datacite:alternateIdentifier``
 
+Cardinality
+~~~~~~~~~~~
+
+*Recommended*
+
+*Occurence: 0-n*
+
+Definition and Usage Instruction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers. AlternateIdentifier should be used for another identifier of the same instance (same location, same file).
 
-5.1 alternateIdentifierType (O)
--------------------------------
+**Remarks**
 
+* adapted from `DataCite MetadataKernel`_ v4.1
 
-**Usage Instruction**
+Attribute alternateIdentifierType (M)
+-------------------------------------
 
-List alternative identifiers for this publication that are not the primary identifier (repository splash page), e.g., the DOI of publisher’s version, the PubMed/arXiv ID. The value is defined in a controlled list:
+The type of the AlternateIdentifier (occurence: 1). Mandatory if *AlternateIdentifier* is used.
+
+ The type value is defined in a controlled list:
 
 * ``ark`` – Archival Resource Key
 * ``arxiv`` – arXiv.org identifier
@@ -37,7 +50,7 @@ List alternative identifiers for this publication that are not the primary ident
 * ``wos`` – Web of Science accession number
 
 Example
--------
+~~~~~~~
 
 .. code-block:: xml
    :linenos:
@@ -45,3 +58,5 @@ Example
    <datacite:alternateIdentifiers>
       <datacite:alternateIdentifier alternateIdentifierType="url">http://someUrl</datacite:alternateIdentifier>
    </datacite:alternateIdentifiers>
+
+.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
