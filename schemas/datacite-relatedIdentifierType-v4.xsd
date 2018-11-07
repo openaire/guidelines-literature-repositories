@@ -2,7 +2,9 @@
 <!-- Version 1.0 - Created 2011-01-13 - FZ, TIB, Germany
   2013-05 v3.0: Addition of ID to simpleType element; addition of value "PMID"
   2014-08-20 v3.1: Addition of values "arxiv" and "bibcode"
-  2015-02-12 v4.0 Addition of value "IGSN" -->
+  2015-02-12 v4.0 Addition of value "IGSN" 
+  2018-11-07 openaire-guidelines: addition of values "WOS", "PISSN"
+  -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
 	xmlns="http://datacite.org/schema/kernel-4"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
@@ -27,11 +29,13 @@
       <xs:enumeration value="ISTC"/>
       <xs:enumeration value="LISSN"/>
       <xs:enumeration value="LSID"/>
+      <xs:enumeration value="PISSN"/>
       <xs:enumeration value="PMID"/>
       <xs:enumeration value="PURL"/>
       <xs:enumeration value="UPC"/>
       <xs:enumeration value="URL"/>
       <xs:enumeration value="URN"/>
+      <xs:enumeration value="WOS"/>
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
