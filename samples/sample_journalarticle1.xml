@@ -59,7 +59,7 @@
     <dc:language>eng</dc:language>
 
     <resourceType resourceTypeGeneral="publication" uri="http://purl.org/coar/resource_type/c_6501">journal article</resourceType>
-    <identifier identifierType="URL">http://europepmc.org/articles/PMC5574022</identifier>
+    <datacite:identifier identifierType="URL">http://europepmc.org/articles/PMC5574022</datacite:identifier>
 
     <dc:publisher>John Wiley and Sons Inc.</dc:publisher>
     <version uri="http://purl.org/coar/version/c_71e4c1898caa6e32">SMUR</version>
