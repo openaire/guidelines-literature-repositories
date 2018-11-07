@@ -15,9 +15,25 @@
     <xs:include schemaLocation="datacite-titleType-v4.xsd"/>
     <xs:include schemaLocation="datacite-nameType-v4.xsd"/>
     <xs:include schemaLocation="datacite-resourceType-v4.1.xsd"/>
+    <xs:include schemaLocation="oaire-identifierType-v4.0.xsd"/>
     <xs:import namespace="http://namespace.openaire.eu/schema/oaire/" schemaLocation="oaire.xsd"/>
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd"/>
     
+    <xs:element name="identifier">        
+        <xs:annotation>
+            <xs:documentation>
+                A persistent identifier that identifies a resource.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="identifierType" use="required" type="idType"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
     
     <xs:element name="titles">
         <xs:complexType>
@@ -138,7 +154,7 @@
                     </xs:annotation>
                     <xs:complexType>
                         <xs:simpleContent>
-                            <xs:extension base="xs:string">
+                            <xs:extension base="nonemptycontentStringType">
                                 <xs:attribute name="alternateIdentifierType" use="required"/>
                             </xs:extension>
                         </xs:simpleContent>

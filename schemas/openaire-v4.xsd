@@ -3,6 +3,7 @@
   xmlns:xs ="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:datacite="http://datacite.org/schema/kernel-4"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns="http://namespace.openaire.eu/schema/oaire/"
@@ -10,10 +11,13 @@
   xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
 
   <xs:import namespace="http://purl.org/dc/elements/1.1/"
-    schemaLocation="dcmes-dc.xsd"/>
+    schemaLocation="dc.xsd"/>
+
+  <xs:import namespace="http://purl.org/dc/terms/"
+    schemaLocation="dcterms.xsd"/>
 
   <xs:import namespace="http://datacite.org/schema/kernel-4"
-    schemaLocation="datacite_v4.xsd"/>
+    schemaLocation="datacite-v4.xsd"/>
   
   <xs:include schemaLocation="oaire.xsd"/> 
   <xs:include schemaLocation="resourceType-v4.xsd"/>
@@ -103,7 +107,7 @@
       </xs:element>
 
       
-      <xs:element ref="type" minOccurs="1">
+      <xs:element ref="resourceType" minOccurs="1">
         <xs:annotation>
           <xs:documentation>Mandatory</xs:documentation>
           <xs:documentation>The type of scientific output the resource is a manifestation of. </xs:documentation>
@@ -124,14 +128,14 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="identifier" minOccurs="1" maxOccurs="1">
+      <xs:element ref="datacite:identifier" minOccurs="1" maxOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Mandatory</xs:documentation>
           <xs:documentation>An unambiguous reference to the resource within a given context.</xs:documentation>
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="rights" minOccurs="1">
+      <xs:element ref="accessRights" minOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Mandatory</xs:documentation>
           <xs:documentation>The main access right of the resource</xs:documentation>
@@ -232,7 +236,7 @@
         </xs:annotation>
       </xs:element>
 
-    <xs:element ref="audience" minOccurs="0" maxOccurs="unbounded">
+    <xs:element ref="dcterms:audience" minOccurs="0" maxOccurs="unbounded">
       <xs:annotation>
         <xs:documentation>A class of entity for whom the resource is intended or useful.</xs:documentation>
       </xs:annotation>

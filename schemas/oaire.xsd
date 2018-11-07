@@ -11,8 +11,6 @@
     <xs:include schemaLocation="versions-v4.xsd"/>
     <xs:include schemaLocation="accessRight-v4.xsd"/>
     <xs:include schemaLocation="resourceType-v4.xsd"></xs:include>
-    <!-- Import the RDF namespace schema for rdf:resource -->
-    <xs:import namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" schemaLocation="dcmes-rdf.xsd"/>
     
     <xs:annotation>
         <xs:documentation>
@@ -29,34 +27,8 @@
     <xs:element name="citationConferencePlace" type="xs:string"/>
     <xs:element name="citationConferenceDate" type="xs:string"/>
     
-    <xs:element name="identifier">
-        
-        <xs:annotation>
-            <xs:documentation>
-                A persistent identifier that identifies a resource.
-            </xs:documentation>
-        </xs:annotation>
-        <xs:complexType>
-            <xs:simpleContent>
-                <xs:extension base="xs:string">
-                    <xs:attribute name="identifierType" use="required" type="idType"/>
-                </xs:extension>
-            </xs:simpleContent>
-        </xs:complexType>
-    </xs:element>
-    
-    <xs:simpleType name="idType" id="idType">
-        <xs:restriction base="xs:string">
-            <xs:enumeration value="DOI"/>
-            <xs:enumeration value="URI"/>
-            <xs:enumeration value="PURL"/>
-           <xs:enumeration value="URL"/>
-            <xs:enumeration value="HANDLE"/>
-            <xs:enumeration value="ARK"/>
-        </xs:restriction>
-    </xs:simpleType>
   
-    <xs:element name="audience">
+<!--    <xs:element name="audience">
         <xs:simpleType>
             <xs:restriction base="xs:string">
                 <xs:enumeration value="Administrators"/>
@@ -76,13 +48,13 @@
             </xs:restriction>
         </xs:simpleType>
     </xs:element>
-  
+-->  
     <xs:element name="licenseCondition">
         <xs:complexType>
                   <xs:simpleContent>
               <xs:extension base="xs:string">
                   <xs:attribute name="startDate"></xs:attribute>
-                  <xs:attribute name="licenseURI"></xs:attribute>
+                  <xs:attribute name="uri"></xs:attribute>
               </xs:extension>
           </xs:simpleContent>
         </xs:complexType>
@@ -118,7 +90,7 @@
             <xs:documentation>Version types from coar vocabulary. </xs:documentation>
         </xs:annotation>
         <xs:simpleContent>
-            <xs:extension base="xs:string">
+            <xs:extension base="nonemptycontentStringType">
                 <xs:attribute name="uri" type="version"/>
             </xs:extension>
         </xs:simpleContent>
@@ -126,27 +98,40 @@
     </xs:complexType>
     </xs:element>
 
-    <xs:element name="type">
+    <xs:element name="resourceType">
         <xs:complexType>
             <xs:annotation>
                 <xs:documentation>The type of scientific output the resource is a manifestation of. Allowed values for the attribute URI belongs to the COAR vocabulary for Resource Type Genres (version 1.1) </xs:documentation>
             </xs:annotation>
             <xs:simpleContent>
-                <xs:extension base="xs:string">
-                    <xs:attribute name="uri" type="resourceType"/>
+                <xs:extension base="nonemptycontentStringType">
+                    <xs:attribute name="resourceTypeGeneral" type="resourceTypeGeneral" use="required"/>
+                    <xs:attribute name="uri" type="resourceType" use="required"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
     </xs:element>
+
+    <xs:simpleType name="resourceTypeGeneral" id="resourceTypeGeneral">
+        <xs:annotation>
+            <xs:documentation>The general resource type as supported in OpenAIRE</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="publication"/>
+            <xs:enumeration value="dataset"/>
+            <xs:enumeration value="software"/>
+            <xs:enumeration value="other research product"/>
+        </xs:restriction>
+    </xs:simpleType>
  
-    <xs:element name="rights">
+    <xs:element name="accessRights">
         <xs:complexType>
             <xs:annotation>
                 <xs:documentation>Main access right for the resource from coar vocabulary. </xs:documentation>
             </xs:annotation>
             <xs:simpleContent>
-                <xs:extension base="xs:string">
-                    <xs:attribute name="uri" type="accessRight"/>
+                <xs:extension base="nonemptycontentStringType">
+                    <xs:attribute name="uri" type="accessRight" use="required"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>

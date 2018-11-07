@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           targetNamespace="http://purl.org/dc/terms/"
+           xmlns="http://purl.org/dc/terms/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+
+  <xs:annotation>
+    <xs:documentation xml:lang="en">
+      DCterms XML Schema
+      XML Schema for http://purl.org/dc/terms/ namespace
+ 
+      Created 2008-02-11
+
+      Created by 
+
+      Tim Cole (t-cole3@uiuc.edu)
+      Tom Habing (thabing@uiuc.edu)
+      Jane Hunter (jane@dstc.edu.au)
+      Pete Johnston (p.johnston@ukoln.ac.uk),
+      Carl Lagoze (lagoze@cs.cornell.edu)
+
+      This schema declares XML elements for the DC elements and
+      DC element refinements from the http://purl.org/dc/terms/ namespace.
+      
+      It reuses the complexType dc:SimpleLiteral, imported from the dc.xsd
+      schema, which permits simple element content, and makes the xml:lang
+      attribute available.
+
+      This complexType permits the derivation of other complexTypes
+      which would permit child elements.
+
+      XML elements corresponding to DC elements are declared as substitutable for the abstract element dc:any, and 
+      XML elements corresponding to DC element refinements are defined as substitutable for the base elements 
+      which they refine.
+
+      This means that the default type for all XML elements (i.e. corresponding to all DC elements and 
+      element refinements) is dc:SimpleLiteral.
+
+      Encoding schemes are defined as complexTypes which are restrictions
+      of the dc:SimpleLiteral complexType. These complexTypes restrict 
+      values to an appropriates syntax or format using data typing,
+      regular expressions, or enumerated lists.
+  
+      In order to specify one of these encodings an xsi:type attribute must 
+      be used in the instance document.
+
+      Also, note that one shortcoming of this approach is that any type can be 
+      applied to any of the elements or refinements.  There is no convenient way
+      to restrict types to specific elements using this approach.
+
+      Changes in 2008-02-11 version:
+      
+      Add element declarations corresponding to 15 new dcterms URIs, and amend use of substitutionGroups.
+      
+      Add compexType definitions corresponding to ISO639-3, RFC4646.
+      
+    </xs:documentation>
+
+  </xs:annotation>
+
+  <xs:import namespace="http://purl.org/dc/elements/1.1/"
+    schemaLocation="dc.xsd"/>
+
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+             schemaLocation="http://www.w3.org/2001/03/xml.xsd">
+  </xs:import>
+
+  <xs:element name="audience" substitutionGroup="dc:any"/>
+
+
+</xs:schema>
