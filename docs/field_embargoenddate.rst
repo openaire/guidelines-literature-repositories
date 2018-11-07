@@ -25,7 +25,7 @@ A date associated with an event in the life cycle of the resource. Typically, Da
 * introduced as "info:eu-repo/date/embargoEnd/[YYYY-MM-DD]" in previous versions of the OpenAIRE Guidelines
 * this version of the application profile adopts the *Date* element in combination with *dateType* attributes from DataCite MetadataKernel v4.1 which replaces the ``info:eu-repo/date/EmbargoEnd`` syntax.
 
-When :ref:`dct:accessrights` is set to::
+When :ref:`aire:accessrights` is set to::
 
     <dcterms:accessRights uri="http://purl.org/coar/access_right/c_f1cf">embargoed access</<dcterms:accessRights>
 

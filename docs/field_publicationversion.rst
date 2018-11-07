@@ -17,12 +17,17 @@ Definition and Usage Instruction
 
 **Usage**
 
-*Recommended*: Version (controlled): to indicate the status in the publication process.
+*Recommended*: Version (controlled): to indicate the status in the publication process of journal articles.
 
 Terms are reused from the  "Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group" (`JAV`_).
 
-This property *must* include the attribute 'uri'.  Allowed HTTP URI are from the `COAR Version Types Vocabulary`_.
+This property *must* include the attribute 'uri'.
 The value of the property is the corresponding label of the HTTP URI.
+
+Attribute uri (M)
+------------------
+
+Allowed HTTP URI are from the `COAR Version Types Vocabulary`_.
 
 **Version (controlled):**
 

@@ -32,9 +32,9 @@ If one specific resource (an instance of scientific output) has more than one ph
 **Do Not Confuse With**
 
 * :ref:`aire:resourceType`
-* :ref:`dc:identifier`
+* :ref:`dci:identifier`
 
-DC element ``format`` describes the media type of this resource. DC element ``type`` describes the kind of academic output the resource is a representation of. ``dc:identifier`` is used to represent manifestations of digital resources.
+DC element ``format`` describes the media type of this resource. ``oaire:resourceType`` describes the kind of academic output the resource is a representation of. ``datacite:identifier`` is used to represent the manifestation of the digital resource.
 
 **Remarks**
 

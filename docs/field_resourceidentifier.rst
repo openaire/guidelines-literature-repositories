@@ -1,9 +1,9 @@
-.. _dc:identifier:
+.. _dci:identifier:
 
 14 Resource Identifier (M)
 ==========================
 
-``dc:identifier``
+``datacite:identifier``
 
 Cardinality
 ~~~~~~~~~~~
@@ -15,15 +15,13 @@ Cardinality
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
-
-An unambiguous reference to the resource within a given context.
+The Identifier is a unique string that identifies a resource.
 
 **Usage Instruction**
 
 Recommended best practice is to identify the resource by means of a string or number conforming to a formal identification system. Example formal identification systems include the Uniform Resource Identifier (URI), the Uniform Resource Locator (URL), the Digital Object Identifier (DOI), and the ``URN:NBN``. Also this can be a direct URL, or a redirection URL, like PURL, HANDLE or other international resolution mechanisms.
 
-The ideal use of this element is to use a direct link or a link to a jump-off page (persistent URL) from ``dc:identifier`` in the metadata record to the digital resource or a jump-off page.
+The ideal use of this element is to use a direct link or a link to a jump-off page (persistent URL) from ``identifier`` in the metadata record to the digital resource or a jump-off page.
 
 Smart practice:
 
@@ -31,14 +29,30 @@ Smart practice:
 
 **Do Not Confuse With**
 
-* :ref:`dci:alternativeIdentifier` (Use ``dci:alternativeIdentifier`` to list other identifiers than the primary identifier applied to the same resource.)
-* :ref:`dci:relatedIdentifier` (Use ``dci:relatedIdentifier`` to refer to related resources.)
+* :ref:`dci:alternativeIdentifier` (Use ``datacite:alternativeIdentifier`` to list other identifiers than the primary identifier applied to the same resource.)
+* :ref:`dci:relatedIdentifier` (Use ``datacite:relatedIdentifier`` to refer to related resources.)
 * :ref:`aire:file` (Use ``oaire:file`` to point to the resource being desccribed by this metadata, e.g. the fulltext file.)
 * :ref:`dc:source` (Use ``dc:source`` for bibliographic citation of the originating resource.)
 
-**Remarks**
 
-* introduced in `DRIVER Guidelines v2 element identifier`_
+Attribute identifierType (M)
+----------------------------
+
+The type of the Identifier (occurrences: 1).
+
+**Allowed values, examples, other constraints**
+
+*Controlled list values*
+
+* ARK
+* DOI
+* Handle
+* PURL
+* URN
+* URL
+
+.. note::
+   Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
 
 Example
 ~~~~~~~
@@ -48,6 +62,4 @@ In this example the handle redirects to the jump-off page. A jump-off page is a 
 .. code-block:: xml
    :linenos:
 
-   <dc:identifier>http://hdl.handle.net/1234/5628</dc:identifier>
-
-.. _DRIVER Guidelines v2 element identifier: https://wiki.surfnet.nl/display/DRIVERguidelines/Identifier
+   <oaire:identifier identifierType="Handle">http://hdl.handle.net/1234/5628</oaire:identifier>

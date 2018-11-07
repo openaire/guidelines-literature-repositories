@@ -29,7 +29,7 @@ Use: Guidelines for Encoding Bibliographic Citation Information in Dublin Core M
 
 **Do Not Confuse With**
 
-* :ref:`dc:identifier`
+* :ref:`dci:identifier`
 
 **Remarks**
 

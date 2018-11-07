@@ -29,7 +29,7 @@ The label of this concept is used as value for the *ResourceType* element.
 
 **Remarks**
 
-* former versions of the OpenAIRE Guidelines used the `info:eu-repo vocabulary for publication types <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-Semantics>`_.
+* former versions of the OpenAIRE Guidelines used the `info:eu-repo vocabulary for publication types <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-Publicationtypes>`_.
 * adopting *resourceType* element from DataCite MetadataKernel v4.1.
 * adding the *uri* attribute for resource type concept URI to this application profile
 
@@ -40,10 +40,10 @@ The general type of a resource.
 
 *Controlled list values*
 
-* Publication
-* Dataset
-* Software
-* Other Research Product
+* ``publication``
+* ``dataset``
+* ``software``
+* ``other research product``
 
 Attribute uri (M)
 -----------------

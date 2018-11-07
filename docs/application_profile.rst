@@ -23,7 +23,6 @@ This documentation uses the following namespace abbreviations:
 * ``dc``: http://purl.org/dc/elements/1.1/
 * ``dcterms``: http://purl.org/dc/terms/
 * ``datacite``: http://datacite.org/schema/kernel-4
-* ``rdf`` : `<http://www.w3.org/1999/02/22-rdf-syntax-ns#>`__
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
 
 ======================================== ============================= ===========================================================================
@@ -42,8 +41,8 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
-:ref:`dc:identifier`                     dc:identifier
-:ref:`dct:accessrights`                  dcterms:accessRights          `COAR Access Right Vocabulary`_
+:ref:`dci:identifier`                    datacite:identifier           identifierType
+:ref:`aire:accessrights`                 oaire:accessRights            `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
 :ref:`dci:subject`                       datacite:subject              
 :ref:`aire:licenseCondition`             oaire:licenseCondition
