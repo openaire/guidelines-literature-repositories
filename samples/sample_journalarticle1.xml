@@ -45,8 +45,8 @@
         <datacite:title xml:lang="eng">Redox‐Neutral Dual Functionalization of Electron‐Deficient Alkenes</datacite:title>
     </datacite:titles>
     <datacite:dates>
-        <datacite:date dateType="Accepted">2018/02/25      </datacite:date>
-        <datacite:date dateType="Available">2019/02/25</datacite:date>
+        <datacite:date dateType="Accepted">2018-02-25</datacite:date>
+        <datacite:date dateType="Available">2019-02-25</datacite:date>
     </datacite:dates>
 
     <dc:description xml:lang="eng">Visible‐light photoredox catalysis has been utilized in a new
@@ -58,14 +58,14 @@
         demonstrating robust methodology with broad substrate scope.</dc:description>
     <dc:language>eng</dc:language>
 
-    <type uri="http://purl.org/coar/resource_type/c_6501">journal article</type>
+    <resourceType resourceTypeGeneral="publication" uri="http://purl.org/coar/resource_type/c_6501">journal article</resourceType>
     <identifier identifierType="URL">http://europepmc.org/articles/PMC5574022</identifier>
 
     <dc:publisher>John Wiley and Sons Inc.</dc:publisher>
-    <version rdf:resource="http://purl.org/coar/version/c_71e4c1898caa6e32">SMUR</version>
-    <rights uri="http://purl.org/coar/access_right/c_abf2">open access</rights>
+    <version uri="http://purl.org/coar/version/c_71e4c1898caa6e32">SMUR</version>
+    <accessRights uri="http://purl.org/coar/access_right/c_abf2">open access</accessRights>
 
-    <licenseCondition licenseURI="http://creativecommons.org/licenses/by-nc/4.0/" startDate="2018-10-23">Creative Commons Attribution‐NonCommercial</licenseCondition>
+    <licenseCondition uri="http://creativecommons.org/licenses/by-nc/4.0/" startDate="2018-10-23">Creative Commons Attribution‐NonCommercial</licenseCondition>
     <datacite:subjects>
         <datacite:subject>acyl radicals</datacite:subject>
         <datacite:subject>cascade transformation</datacite:subject>
