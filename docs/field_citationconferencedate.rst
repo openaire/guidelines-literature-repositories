@@ -17,6 +17,11 @@ Definition and Usage Instruction
 
 The date when the conference took place
 
+Property citationConferenceDate (R, 0-1)
+----------------------------------------
+
+Use the date as value.
+
 Example
 ~~~~~~~
 

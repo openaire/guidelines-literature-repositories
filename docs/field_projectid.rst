@@ -27,6 +27,10 @@ Information about financial support (funding) for the resource being registered.
 * adopting fundingReference element and subproperties from DataCite MetadataKernel v4.1 which replaces the ``info:eu-repo/grantAgreement`` syntax.
 * adding subproperty fundingStream to this application profile
 
+Property fundingReference (MA, 0-n)
+-----------------------------------
+
+Repeat this property to indicate several different funders and projects.
 
 Subproperty funderName (M)
 --------------------------

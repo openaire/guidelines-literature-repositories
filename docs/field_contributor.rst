@@ -27,12 +27,16 @@ The institution or person responsible for collecting, managing, distributing, or
 
 * adapted from `DataCite MetadataKernel`_ v4.1
 
+Property contributor (MA, 0-n)
+------------------------------
+
+
 .. _dci:contributor_contributorType:
 
 Attribute contributorType (M)
 -----------------------------
 
-The type of contributor of the resource (occurence: 1). Mandatory if *Contributor* is used.
+The type of contributor of the resource (occurence: 1). Mandatory if *contributor* is used.
 
 *Controlled list values*
 

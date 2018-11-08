@@ -17,6 +17,11 @@ Definition and Usage Instruction
 
 The volume, typically a number, of the container (e.g. journal)
 
+Property citationVolume (R, 0-1)
+--------------------------------
+
+Use the volume number as value.
+
 Example
 ~~~~~~~
 

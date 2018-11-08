@@ -20,13 +20,6 @@ Access right of the resource.
 Information about the right or mode the resource can be accessed.
 If the metadata describe more than one resource, e.g. fulltext and supplementary material, the access right of the main resource should be provided.
 
-**Remarks**
-
-* former versions of the OpenAIRE Guidelines used the `info:eu-repo-Access-Terms vocabulary <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_.
-
-Attribute uri (M)
------------------
-
 Use terms from the `COAR Access Right Vocabulary`_ (occurence: 1).
 
 ======================================== ========================
@@ -38,6 +31,20 @@ http://purl.org/coar/access_right/c_16ec ``restricted access``
 http://purl.org/coar/access_right/c_14cb ``metadata only access``
 ======================================== ========================
 
+**Remarks**
+
+* former versions of the OpenAIRE Guidelines used the `info:eu-repo-Access-Terms vocabulary <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_.
+
+
+Property accessRights (M, 1)
+----------------------------
+
+Use the label of the vocabulary term as value.
+
+Attribute uri (M)
+-----------------
+
+Use the conceptURI of the vocabulary term.
 
 Example
 ~~~~~~~

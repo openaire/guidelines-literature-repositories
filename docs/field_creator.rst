@@ -26,6 +26,9 @@ The authors of the publication in priority order. May be a corporate/institution
 
 * adapted from `DataCite MetadataKernel`_ v4.1
 
+Property creator (M, 1-n)
+-------------------------
+
 
 .. _dci:creator_creatorName:
 

@@ -56,6 +56,10 @@ To express more about that temporal period, one can use the ``dc:coverage`` fiel
 * introduced in `DRIVER Guidelines v2 element date`_
 * this version of the application profile adopts the *Date* element in combination with *dateType* attribute from `DataCite MetadataKernel`_ v4.1.
 
+Property date (M, 1)
+--------------------
+
+Use the publication date as value.
 
 Attribute dateType (M)
 ----------------------

@@ -26,6 +26,11 @@ It is recommended to use literal or non-literal values. If necessary, repeat thi
 * introduced in `DRIVER Guidelines v2 element coverage`_
 * to describe spatial location information (a place name or geographic coordinates) use the property :ref:`dci:geolocation`
 
+Property coverage (R, 0-n)
+--------------------------
+
+Use temporal period or jurisdiction information as value.
+
 Example
 ~~~~~~~
 

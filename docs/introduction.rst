@@ -16,7 +16,7 @@ implementation of the `FP7 OA pilot <http://www.openaire.eu>`_. However, this
 version of the Guidelines, according to the expansion of the aims of the
 OpenAIRE project and infrastructure, has a broader scope. In fact, these
 Guidelines are intended to guide repository manager to expose to the OpenAIRE
-infrastructure not only EC funded publications, but also other Open Access
+infrastructure not only EC funded publications, but also other open access and non-open access
 publications, regardless of their funding.
 
 So, by implementing these Guidelines, repository managers will not only be
@@ -38,6 +38,7 @@ the following major changes:
 * an application profile and schema based on Dublin Core and DataCite incl. a new OAI-metadataPrefix
 * support of identifier schemes for authors, organizations, funders, scholarly resources
 * introduction of COAR Controlled Vocabularies
+* compliance with the OpenAIRE Content Acquisition Policy, published on 05-Oct-2018, https://doi.org/10.5281/zenodo.1446407
 
 Acknowledgements & Contributors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

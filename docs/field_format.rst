@@ -40,6 +40,11 @@ DC element ``format`` describes the media type of this resource. ``oaire:resourc
 
 * introduced in `DRIVER Guidelines v2 element format`_
 
+Property format (R, 0-n)
+------------------------
+
+Use the media type of the resource as value.
+
 Example
 ~~~~~~~
 

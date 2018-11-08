@@ -17,6 +17,11 @@ Definition and Usage Instruction
 
 The title name of the container (e.g. journal, book, conference) this work is published in.
 
+Property citationTitle (R, 0-1)
+-------------------------------
+
+Use the title name as value.
+
 Example
 ~~~~~~~
 .. code-block:: xml

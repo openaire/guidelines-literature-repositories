@@ -10,12 +10,17 @@ Cardinality
 
 *Recommended*
 
-*Occurence: 0-1*
+*Occurence: 0-n*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An unambiguous reference to the files, e.g. fulltext, the resource is associated with.
+An unambiguous reference to the files, e.g. fulltext, the resource is associated with. Repeat the property for each associated file.
+
+Property file (MA, 0-n)
+-----------------------
+
+Use the HTTP URI of the file as value.
 
 Attribute accessRightsURI (R)
 -----------------------------

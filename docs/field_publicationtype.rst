@@ -33,6 +33,11 @@ The label of this concept is used as value for the *ResourceType* element.
 * adopting *resourceType* element from DataCite MetadataKernel v4.1.
 * adding the *uri* attribute for resource type concept URI to this application profile
 
+Property resourceType (M, 1)
+----------------------------
+
+Use the label of the resource type term as value.
+
 Attribute resourceTypeGeneral (M)
 ---------------------------------
 

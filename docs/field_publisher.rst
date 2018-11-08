@@ -10,7 +10,7 @@ Cardinality
 
 *Mandatory if applicable*
 
-*Occurence: 0..n*
+*Occurence: 0-n*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,6 +37,11 @@ In most cases the publisher and the creator are not the same.
 **Remarks**
 
 * introduced in `DRIVER Guidelines v2 element publisher`_
+
+Property publisher (MA, 0-n)
+----------------------------
+
+Use the name of the publisher as value.
 
 Example
 ~~~~~~~

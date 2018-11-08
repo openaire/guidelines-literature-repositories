@@ -16,7 +16,9 @@ Cardinality
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The language of the description (occurences: 0-n)
+**DCMI Definition**
+
+An account of the content of the resource. Description may include but is not limited to: an abstract, table of contents, reference to a graphical representation of content or a free-text account of the content.
 
 **Usage Instruction**
 
@@ -25,6 +27,11 @@ This element is used for a textual description of the content. When a resource c
 **Remarks**
 
 * introduced in `DRIVER Guidelines v2 element description`_
+
+Property description (MA, 0-n)
+------------------------------
+
+Use the textual description as value.
 
 .. _dc:description_lang:
 

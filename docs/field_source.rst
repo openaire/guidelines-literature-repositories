@@ -35,6 +35,11 @@ Use: Guidelines for Encoding Bibliographic Citation Information in Dublin Core M
 
 * introduced in `DRIVER Guidelines v2 element source`_
 
+Property source (R, 0-n)
+------------------------
+
+Use source information as value.
+
 Example
 ~~~~~~~
 .. code-block:: xml

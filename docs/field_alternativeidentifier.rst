@@ -21,6 +21,11 @@ An identifier or identifiers other than the primary Identifier applied to the re
 
 * adapted from `DataCite MetadataKernel`_ v4.1
 
+Property alternateIdentifier (R, 0-n)
+-------------------------------------
+
+Value of the atlernate identifier.
+
 Attribute alternateIdentifierType (M)
 -------------------------------------
 

@@ -34,6 +34,10 @@ Smart practice:
 * :ref:`aire:file` (Use ``oaire:file`` to point to the resource being desccribed by this metadata, e.g. the fulltext file.)
 * :ref:`dc:source` (Use ``dc:source`` for bibliographic citation of the originating resource.)
 
+Property identifier (M, 1)
+--------------------------
+
+Use the identifier link as value.
 
 Attribute identifierType (M)
 ----------------------------

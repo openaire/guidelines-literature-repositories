@@ -17,6 +17,11 @@ Definition and Usage Instruction
 
 The place where the conference took place
 
+Property citationConferencePlace (R, 0-1)
+-----------------------------------------
+
+Use the name of the place as value.
+
 Example
 ~~~~~~~
 

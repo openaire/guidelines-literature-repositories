@@ -17,6 +17,11 @@ Definition and Usage Instruction
 
 The issue of the container (e.g. journal)
 
+Property citationIssue (R, 0-1)
+-------------------------------
+
+Use the issue number as value.
+
 Example
 ~~~~~~~
 

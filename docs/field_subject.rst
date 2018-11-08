@@ -38,6 +38,11 @@ More information about the DDC and the DDC Summaries can be found at https://www
 
 * adapted from `DataCite MetadataKernel`_ v4.1
 
+Property subject (MA, 0-n)
+--------------------------
+
+Use subject name or keyword as value.
+
 .. _dci:subject_subjectScheme:
 
 Attribute subjectScheme (O)

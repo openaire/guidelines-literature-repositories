@@ -10,7 +10,7 @@ Cardinality
 
 *Mandatory if applicable*
 
-*Occurence: 0..n*
+*Occurence: 0-n*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -36,6 +36,10 @@ If ISO 639-2 and 639-1 are sufficient for the contents of a repository they can 
 
 * introduced in `DRIVER Guidelines v2 element language`_
 
+Property language (MA, 0-n)
+---------------------------
+
+Use the language code as value.
 
 Example
 ~~~~~~~

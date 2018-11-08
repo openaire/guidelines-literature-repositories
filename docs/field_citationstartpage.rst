@@ -17,6 +17,11 @@ Definition and Usage Instruction
 
 The start page of the work published in a container (e.g. journal issue)
 
+Property citationStartPage (R, 0-1)
+-----------------------------------
+
+Use the start page number as value.
+
 Example
 ~~~~~~~
 

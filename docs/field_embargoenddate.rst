@@ -11,7 +11,7 @@ Cardinality
 
 *Mandatory if applicable*
 
-*Occurence: 0-1*
+*Occurence: 2*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -30,6 +30,11 @@ When :ref:`aire:accessrights` is set to::
     <dcterms:accessRights uri="http://purl.org/coar/access_right/c_f1cf">embargoed access</<dcterms:accessRights>
 
 the end date of the embargo period must be provided.
+
+Property date (MA, 2)
+-----------------------
+
+Use the date of the embargo start as value in one property and the date of the embargo end in the other property.
 
 Attribute dateType (M)
 ----------------------

@@ -17,6 +17,11 @@ Definition and Usage Instruction
 
 The end page of the work published in a container (e.g. journal issue)
 
+Property citationEndPage (R, 0-1)
+---------------------------------
+
+Use the end page number as value.
+
 Example
 ~~~~~~~
 

@@ -21,6 +21,11 @@ An identifier of a related resource other than the primary Identifier applied to
 
 * adapted from `DataCite MetadataKernel`_ v4.1
 
+Property relatedIdentifier (R, 0-n)
+-----------------------------------
+
+Use the related identifier as value. Repeat this property for each related identifier.
+
 Attribute relatedIdentifierType (M)
 -----------------------------------
 

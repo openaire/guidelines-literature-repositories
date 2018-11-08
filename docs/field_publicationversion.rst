@@ -10,7 +10,7 @@ Cardinality
 
 *Mandatory if applicable*
 
-*Occurence: 0-1*
+*Occurence: 1*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -23,6 +23,11 @@ Terms are reused from the  "Journal Article Versions (JAV): Recommendations of t
 
 This property *must* include the attribute 'uri'.
 The value of the property is the corresponding label of the HTTP URI.
+
+Property version (MA, 1)
+------------------------
+
+Use the label of the vocabulary term as value.
 
 Attribute uri (M)
 ------------------

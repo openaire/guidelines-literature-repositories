@@ -1,7 +1,7 @@
 .. _dci:title:
 
 1. Title (M)
-------------
+============
 
 ``datacite:title``
 
@@ -25,13 +25,18 @@ Free text.
 
 * adapted from `DataCite MetadataKernel`_ v4.1
 
+Property title (M, 1-n)
+-----------------------
+
+Use the title name as value. Repeat this property for different title types or title languages.
+
 Attribute lang (O)
-******************
+------------------
 
 The language of the title (occurences: 0-1)
 
 Attribute titleType (O)
-***********************
+-----------------------
 
 The type of Title (occurrences: 0-1).
 

@@ -1,7 +1,8 @@
 Use of OAI-PMH
 ==============
 
-OpenAIRE uses the `OAI-PMH v2.0 protocol <http://www.openarchives.org/OAI/openarchivesprotocol.html>`_ for harvesting publication metadata.
+OpenAIRE supports a number of transfer protocols and interfaces for collecting bibliographic metadata.
+The usage of one of the major protocols, `OAI-PMH v2.0 protocol <http://www.openarchives.org/OAI/openarchivesprotocol.html>`_, in the context of these Guidelines its application profile is described below.
 
 Metadata Format
 ^^^^^^^^^^^^^^^
@@ -41,7 +42,7 @@ This includes bibliographic metadata describing open access and non open access 
 
 .. FIXME
 
-Compatibility of aggregators
+Compatibility of Aggregators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Besides individual repositories and journals, also aggregators (e.g., on the national level) can become OpenAIRE compatible. In this case, additional provenance information on the original content providers harvested by the aggregator has to be encoded for OpenAIRE.
 In accordance with the `OAI-PMH guidelines <http://www.openarchives.org/OAI/2.0/guidelines-provenance.htm>`_, the provenance information has to be provided in the ``about`` element of an OAI record, as displayed in the following example:

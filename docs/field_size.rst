@@ -27,6 +27,11 @@ Examples: "15 pages", "6 MB"
 
 * adapted from `DataCite MetadataKernel`_ v4.1
 
+Property size (O, 0-n)
+----------------------
+
+Use size information as value. Repeat the property for different size information domains.
+
 Example
 ~~~~~~~
 .. code-block:: xml

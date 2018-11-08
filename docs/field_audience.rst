@@ -42,6 +42,11 @@ A class of entity may be determined by the creator or the publisher or by a thir
 
 * introduced in `DRIVER Guidelines v2 element audience`_
 
+Property audience (O, 0-n)
+--------------------------
+
+Use the class of entity as value.
+
 Example
 ~~~~~~~
 .. code-block:: xml

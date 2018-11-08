@@ -17,6 +17,11 @@ Definition and Usage Instruction
 
 The edition the work was published in (e.g. book edition)
 
+Property citationEdition (R, 0-1)
+---------------------------------
+
+Use the edition number as value.
+
 Example
 ~~~~~~~
 

@@ -16,6 +16,10 @@ Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spatial region or named place where the data was gathered or about which the data is focused.
+
+Property geoLocation (O, 0-n)
+-----------------------------
+
 Repeat this property to indicate several different locations.
 
 .. _d:geolocationpoint:
