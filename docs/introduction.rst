@@ -15,7 +15,7 @@ versions of the OpenAIRE Guidelines, were established to support and monitor the
 implementation of the `FP7 OA pilot <http://www.openaire.eu>`_. However, this
 version of the Guidelines, according to the expansion of the aims of the
 OpenAIRE project and infrastructure, has a broader scope. In fact, these
-guidelines are intended to guide repository manager to expose to the OpenAIRE
+Guidelines are intended to guide repository manager to expose to the OpenAIRE
 infrastructure not only EC funded publications, but also other Open Access
 publications, regardless of their funding.
 
