@@ -8,9 +8,8 @@
            xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd" >
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd"/>
     
-    <xs:include schemaLocation="versions-v4.xsd"/>
-    <xs:include schemaLocation="accessRight-v4.xsd"/>
-    <xs:include schemaLocation="resourceType-v4.xsd"></xs:include>
+    <xs:include schemaLocation="oaire-versions-v4.xsd"/>
+    <xs:include schemaLocation="oaire-resourceType-v4.xsd"></xs:include>
     
     <xs:annotation>
         <xs:documentation>
@@ -123,21 +122,7 @@
             <xs:enumeration value="other research product"/>
         </xs:restriction>
     </xs:simpleType>
- 
-    <xs:element name="accessRights">
-        <xs:complexType>
-            <xs:annotation>
-                <xs:documentation>Main access right for the resource from coar vocabulary. </xs:documentation>
-            </xs:annotation>
-            <xs:simpleContent>
-                <xs:extension base="nonemptycontentStringType">
-                    <xs:attribute name="uri" type="accessRight" use="required"/>
-                </xs:extension>
-            </xs:simpleContent>
-        </xs:complexType>
-    </xs:element>
-    
-    
+     
     <xs:element name="fundingReferences">
         <xs:complexType>
             <xs:sequence>

@@ -16,6 +16,8 @@
     <xs:include schemaLocation="datacite-nameType-v4.xsd"/>
     <xs:include schemaLocation="datacite-resourceType-v4.1.xsd"/>
     <xs:include schemaLocation="oaire-identifierType-v4.0.xsd"/>
+    <xs:include schemaLocation="oaire-accessRight-v4.xsd"/>
+
     <xs:import namespace="http://namespace.openaire.eu/schema/oaire/" schemaLocation="oaire.xsd"/>
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd"/>
     
@@ -222,6 +224,20 @@
                     </xs:annotation>
                 </xs:element>
             </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="rights" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+            <xs:annotation>
+                <xs:documentation>Main access right for the resource from coar vocabulary. </xs:documentation>
+            </xs:annotation>
+            <xs:simpleContent>
+                <xs:extension base="nonemptycontentStringType">
+                      <xs:attribute name="rightsURI" type="accessRight" use="required"/>
+                      <xs:attribute ref="xml:lang"/>
+                </xs:extension>
+            </xs:simpleContent>
         </xs:complexType>
     </xs:element>
 
