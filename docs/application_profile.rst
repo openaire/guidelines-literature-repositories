@@ -28,16 +28,16 @@ This documentation uses the following namespace abbreviations:
 ======================================== ============================= ===========================================================================
 OpenAIRE-Field                           Metadata Element              Refinement by vocabulary
 ======================================== ============================= ===========================================================================
-:ref:`dci:title`                         datacite:title                DataCite title type
-:ref:`dci:creator`                       datacite:creator              DataCite name type
-:ref:`dci:contributor`                   datacite:contributor          DataCite name type, contributor type
-:ref:`aire:fundingReference`             oaire:fundingReference        DataCite funderIdentifier type
+:ref:`dci:title`                         datacite:title                title type
+:ref:`dci:creator`                       datacite:creator              name type
+:ref:`dci:contributor`                   datacite:contributor          name type, contributor type
+:ref:`aire:fundingReference`             oaire:fundingReference        funderIdentifier type
 :ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  alternateIdentifier type
-:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    DataCite relatedIdentifier type
-:ref:`dci:dateEmbargo`                   datacite:date                 DataCite dateType
+:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    relatedIdentifier type
+:ref:`dci:dateEmbargo`                   datacite:date                 dateType
 :ref:`dc:language`                       dc:language                   `IETF BCP 47`_, ISO 639-1,2,3
 :ref:`dc:publisher`                      dc:publisher
-:ref:`dci:datePublication`               datacite:date                 DataCite dateType
+:ref:`dci:datePublication`               datacite:date                 dateType
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
