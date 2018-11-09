@@ -42,7 +42,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
 :ref:`dci:identifier`                    datacite:identifier           identifierType
-:ref:`aire:accessrights`                 oaire:accessRights            `COAR Access Right Vocabulary`_
+:ref:`dci:accessrights`                  datacite:accessRights         `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
 :ref:`dci:subject`                       datacite:subject              
 :ref:`aire:licenseCondition`             oaire:licenseCondition
@@ -92,7 +92,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
    field_coverage
    field_size
    field_geolocation
-   field_publicationversion
+   field_resourceversion
    field_filelocation
    field_citationtitle
    field_citationvolume
