@@ -22,14 +22,14 @@ A date associated with an event in the life cycle of the resource. Typically, Da
 
 **Remarks**
 
-* introduced as "info:eu-repo/date/embargoEnd/[YYYY-MM-DD]" in previous versions of the OpenAIRE Guidelines
+* introduced as `info:eu-repo/date/embargoEnd/[YYYY-MM-DD] <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-DateTypesandvalue>`_ in previous versions of the OpenAIRE Guidelines
 * this version of the application profile adopts the *Date* element in combination with *dateType* attributes from DataCite MetadataKernel v4.1 which replaces the ``info:eu-repo/date/EmbargoEnd`` syntax.
 
-When :ref:`aire:accessrights` is set to::
+When :ref:`dci:accessrights` is set to::
 
-    <dcterms:accessRights uri="http://purl.org/coar/access_right/c_f1cf">embargoed access</<dcterms:accessRights>
+    <datacite:rights uri="http://purl.org/coar/access_right/c_f1cf">embargoed access</<datacite:rights>
 
-the end date of the embargo period must be provided.
+the start and end date of the embargo period must be provided.
 
 Property date (MA, 2)
 -----------------------

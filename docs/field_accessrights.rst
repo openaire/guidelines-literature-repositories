@@ -1,9 +1,9 @@
-.. _aire:accessrights:
+.. _dci:accessrights:
 
 15. Access Rights (M)
 =====================
 
-``oaire:accessRights``
+``datacite:rights``
 
 Cardinality
 ~~~~~~~~~~~
@@ -52,6 +52,6 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <oaire:accessRights uri="http://purl.org/coar/access_right/c_abf2">open access</oaire:accessRights>
+   <datacite:rights rightsURI="http://purl.org/coar/access_right/c_abf2">open access</datacite:rights>
 
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
