@@ -46,6 +46,7 @@ Acknowledgements & Contributors
 **Editors**
 
 * Jochen Schirrwagen (Bielefeld University, Germany)
+* Miriam Baglioni (CNR, Italy)
 
 **Experts & Reviewers**
 
@@ -53,6 +54,8 @@ Acknowledgements & Contributors
 
 * Pedro Principe (University of Minho, Portugal)
 * Paolo Manghi (CNR, Italy)
+* Aenne Loehden (Bielefeld University, Germany)
+* Andreas Czerniak (Bielefeld University, Germany)
 
 *LA Referencia*
 
@@ -67,9 +70,17 @@ Acknowledgements & Contributors
 
 * Paul Walk (Antleaf, UK)
 
+*University of Alberta Libraries*
+
+* Sharon Farnel (University of Alberta Libraries, CA)
+
+*CARL Open Repositories Working Group*
+
+* Pierre Lasou (Université Laval, CA)
+
 Versions
 ^^^^^^^^
-* 4.0, June 2018
+* 4.0, November 2018
 
 * 4.0 draft, November 2017
 
