@@ -1,6 +1,6 @@
 .. _aire:version:
 
-22. Resource Version (MA)
+22. Resource Version (R)
 ===========================
 
 ``oaire:version``
@@ -8,28 +8,32 @@
 Cardinality
 ~~~~~~~~~~~
 
-*Mandatory if applicable*
+*Recommended*
 
 *Occurence: 1*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Depening on the resource type this property is used to indicate
+
+* the version number of a dataset or software
+* the status in the publication process of journal articles.
+
 **Usage**
 
-*Recommended*: Version (controlled): to indicate the status in the publication process of journal articles.
+For *software* and *dataset* resources any string will be accepted, but a semantically-versioned tag is recommended.
+See <https://semver.org> for more information on semantic versioning.
 
-Terms are reused from the  "Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group" (`JAV`_).
-
-This property *must* include the attribute 'uri'.
+For *preprints* and *articles* in the journal publishing process a controlled term must be used from the  "Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group" (`JAV`_). In tis case the property *must* include the attribute 'uri'.
 The value of the property is the corresponding label of the HTTP URI.
 
-Property version (MA, 1)
+Property version (R, 1)
 ------------------------
 
-Use the label of the vocabulary term as value.
+Use either a version number or the label of the vocabulary term as value.
 
-Attribute uri (M)
+Attribute uri (MA)
 ------------------
 
 Allowed HTTP URI are from the `COAR Version Types Vocabulary`_.
@@ -54,7 +58,13 @@ Example
 .. code-block:: xml
    :linenos:
 
+   <oaire:version>1.0.3</oaire:version>
+
+.. code-block:: xml
+   :linenos:
+
    <oaire:version uri="http://purl.org/coar/version/c_be7fb7dd8ff6fe43">AM</oaire:version>
+
 
 .. _COAR Version Types Vocabulary: http://vocabularies.coar-repositories.org/documentation/version_types/
 .. _JAV: https://www.niso.org/publications/niso-rp-8-2008-jav
