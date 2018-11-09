@@ -15,7 +15,7 @@ Cardinality
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The place where the conference took place
+The place where the conference took place. This property is considered to be part of the bibliographic citation.
 
 Property citationConferencePlace (R, 0-1)
 -----------------------------------------

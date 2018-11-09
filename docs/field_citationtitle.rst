@@ -15,7 +15,7 @@ Cardinality
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The title name of the container (e.g. journal, book, conference) this work is published in.
+The title name of the container (e.g. journal, book, conference) this work is published in. This property is considered to be part of the bibliographic citation.
 
 Property citationTitle (R, 0-1)
 -------------------------------

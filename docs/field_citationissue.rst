@@ -15,7 +15,7 @@ Cardinality
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The issue of the container (e.g. journal)
+The issue of the container (e.g. journal). This property is considered to be part of the bibliographic citation.
 
 Property citationIssue (R, 0-1)
 -------------------------------

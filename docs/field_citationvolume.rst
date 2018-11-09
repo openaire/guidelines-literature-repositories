@@ -15,7 +15,7 @@ Cardinality
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The volume, typically a number, of the container (e.g. journal)
+The volume, typically a number, of the container (e.g. journal). This property is considered to be part of the bibliographic citation.
 
 Property citationVolume (R, 0-1)
 --------------------------------

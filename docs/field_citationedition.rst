@@ -15,7 +15,7 @@ Cardinality
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The edition the work was published in (e.g. book edition)
+The edition the work was published in (e.g. book edition). This property is considered to be part of the bibliographic citation.
 
 Property citationEdition (R, 0-1)
 ---------------------------------

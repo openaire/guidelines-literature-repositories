@@ -15,12 +15,15 @@ Cardinality
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The date when the conference took place
+The date when the conference took place. This property is considered to be part of the bibliographic citation.
 
 Property citationConferenceDate (R, 0-1)
 ----------------------------------------
 
-Use the date as value.
+Use the *single date* or *start date* and *end date* as values following these patterns:
+
+* ``YYYY-MM-DD``
+* ``YYYY-MM-DD - YYYY-MM-DD``
 
 Example
 ~~~~~~~
@@ -28,5 +31,9 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <oaire:citationConferenceDate>September 22-26, 2013</oaire:citationConferenceDate>
+   <oaire:citationConferenceDate>2013-10-22</oaire:citationConferenceDate>
 
+.. code-block:: xml
+   :linenos:
+
+   <oaire:citationConferenceDate>2013-09-22 - 2013-09-26</oaire:citationConferenceDate>
