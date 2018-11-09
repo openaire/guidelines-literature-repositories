@@ -24,5 +24,5 @@
     </datacite:dates>
     <oaire:resourceType resourceTypeGeneral="publication" uri="http://purl.org/coar/resource_type/c_93fc">report</oaire:resourceType>
     <datacite:identifier identifierType="URN">http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-160648</datacite:identifier>
-    <oaire:accessRights uri="http://purl.org/coar/access_right/c_abf2">open access</oaire:accessRights>
+    <datacite:rights rightsURI="http://purl.org/coar/access_right/c_abf2">open access</datacite:rights>
 </oaire:resource>
