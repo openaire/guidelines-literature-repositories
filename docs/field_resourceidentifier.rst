@@ -52,8 +52,8 @@ The type of the Identifier (occurrences: 1).
 * DOI
 * Handle
 * PURL
-* URN
 * URL
+* URN
 
 .. note::
    Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
@@ -66,4 +66,4 @@ In this example the handle redirects to the jump-off page. A jump-off page is a 
 .. code-block:: xml
    :linenos:
 
-   <oaire:identifier identifierType="Handle">http://hdl.handle.net/1234/5628</oaire:identifier>
+   <datacite:identifier identifierType="Handle">http://hdl.handle.net/1234/5628</datacite:identifier>
