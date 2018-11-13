@@ -46,14 +46,7 @@ The type of the Identifier (occurrences: 1).
 
 **Allowed values, examples, other constraints**
 
-*Controlled list values*
-
-* ARK
-* DOI
-* Handle
-* PURL
-* URL
-* URN
+.. include:: vocabularies/identifiertype.rst
 
 .. note::
    Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.

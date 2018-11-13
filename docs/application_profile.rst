@@ -35,13 +35,13 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  alternateIdentifier type
 :ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    relatedIdentifier type
 :ref:`dci:dateEmbargo`                   datacite:date                 dateType
-:ref:`dc:language`                       dc:language                   `IETF BCP 47`_, ISO 639-1,2,3
+:ref:`dc:language`                       dc:language                   `IETF BCP 47`_, `ISO 639-3`_
 :ref:`dc:publisher`                      dc:publisher
 :ref:`dci:datePublication`               datacite:date                 dateType
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
-:ref:`dci:identifier`                    datacite:identifier           identifierType
+:ref:`dci:identifier`                    datacite:identifier           :doc:`vocab_identifiertype`
 :ref:`dci:accessrights`                  datacite:accessRights         `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
 :ref:`dci:subject`                       datacite:subject              
@@ -66,6 +66,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
 .. _COAR Version Vocabulary: http://vocabularies.coar-repositories.org/documentation/version_types/
 .. _IETF BCP 47: http://tools.ietf.org/rfc/bcp/bcp47.txt
+.. _ISO 639-3: https://iso639-3.sil.org/ 
 
 .. toctree::
    :maxdepth: 1
