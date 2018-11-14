@@ -53,7 +53,7 @@ The general type of a resource.
 Attribute uri (M)
 -----------------
 
-Use terms from the `COAR Resource Type Vocabulary`_ (occurence: 1).
+Use terms from the `COAR Resource Type Vocabulary`_ (occurrence: 1).
 
 Example
 ~~~~~~~

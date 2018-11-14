@@ -35,7 +35,7 @@ Property creator (M, 1-n)
 Subproperty creatorName (M)
 ---------------------------
 
-The name of the author (occurence: 1). The format should be: family, given. Non-roman names may be transliterated according to the
+The name of the author (occurrence: 1). The format should be: family, given. Non-roman names may be transliterated according to the
 `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_ schemas.
 
 .. _dci:creator_nameType:
@@ -43,7 +43,7 @@ The name of the author (occurence: 1). The format should be: family, given. Non-
 Attribute nameType (R)
 **********************
 
-The type of name (occurence: 0-1).
+The type of name (occurrence: 0-1).
 
 *Controlled list values*
 
@@ -69,7 +69,7 @@ The surname or last name of the author.
 Subproperty nameIdentifier (R)
 ------------------------------
 
-Uniquely identifies an individual or legal entity, according to various schemes (occurences: 0-n).
+Uniquely identifies an individual or legal entity, according to various schemes (occurrences: 0-n).
 The format is dependent upon scheme.
 
 .. note::
@@ -81,7 +81,7 @@ The format is dependent upon scheme.
 Attribute nameIdentifierScheme (M)
 **********************************
 
-The name of the name identifier scheme (occurence: 1).
+The name of the name identifier scheme (occurrence: 1).
 Mandatory if nameIdentifier is used.
 
 .. _dci:creator_nameIdentifier_schemeURI:
@@ -89,14 +89,14 @@ Mandatory if nameIdentifier is used.
 Attribute schemeURI (R)
 ***********************
 
-The URI of the name identifier scheme (occurence: 0-1).
+The URI of the name identifier scheme (occurrence: 0-1).
 
 .. _dci:creator_affiliation:
 
 Subproperty affiliation (R)
 ---------------------------
 
-The organizational or institutional affiliation of the creator (occurence: 0-n).
+The organizational or institutional affiliation of the creator (occurrence: 0-n).
 
 Example
 ~~~~~~~

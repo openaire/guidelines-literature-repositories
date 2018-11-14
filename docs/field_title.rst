@@ -33,7 +33,7 @@ Use the title name as value. Repeat this property for different title types or t
 Attribute lang (O)
 ------------------
 
-The language of the title (occurences: 0-1)
+The language of the title (occurrences: 0-1)
 
 Attribute titleType (O)
 -----------------------

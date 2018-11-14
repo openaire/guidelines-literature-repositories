@@ -29,7 +29,7 @@ Use the related identifier as value. Repeat this property for each related ident
 Attribute relatedIdentifierType (M)
 -----------------------------------
 
-The type of the RelatedIdentifier (occurence: 1). Mandatory if *RelatedIdentifier* is used.
+The type of the RelatedIdentifier (occurrence: 1). Mandatory if *RelatedIdentifier* is used.
 
 The type value is defined in a controlled list:
 
@@ -57,7 +57,7 @@ The type value is defined in a controlled list:
 Attribute relationType (M)
 --------------------------
 
-Description of the relationship of the resource being registered (A) and the related resource (B) (occurence: 1). Mandatory if *RelatedIdentifier* is used.
+Description of the relationship of the resource being registered (A) and the related resource (B) (occurrence: 1). Mandatory if *RelatedIdentifier* is used.
 
 The type value is defined in a controlled list:
 

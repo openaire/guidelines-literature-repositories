@@ -29,7 +29,7 @@ Value of the atlernate identifier.
 Attribute alternateIdentifierType (M)
 -------------------------------------
 
-The type of the AlternateIdentifier (occurence: 1). Mandatory if *AlternateIdentifier* is used.
+The type of the AlternateIdentifier (occurrence: 1). Mandatory if *AlternateIdentifier* is used.
 
  The type value is *suggested* in the following list:
 

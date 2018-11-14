@@ -38,7 +38,7 @@ Use the textual description as value.
 Attribute lang (O)
 ------------------
 
-The language of the description (occurences: 0-1).
+The language of the description (occurrences: 0-1).
 
 
 Example

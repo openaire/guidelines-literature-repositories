@@ -36,14 +36,14 @@ See :ref:`d:geolocation_instructions`.
 pointLongitude (M)
 ++++++++++++++++++
 
-Longitudinal dimension of point (occurence: 1).
+Longitudinal dimension of point (occurrence: 1).
 
 Mandatory if *geoLocationPoint* is used.
 
 pointLatitude (M)
 +++++++++++++++++
 
-Latitudinal dimension of point (occurence: 1).
+Latitudinal dimension of point (occurrence: 1).
 
 Mandatory if *geoLocationPoint* is used.
 
@@ -99,18 +99,18 @@ A drawn polygon area, defined by a set of points and lines connecting the points
 polygonPoint (M)
 ++++++++++++++++
 
-A point location in a polygon (occurences: 4-n). Mandatory if *geoLocationPolygon* is used.
+A point location in a polygon (occurrences: 4-n). Mandatory if *geoLocationPolygon* is used.
 
 pointLongitude (M)
 ^^^^^^^^^^^^^^^^^^
 
-Longitudinal dimension of point (occurence: 1). Mandatory if *polygonPoint* is used.
+Longitudinal dimension of point (occurrence: 1). Mandatory if *polygonPoint* is used.
 
 
 pointLatitude (M)
 ^^^^^^^^^^^^^^^^^
 
-Latitudinal dimension of point (occurence: 1). Mandatory if *polygonPoint* is used.
+Latitudinal dimension of point (occurrence: 1). Mandatory if *polygonPoint* is used.
 
 inPolygonPoint (O)
 ++++++++++++++++++
@@ -120,12 +120,12 @@ For any bound area that is larger than half the earth, define a (random) point i
 pointLongitude (M)
 ^^^^^^^^^^^^^^^^^^
 
-Longitudinal dimension of point (occurence: 1). Mandatory if *inPolygonPoint* is used.
+Longitudinal dimension of point (occurrence: 1). Mandatory if *inPolygonPoint* is used.
 
 pointLatitude (M)
 ^^^^^^^^^^^^^^^^^
 
-Latitudinal dimension of point (occurence: 1). Mandatory if *inPolygonPoint* is used.
+Latitudinal dimension of point (occurrence: 1). Mandatory if *inPolygonPoint* is used.
 
 .. _d:geolocation_instructions:
 

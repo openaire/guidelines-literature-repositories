@@ -35,17 +35,17 @@ Repeat this property to indicate several different funders and projects.
 Subproperty funderName (M)
 --------------------------
 
-Name of the funding provider (occurence: 1). Mandatory if *FundingReference* is used.
+Name of the funding provider (occurrence: 1). Mandatory if *FundingReference* is used.
 
 Subproperty funderIdentifier (R)
 --------------------------------
 
-Unique identifier of the funding entity (occurence: 0-1).
+Unique identifier of the funding entity (occurrence: 0-1).
 
 Attribute funderIdentifiertype (R)
 **********************************
 
-Type of the unique identifier of the funding entity (occurence: 0-1).
+Type of the unique identifier of the funding entity (occurrence: 0-1).
 
 *Controlled list values*
 
@@ -58,22 +58,22 @@ see also `Open Funder Registry`_
 Subproperty fundingStream (O)
 -----------------------------
 
-Name of the funding stream (optional) (occurence: 0-1).
+Name of the funding stream (optional) (occurrence: 0-1).
 
 Subproperty awardNumber (MA)
 ----------------------------
 
-Project grantId or awardNumber (occurence: 1).
+Project grantId or awardNumber (occurrence: 1).
 
 Attribute awardURI (R)
 **********************
 
-URI of the project landing page provided by the funder for more information about the award (grant) (occurence: 0-1). 
+URI of the project landing page provided by the funder for more information about the award (grant) (occurrence: 0-1). 
 
 Subproperty awardTitle (R)
 --------------------------
 
-Title of the project, award or grant (occurence: 0-1).
+Title of the project, award or grant (occurrence: 0-1).
 
 
 Example

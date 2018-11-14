@@ -20,7 +20,7 @@ Access right of the resource.
 Information about the right or mode the resource can be accessed.
 If the metadata describe more than one resource, e.g. fulltext and supplementary material, the access right of the main resource should be provided.
 
-Use terms from the `COAR Access Right Vocabulary`_ (occurence: 1).
+Use terms from the `COAR Access Right Vocabulary`_ (occurrence: 1).
 
 ======================================== ========================
 conceptURI                               label

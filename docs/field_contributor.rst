@@ -36,7 +36,7 @@ Property contributor (MA, 0-n)
 Attribute contributorType (M)
 -----------------------------
 
-The type of contributor of the resource (occurence: 1). Mandatory if *contributor* is used.
+The type of contributor of the resource (occurrence: 1). Mandatory if *contributor* is used.
 
 *Controlled list values*
 
@@ -67,14 +67,14 @@ The type of contributor of the resource (occurence: 1). Mandatory if *contributo
 Subproperty contributorName (M)
 -------------------------------
 
-The name of the contributor (occurence: 1). Mandatory if *Contributor* is used.
+The name of the contributor (occurrence: 1). Mandatory if *Contributor* is used.
 
 .. _dci:contributor_nameType:
 
 Attribute nameType (R)
 **********************
 
-The type of name (occurence: 0-1).
+The type of name (occurrence: 0-1).
 
 *Controlled list values*
 
@@ -86,14 +86,14 @@ The type of name (occurence: 0-1).
 Subproperty familyName (O)
 --------------------------
 
-The surname or last name of the contributor (occurence: 0-1).
+The surname or last name of the contributor (occurrence: 0-1).
 
 .. _dci:contributor_givenName:
 
 Subproperty givenName (O)
 -------------------------
 
-The personal or first name of the contributor (occurence: 0-1).
+The personal or first name of the contributor (occurrence: 0-1).
 
 
 .. _dci:contributor_nameIdentifier:
@@ -101,21 +101,21 @@ The personal or first name of the contributor (occurence: 0-1).
 Subproperty nameIdentifier (R)
 ------------------------------
 
-Uniquely identifies an individual or legal entity, according to various schemes (occurence: 0-n).
+Uniquely identifies an individual or legal entity, according to various schemes (occurrence: 0-n).
 
 .. _dci:contributor_nameIdentifierScheme:
 
 Attribute nameIdentifierScheme (M)
 **********************************
 
-The name of the name identifier scheme (occurence: 1). Mandatory if *nameIdentifier* is used.
+The name of the name identifier scheme (occurrence: 1). Mandatory if *nameIdentifier* is used.
 
 .. _dci:contributor_schemeURI:
 
 Attribute schemeURI (R)
 ***********************
 
-The URI of the name identifier scheme (occurence: 0-1).
+The URI of the name identifier scheme (occurrence: 0-1).
 
 .. _dci:contributor_affiliation:
 
