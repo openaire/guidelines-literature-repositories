@@ -10,7 +10,7 @@ Cardinality
 
 *Mandatory if applicable*
 
-*Occurence: 0-n*
+*Occurrence: 0-n*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -47,11 +47,7 @@ Attribute funderIdentifiertype (R)
 
 Type of the unique identifier of the funding entity (occurrence: 0-1).
 
-*Controlled list values*
-
-* ISNI
-* GRID
-* Crossref Funder
+.. include:: vocabularies/funderidentifiertype.rst
 
 see also `Open Funder Registry`_
 

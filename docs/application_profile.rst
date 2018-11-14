@@ -25,23 +25,26 @@ This documentation uses the following namespace abbreviations:
 * ``datacite``: http://datacite.org/schema/kernel-4
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
 
-======================================== ============================= ===========================================================================
+======================================== ============================= ========================================================================================
 OpenAIRE-Field                           Metadata Element              Refinement by vocabulary
-======================================== ============================= ===========================================================================
-:ref:`dci:title`                         datacite:title                title type
-:ref:`dci:creator`                       datacite:creator              name type
-:ref:`dci:contributor`                   datacite:contributor          name type, contributor type
-:ref:`aire:fundingReference`             oaire:fundingReference        funderIdentifier type
-:ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  alternateIdentifier type
-:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    relatedIdentifier type
-:ref:`dci:dateEmbargo`                   datacite:date                 dateType
+======================================== ============================= ========================================================================================
+:ref:`dci:title`                         datacite:title                :ref:`title type <vocab:titletype_titletype>`
+:ref:`dci:creator`                       datacite:creator              :ref:`name type <vocab:nametype_nametype>`
+:ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
+                                                                       | :ref:`name type <vocab:contributortype_contributortype>`
+:ref:`aire:fundingReference`             oaire:fundingReference        :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
+:ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`
+:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`
+                                                                       | :ref:`relation type <vocab:relationtype_relationtype>`
+                                                                       | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`
+:ref:`dci:dateEmbargo`                   datacite:date                 
 :ref:`dc:language`                       dc:language                   `IETF BCP 47`_, `ISO 639-3`_
 :ref:`dc:publisher`                      dc:publisher
-:ref:`dci:datePublication`               datacite:date                 dateType
+:ref:`dci:datePublication`               datacite:date                 
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
-:ref:`dci:identifier`                    datacite:identifier           :doc:`vocab_identifiertype`
+:ref:`dci:identifier`                    datacite:identifier           :ref:`identifier type <vocab:identifiertype_identifiertype>`
 :ref:`dci:accessrights`                  datacite:accessRights         `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
 :ref:`dci:subject`                       datacite:subject              
@@ -60,7 +63,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`aire:citationConferencePlace`      oaire:citationConferencePlace
 :ref:`aire:citationConferenceDate`       oaire:citationConferenceDate
 :ref:`dct:audience`                      dcterms:audience
-======================================== ============================= ===========================================================================
+======================================== ============================= ========================================================================================
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/

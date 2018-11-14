@@ -10,7 +10,7 @@ Cardinality
 
 *Mandatory*
 
-*Occurence: 1-n*
+*Occurrence: 1-n*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -45,10 +45,7 @@ Attribute nameType (R)
 
 The type of name (occurrence: 0-1).
 
-*Controlled list values*
-
-* Organizational
-* Personal
+.. include:: vocabularies/nametype.rst
 
 .. _dci:creator_givenName:
 

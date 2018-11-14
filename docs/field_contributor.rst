@@ -10,7 +10,7 @@ Cardinality
 
 *Mandatory if applicable*
 
-*Occurence: 0-n*
+*Occurrence: 0-n*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -38,29 +38,7 @@ Attribute contributorType (M)
 
 The type of contributor of the resource (occurrence: 1). Mandatory if *contributor* is used.
 
-*Controlled list values*
-
-* ContactPerson
-* DataCollector
-* DataCurator
-* DataManager
-* Distributor
-* Editor
-* HostingInstitution
-* Producer
-* ProjectLeader
-* ProjectManager
-* ProjectMember
-* RegistrationAgency
-* RegistrationAuthority
-* RelatedPerson
-* Researcher
-* ResearchGroup
-* RightsHolder
-* Sponsor
-* Supervisor
-* WorkPackageLeader
-* Other
+.. include:: vocabularies/contributortype.rst
 
 .. _dci:contributor_contributorName:
 
@@ -76,10 +54,7 @@ Attribute nameType (R)
 
 The type of name (occurrence: 0-1).
 
-*Controlled list values*
-
-* Organizational
-* Personal
+.. include:: vocabularies/nametype.rst
 
 .. _dci:contributor_familyName:
 

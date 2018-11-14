@@ -11,7 +11,7 @@ Cardinality
 
 *Mandatory if applicable*
 
-*Occurence: 2*
+*Occurrence: 2*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

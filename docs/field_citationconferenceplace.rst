@@ -10,7 +10,7 @@ Cardinality
 
 *Recommended*
 
-*Occurence: 0-1*
+*Occurrence: 0-1*
 
 Definition and Usage Instruction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
