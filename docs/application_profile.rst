@@ -45,7 +45,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
 :ref:`dci:identifier`                    datacite:identifier           :ref:`identifier type <vocab:identifiertype_identifiertype>`
-:ref:`dci:accessrights`                  datacite:accessRights         `COAR Access Right Vocabulary`_
+:ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
 :ref:`dci:subject`                       datacite:subject              
 :ref:`aire:licenseCondition`             oaire:licenseCondition
