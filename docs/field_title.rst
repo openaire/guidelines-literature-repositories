@@ -37,6 +37,8 @@ Attribute lang (O)
 
 The language of the title (occurrence: 0-1)
 
+Use the ``xml:lang`` attribute to indicate the language of the title.
+
 Attribute titleType (O)
 -----------------------
 

@@ -38,8 +38,9 @@ Use the textual description as value.
 Attribute lang (O)
 ------------------
 
-The language of the description (occurrences: 0-1).
+The language of the description (occurrence: 0-1).
 
+Use the ``xml:lang`` attribute to indicate the language of the description.
 
 Example
 ~~~~~~~

@@ -36,7 +36,7 @@ The label of this concept is used as value for the *ResourceType* element.
 Property resourceType (M, 1)
 ----------------------------
 
-Use the label of the resource type term as value.
+Use the label of the resource type term as value. In the below table the preferred english labels are listed, but labels (preferred or alternative) in other languages can be chosen from the COAR Resource Type Vocabulary.
 
 Attribute resourceTypeGeneral (M)
 ---------------------------------
@@ -45,7 +45,7 @@ The general type of a resource.
 
 *Controlled list values*
 
-* ``publication``
+* ``literature``
 * ``dataset``
 * ``software``
 * ``other research product``
@@ -54,6 +54,8 @@ Attribute uri (M)
 -----------------
 
 Use terms from the `COAR Resource Type Vocabulary`_ (occurrence: 1).
+
+.. include:: vocabularies/resourcetype.rst
 
 Example
 ~~~~~~~
