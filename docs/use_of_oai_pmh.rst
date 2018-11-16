@@ -2,7 +2,7 @@ Use of OAI-PMH
 ==============
 
 OpenAIRE supports a number of transfer protocols and interfaces for collecting bibliographic metadata.
-The usage of one of the major protocols, `OAI-PMH v2.0 protocol <http://www.openarchives.org/OAI/openarchivesprotocol.html>`_, in the context of these Guidelines its application profile is described below.
+The usage of one of the major protocols, `OAI-PMH v2.0 protocol <http://www.openarchives.org/OAI/openarchivesprotocol.html>`_, in the context of these Guidelines and its application profile is described below.
 
 Metadata Format
 ^^^^^^^^^^^^^^^
