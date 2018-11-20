@@ -8,6 +8,7 @@
            xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd" >
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd"/>
     
+    <xs:include schemaLocation="oaire-accessRight-v4.xsd"/>
     <xs:include schemaLocation="oaire-versions-v4.xsd"/>
     <xs:include schemaLocation="oaire-resourceType-v4.xsd"></xs:include>
     

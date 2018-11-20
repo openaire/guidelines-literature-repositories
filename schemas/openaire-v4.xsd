@@ -20,9 +20,8 @@
     schemaLocation="datacite-v4.xsd"/>
   
   <xs:include schemaLocation="oaire.xsd"/> 
-  <xs:include schemaLocation="resourceType-v4.xsd"/>
-  <xs:include schemaLocation="accessRight-v4.xsd"/>
-<xs:element name="resource">
+
+ <xs:element name="resource">
   <xs:annotation>
     <xs:documentation>
       This schema defines the xml format for OpenAIRE Guidelines for Literature Repositories v4.
@@ -135,7 +134,7 @@
         </xs:annotation>
       </xs:element>
       
-      <xs:element ref="accessRights" minOccurs="1">
+      <xs:element ref="datacite:rights" minOccurs="1">
         <xs:annotation>
           <xs:documentation xml:lang="en">Mandatory</xs:documentation>
           <xs:documentation>The main access right of the resource</xs:documentation>

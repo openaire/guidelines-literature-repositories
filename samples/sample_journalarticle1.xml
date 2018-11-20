@@ -63,6 +63,7 @@
 
     <dc:publisher>John Wiley and Sons Inc.</dc:publisher>
     <version uri="http://purl.org/coar/version/c_71e4c1898caa6e32">SMUR</version>
+    
     <datacite:rights rightsURI="http://purl.org/coar/access_right/c_abf2">open access</datacite:rights>
 
     <licenseCondition uri="http://creativecommons.org/licenses/by-nc/4.0/" startDate="2018-10-23">Creative Commons Attribution‐NonCommercial</licenseCondition>
