@@ -49,7 +49,7 @@ Type of the unique identifier of the funding entity (occurrence: 0-1).
 
 .. include:: vocabularies/funderidentifiertype.rst
 
-see also `Open Funder Registry`_
+see also `Crossref Funder Registry`_
 
 Subproperty fundingStream (O)
 -----------------------------
@@ -90,4 +90,4 @@ An example utilizing all fields:
     </oaire:fundingReference>
    </oaire:fundingReferences>
 
-.. _Open Funder Registry: http://fundref.org/fundingdata/registry.html
+.. _Crossref Funder Registry: http://fundref.org/services/funder-registry
