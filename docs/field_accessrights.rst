@@ -31,6 +31,13 @@ http://purl.org/coar/access_right/c_16ec ``restricted access``
 http://purl.org/coar/access_right/c_14cb ``metadata only access``
 ======================================== ========================
 
+.. note::
+   Unlike DataCite, OpenAIRE restricts the use of this property to indicate the access right. 
+
+**Do Not Confuse With**
+
+* :ref:`aire:licenseCondition` (Use ``oaire:licenseCondition`` for license information related to the resource.)
+
 **Remarks**
 
 * former versions of the OpenAIRE Guidelines used the `info:eu-repo-Access-Terms vocabulary <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_.
