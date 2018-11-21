@@ -63,6 +63,6 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <oaire:resourceType resourceTypeGeneral="publication" uri="http://purl.org/coar/resource_type/c_6501">journal article</oaire:resourceType>
+   <oaire:resourceType resourceTypeGeneral="literature" uri="http://purl.org/coar/resource_type/c_6501">journal article</oaire:resourceType>
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/

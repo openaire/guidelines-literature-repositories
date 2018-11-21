@@ -117,7 +117,7 @@
             <xs:documentation>The general resource type as supported in OpenAIRE</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:string">
-            <xs:enumeration value="publication"/>
+            <xs:enumeration value="literature"/>
             <xs:enumeration value="dataset"/>
             <xs:enumeration value="software"/>
             <xs:enumeration value="other research product"/>
