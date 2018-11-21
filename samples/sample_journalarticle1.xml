@@ -58,7 +58,7 @@
         demonstrating robust methodology with broad substrate scope.</dc:description>
     <dc:language>eng</dc:language>
 
-    <resourceType resourceTypeGeneral="publication" uri="http://purl.org/coar/resource_type/c_6501">journal article</resourceType>
+    <resourceType resourceTypeGeneral="literature" uri="http://purl.org/coar/resource_type/c_6501">journal article</resourceType>
     <datacite:identifier identifierType="URL">http://europepmc.org/articles/PMC5574022</datacite:identifier>
 
     <dc:publisher>John Wiley and Sons Inc.</dc:publisher>

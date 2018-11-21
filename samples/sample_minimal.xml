@@ -22,7 +22,7 @@
     <datacite:dates>
         <datacite:date dateType="Issued">2011</datacite:date>
     </datacite:dates>
-    <oaire:resourceType resourceTypeGeneral="publication" uri="http://purl.org/coar/resource_type/c_93fc">report</oaire:resourceType>
+    <oaire:resourceType resourceTypeGeneral="literature" uri="http://purl.org/coar/resource_type/c_93fc">report</oaire:resourceType>
     <datacite:identifier identifierType="URN">http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-160648</datacite:identifier>
     <datacite:rights rightsURI="http://purl.org/coar/access_right/c_abf2">open access</datacite:rights>
 </oaire:resource>
