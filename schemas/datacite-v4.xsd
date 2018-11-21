@@ -234,7 +234,7 @@
             </xs:annotation>
             <xs:simpleContent>
                 <xs:extension base="nonemptycontentStringType">
-                      <xs:attribute name="rightsURI" type="oaire:accessRight" use="required"/>
+                      <xs:attribute name="rightsURI" type="accessRight" use="required"/>
                       <xs:attribute ref="xml:lang"/>
                 </xs:extension>
             </xs:simpleContent>
