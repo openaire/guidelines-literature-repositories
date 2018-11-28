@@ -52,7 +52,7 @@ Each OpenAIRE field is described in detail by
 * definition and usage instructions with regard to allowed values in properties, sub-properties and attributes
 * example(s)
 
-XML-Schema files for the application profile and sample XML files are part of these Guidelines but also available on GitHub, https://github.com/openaire/guidelines-literature-repositories/tree/master/schemas and https://github.com/openaire/guidelines-literature-repositories/tree/master/samples .
+`XML Schema files <https://github.com/openaire/guidelines-literature-repositories/tree/master/schemas>`_ for the application profile and `sample XML files <https://github.com/openaire/guidelines-literature-repositories/tree/master/samples>`_ are part of these Guidelines but also available on the `GitHub repository <https://github.com/openaire/guidelines-literature-repositories>`_.
 
 Acknowledgements & Contributors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
