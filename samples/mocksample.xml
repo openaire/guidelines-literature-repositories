@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:datacite="http://datacite.org/schema/kernel-4"
+ xmlns="http://namespace.openaire.eu/schema/oaire/"
+ xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ file:/Users/miriam/Documents/OPENAIRE/guidelines/guidelines-literature-repositories/schemas/openaire-v4.xsd">
+    <dc:coverage xml:lang="ja-JP">
+    </dc:coverage>
+    <datacite:creators>
+        <datacite:creator>
+            <datacite:creatorName nameType="Organizational">DSS7yuOHgx.2BAPOIx4</datacite:creatorName>
+            <datacite:givenName>givenName1
+            </datacite:givenName>
+            <datacite:familyName>familyName1
+            </datacite:familyName>
+            <datacite:nameIdentifier nameIdentifierScheme="fg" schemeURI="http://QgYuwWQr/">KfnpY3MJb_</datacite:nameIdentifier>
+            <datacite:nameIdentifier nameIdentifierScheme="S0yb_" schemeURI="http://yNNENbNG/">cLyn2yt1Oz3Gv.n.dmF</datacite:nameIdentifier>
+            <datacite:affiliation>affiliation1
+            </datacite:affiliation>
+            <datacite:affiliation>affiliation2
+            </datacite:affiliation>
+        </datacite:creator>
+        <datacite:creator>
+            <datacite:creatorName nameType="Organizational">WZoRCE5U.qFJdDFEAO5Z</datacite:creatorName>
+            <datacite:givenName>givenName2
+            </datacite:givenName>
+            <datacite:familyName>familyName2
+            </datacite:familyName>
+            <datacite:nameIdentifier nameIdentifierScheme="QYa5_dlmvhN7" schemeURI="http://HMQiuHha/">FY-NiAWXtgqOQraEl4Pqf_A8g</datacite:nameIdentifier>
+            <datacite:nameIdentifier nameIdentifierScheme="O" schemeURI="http://ipZkZLGU/">A84l</datacite:nameIdentifier>
+            <datacite:affiliation>affiliation3
+            </datacite:affiliation>
+            <datacite:affiliation>affiliation4
+            </datacite:affiliation>
+        </datacite:creator>
+    </datacite:creators>
+    <datacite:contributors>
+        <datacite:contributor contributorType="Other">
+            <datacite:contributorName nameType="Organizational">i-5uvLfGD2R.y8fXv442y8o.D6v1</datacite:contributorName>
+            <datacite:givenName>givenName3
+            </datacite:givenName>
+            <datacite:familyName>familyName3
+            </datacite:familyName>
+            <datacite:nameIdentifier nameIdentifierScheme="hK9c28uVD" schemeURI="http://fkPymUoN/">MuDRo.ymY7qG1Or.9Ny</datacite:nameIdentifier>
+            <datacite:nameIdentifier nameIdentifierScheme="k_Q7K8AbQiwLlreHzyU" schemeURI="http://EaTpassQ/">a1Sp</datacite:nameIdentifier>
+            <datacite:affiliation>affiliation5
+            </datacite:affiliation>
+            <datacite:affiliation>affiliation6
+            </datacite:affiliation>
+        </datacite:contributor>
+        <datacite:contributor contributorType="Editor">
+            <datacite:contributorName nameType="Organizational">ZxHQr4TGMeqqEOTbMcNd_EMFvIf</datacite:contributorName>
+            <datacite:givenName>givenName4
+            </datacite:givenName>
+            <datacite:familyName>familyName4
+            </datacite:familyName>
+            <datacite:nameIdentifier nameIdentifierScheme="PWhc-.4-Ock6m2WlzXL4km" schemeURI="http://KTYQUXaS/">nJNWaCv</datacite:nameIdentifier>
+            <datacite:nameIdentifier nameIdentifierScheme="fZBhNb-U2t" schemeURI="http://BJDgOJde/">RobhZUU3Obaqq-3UlrgxKNe-c0</datacite:nameIdentifier>
+            <datacite:affiliation>affiliation7
+            </datacite:affiliation>
+            <datacite:affiliation>affiliation8
+            </datacite:affiliation>
+        </datacite:contributor>
+    </datacite:contributors>
+    <fundingReferences>
+        <fundingReference>
+            <funderName>pZT7SjviMp4yodvIG</funderName>
+            <funderIdentifier funderIdentifierType="Other">ff238yCNbhv5k5Y8AmbpyzYt</funderIdentifier>
+            <fundingStream>svI_6A</fundingStream>
+            <awardNumber awardURI="http://TNrUwkxq/">E-</awardNumber>
+            <awardTitle>award</awardTitle>
+        </fundingReference>
+        <fundingReference>
+            <funderName>funderName</funderName>
+            <funderIdentifier funderIdentifierType="Crossref Funder ID">QwqkD4y</funderIdentifier>
+            <fundingStream>yyADU1SFmiS-meqQ6</fundingStream>
+            <awardNumber awardURI="http://oKladiXr/">JyORkpwzt</awardNumber>
+            <awardTitle>gyg2F9EKT7Gp.mSBU8.Drqf</awardTitle>
+        </fundingReference>
+    </fundingReferences>
+    <datacite:alternateIdentifiers>
+        <datacite:alternateIdentifier alternateIdentifierType="nHn8xXui8kq59">wbwn7dWur8_w</datacite:alternateIdentifier>
+        <datacite:alternateIdentifier alternateIdentifierType="G1iIBG">DY_f</datacite:alternateIdentifier>
+    </datacite:alternateIdentifiers>
+    <datacite:relatedIdentifiers>
+        <datacite:relatedIdentifier resourceTypeGeneral="Model" relatedIdentifierType="arXiv" relationType="IsDocumentedBy" relatedMetadataScheme="qskJOa7rNiK_caTNN24qxH"
+             schemeURI="http://XnvZdoTG/" schemeType="cjm9FhUVbi2HJ">RBZGe</datacite:relatedIdentifier>
+        <datacite:relatedIdentifier resourceTypeGeneral="Model" relatedIdentifierType="LSID" relationType="Continues" relatedMetadataScheme="taBB1dQjvLNIRQL01NfSAHYFK"
+             schemeURI="http://WybeGVsE/" schemeType="R13Nf2h">y</datacite:relatedIdentifier>
+    </datacite:relatedIdentifiers>
+    <datacite:dates>
+        <datacite:date dateType="Issued" dateInformation="ER4a2yxSaO1Sho">fjGUgM9ayQrxBZvkONAW4e2jli8kl</datacite:date>
+        <datacite:date dateType="Created" dateInformation="edpW-VCyXqfvmcrplrkNU">BqLBsX2ZR22ZPKcTtEoF4es</datacite:date>
+    </datacite:dates>
+    <datacite:titles>
+        <datacite:title titleType="AlternativeTitle" xml:lang="fr-BE">UHT1VD</datacite:title>
+        <datacite:title titleType="Subtitle" xml:lang="en-GB">SS-0Pg4fD4QPnX</datacite:title>
+    </datacite:titles>
+    <dc:language xml:lang="he-IL">
+    </dc:language>
+    <dc:publisher xml:lang="zh-CN">
+    </dc:publisher>
+    <resourceType resourceTypeGeneral="publication" uri="http://purl.org/coar/resource_type/c_18hj">OBEEm6kzZk</resourceType>
+    <dc:description xml:lang="ar-EG">
+    </dc:description>
+    <dc:format xml:lang="fr-FR">
+    </dc:format>
+    <datacite:identifier identifierType="URN">rlUTkOW</datacite:identifier>
+    <datacite:rights rightsURI="http://purl.org/coar/access_right/c_16ec" xml:lang="sv-SE">s6bFCPn8RvtN9X6R30</datacite:rights>
+    <dc:source xml:lang="sv-SE">
+    </dc:source>
+    <datacite:subjects>
+        <datacite:subject subjectScheme="fAOT3oCMLqANRdqCniD" schemeURI="http://bsOyHkIY/" valueURI="http://ZiIiSVAz/" xml:lang="it-IT">ft12Zy</datacite:subject>
+        <datacite:subject subjectScheme="b-FUtIiLRu6RsuIcde3KKhzz.9" schemeURI="http://ttXSOOlB/" valueURI="http://GixLBNfF/"
+             xml:lang="el-GR">Bf6AElMCkh.mqutOmETp0</datacite:subject>
+    </datacite:subjects>
+    <datacite:geoLocations>
+        <datacite:geoLocation>
+            <datacite:geoLocationPoint>
+                <datacite:pointLongitude>130.638</datacite:pointLongitude>
+                <datacite:pointLatitude>-59.509</datacite:pointLatitude>
+            </datacite:geoLocationPoint>
+            <datacite:geoLocationBox>
+                <datacite:westBoundLongitude>-108.587</datacite:westBoundLongitude>
+                <datacite:eastBoundLongitude>86.126</datacite:eastBoundLongitude>
+                <datacite:southBoundLatitude>52.228</datacite:southBoundLatitude>
+                <datacite:northBoundLatitude>32.884</datacite:northBoundLatitude>
+            </datacite:geoLocationBox>
+        </datacite:geoLocation>
+        <datacite:geoLocation>
+            <datacite:geoLocationBox>
+                <datacite:westBoundLongitude>-67.872</datacite:westBoundLongitude>
+                <datacite:eastBoundLongitude>7.987</datacite:eastBoundLongitude>
+                <datacite:southBoundLatitude>-23.619</datacite:southBoundLatitude>
+                <datacite:northBoundLatitude>-77.415</datacite:northBoundLatitude>
+            </datacite:geoLocationBox>
+            <datacite:geoLocationBox>
+                <datacite:westBoundLongitude>-33.101</datacite:westBoundLongitude>
+                <datacite:eastBoundLongitude>52.643</datacite:eastBoundLongitude>
+                <datacite:southBoundLatitude>-54.556</datacite:southBoundLatitude>
+                <datacite:northBoundLatitude>16.339</datacite:northBoundLatitude>
+            </datacite:geoLocationBox>
+        </datacite:geoLocation>
+    </datacite:geoLocations>
+    <datacite:geoLocations>
+        <datacite:geoLocation>
+            <datacite:geoLocationPolygon>
+                <datacite:polygonPoint>
+                    <datacite:pointLongitude>88.557</datacite:pointLongitude>
+                    <datacite:pointLatitude>-0.604</datacite:pointLatitude>
+                </datacite:polygonPoint>
+                <datacite:polygonPoint>
+                    <datacite:pointLongitude>-143.373</datacite:pointLongitude>
+                    <datacite:pointLatitude>88.832</datacite:pointLatitude>
+                </datacite:polygonPoint>
+                <datacite:polygonPoint>
+                    <datacite:pointLongitude>87.3</datacite:pointLongitude>
+                    <datacite:pointLatitude>-36.556</datacite:pointLatitude>
+                </datacite:polygonPoint>
+                <datacite:polygonPoint>
+                    <datacite:pointLongitude>129.128</datacite:pointLongitude>
+                    <datacite:pointLatitude>4.616</datacite:pointLatitude>
+                </datacite:polygonPoint>
+                <datacite:inPolygonPoint>
+                    <datacite:pointLongitude>-17.547</datacite:pointLongitude>
+                    <datacite:pointLatitude>-47.629</datacite:pointLatitude>
+                </datacite:inPolygonPoint>
+            </datacite:geoLocationPolygon>
+            <datacite:geoLocationPolygon>
+                <datacite:polygonPoint>
+                    <datacite:pointLongitude>78.121</datacite:pointLongitude>
+                    <datacite:pointLatitude>19.341</datacite:pointLatitude>
+                </datacite:polygonPoint>
+                <datacite:polygonPoint>
+                    <datacite:pointLongitude>-118.035</datacite:pointLongitude>
+                    <datacite:pointLatitude>53.647</datacite:pointLatitude>
+                </datacite:polygonPoint>
+                <datacite:polygonPoint>
+                    <datacite:pointLongitude>-49.07</datacite:pointLongitude>
+                    <datacite:pointLatitude>-45.561</datacite:pointLatitude>
+                </datacite:polygonPoint>
+                <datacite:polygonPoint>
+                    <datacite:pointLongitude>132.484</datacite:pointLongitude>
+                    <datacite:pointLatitude>-41.146</datacite:pointLatitude>
+                </datacite:polygonPoint>
+                <datacite:inPolygonPoint>
+                    <datacite:pointLongitude>179.293</datacite:pointLongitude>
+                    <datacite:pointLatitude>15.364</datacite:pointLatitude>
+                </datacite:inPolygonPoint>
+            </datacite:geoLocationPolygon>
+            <datacite:geoLocationPlace>
+            </datacite:geoLocationPlace>
+        </datacite:geoLocation>
+        <datacite:geoLocation>
+            <datacite:geoLocationBox>
+                <datacite:westBoundLongitude>72.356</datacite:westBoundLongitude>
+                <datacite:eastBoundLongitude>60.43</datacite:eastBoundLongitude>
+                <datacite:southBoundLatitude>-80.189</datacite:southBoundLatitude>
+                <datacite:northBoundLatitude>70.7</datacite:northBoundLatitude>
+            </datacite:geoLocationBox>
+            <datacite:geoLocationPoint>
+                <datacite:pointLongitude>53.566</datacite:pointLongitude>
+                <datacite:pointLatitude>-78.371</datacite:pointLatitude>
+            </datacite:geoLocationPoint>
+        </datacite:geoLocation>
+    </datacite:geoLocations>
+    <datacite:sizes>
+        <datacite:size>uzyM</datacite:size>
+        <datacite:size>XOP4K54pIobxNQY79C</datacite:size>
+    </datacite:sizes>
+    <citationTitle>b.Aaayzp1jr</citationTitle>
+    <citationVolume>RDDmqdSwc92SBzJLpnVd5fhGUI6</citationVolume>
+    <citationIssue>gS50SY-2Xwvg_zjDA</citationIssue>
+    <citationStartPage>N5NfFHC</citationStartPage>
+    <citationEndPage>eer6lg</citationEndPage>
+    <citationEdition>oxAveVJRClAF</citationEdition>
+    <citationConferencePlace>lFs4fAQM</citationConferencePlace>
+    <citationConferenceDate>ex</citationConferenceDate>
+    <version uri="http://purl.org/coar/version/c_dc82b40f9837b551">Rm5uXR4HJ5VLVazHstzl5</version>
+    <file mimeType="fg23B6Y8r4JrzQM" accessRightsURI="http://purl.org/coar/access_right/c_14cb" objectType="fulltext">KZFG.XjDAP-</file>
+    <licenseCondition startDate="Deh7LjEF9gE30_uSy0LIZ_E-1N5" uri="O">F9SXD33cLZ</licenseCondition>
+    <dcterms:audience xml:lang="ar-EG">
+    </dcterms:audience>
+    <dcterms:audience xml:lang="zh-CHS">
+    </dcterms:audience>
+    <dc:coverage xml:lang="fr-CA">
+    </dc:coverage>
+</resource>
