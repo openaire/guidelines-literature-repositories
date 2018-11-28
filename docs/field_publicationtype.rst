@@ -1,7 +1,7 @@
 .. _aire:resourceType:
 
-11. Resource Type (M)
-=====================
+Resource Type (M)
+=================
 
 ``oaire:resourceType``
 

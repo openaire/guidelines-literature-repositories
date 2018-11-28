@@ -1,7 +1,7 @@
 .. _aire:licenseCondition:
 
-18. License Condition (R)
-=========================
+License Condition (R)
+=====================
 
 ``oaire:licenseCondition``
 

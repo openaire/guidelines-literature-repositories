@@ -1,7 +1,7 @@
 .. _dc:coverage:
 
-19. Coverage (R)
-================
+Coverage (R)
+============
 
 ``dc:coverage``
 

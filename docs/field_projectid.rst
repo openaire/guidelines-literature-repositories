@@ -1,7 +1,7 @@
 .. _aire:fundingReference:
 
-4. Funding Reference (MA)
-=========================
+Funding Reference (MA)
+======================
 
 ``oaire:fundingReference``
 

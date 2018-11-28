@@ -1,7 +1,7 @@
 .. _aire:citationEndPage:
 
-28. Citation End Page (R)
-=========================
+Citation End Page (R)
+=====================
 
 ``oaire:citationEndPage``
 

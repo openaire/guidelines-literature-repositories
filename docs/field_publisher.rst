@@ -1,7 +1,7 @@
 .. _dc:publisher:
 
-9. Publisher (MA)
-=================
+Publisher (MA)
+==============
 
 ``dc:publisher``
 

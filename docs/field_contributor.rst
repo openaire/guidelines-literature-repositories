@@ -1,7 +1,7 @@
 .. _dci:contributor:
 
-3. Contributor (MA)
-===================
+Contributor (MA)
+================
 
 ``datacite:contributor``
 

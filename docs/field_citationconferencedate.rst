@@ -1,7 +1,7 @@
 .. _aire:citationConferenceDate:
 
-31. Citation Conference Date (R)
-================================
+Citation Conference Date (R)
+============================
 
 ``oaire:citationConferenceDate``
 

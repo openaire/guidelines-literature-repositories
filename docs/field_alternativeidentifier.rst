@@ -1,7 +1,7 @@
 .. _dci:alternativeIdentifier:
 
-5. Alternate Identifier (R)
-===========================
+Alternate Identifier (R)
+========================
 
 ``datacite:alternateIdentifier``
 

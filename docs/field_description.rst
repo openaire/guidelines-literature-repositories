@@ -1,7 +1,7 @@
 .. _dc:description:
 
-12. Description (MA)
-====================
+Description (MA)
+================
 
 ``dc:description``
 

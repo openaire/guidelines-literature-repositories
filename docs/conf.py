@@ -198,7 +198,23 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
-        'preamble': '''\usepackage[none]{hyphenat}''',
+        'preamble': '''
+           \usepackage[none]{hyphenat}
+           \usepackage{fancyhdr}
+           \pagestyle{fancy}
+          % \makeatletter
+          % \\fancypagestyle{normal}{
+          % \\fancyhf{}
+          % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
+          % \\fancyfoot[L]{ \\thepage}
+          % \\fancyfoot[R]{ % right
+     			% \includegraphics[height=0.3in]{../../_static/by.png}
+          %}
+          %}
+          %\\renewcommand{\headrulewidth}{0.4pt}
+          %\\renewcommand{\\footrulewidth}{0.4pt}
+          %\makeatother
+           ''',
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',
 
@@ -207,14 +223,15 @@ latex_elements = {
 
 # Additional stuff for the LaTeX preamble.
 #'preamble': '',
+'extraclassoptions': 'openany',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'OpenAIREGuidelines.tex', u'OpenAIRE Guidelines',
-   u'OpenAIRE', 'manual'),
+  (master_doc, 'OpenAIREGuidelines.tex', u'OpenAIRE Interoperability Guidelines for Literature Repository Managers',
+   u'OpenAIRE Guidelines Team', 'manual', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -223,13 +240,14 @@ latex_documents = [
 latex_logo = '_static/openaire.png'
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
+# latex_toplevel_sectioning = 'part'
 #latex_use_parts = False
 
 # If true, show page references after internal links.
 #latex_show_pagerefs = False
 
 # If true, show URL addresses after external links.
-#latex_show_urls = False
+latex_show_urls = 'footnote'
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []

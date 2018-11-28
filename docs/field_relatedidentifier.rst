@@ -1,7 +1,7 @@
 .. _dci:relatedIdentifier:
 
-6. Related Identifier (R)
-=========================
+Related Identifier (R)
+======================
 
 ``datacite:relatedIdentifier``
 

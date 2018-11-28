@@ -1,7 +1,7 @@
 .. _dct:audience:
 
-32. Audience (O)
-================
+Audience (O)
+============
 
 ``dcterms:audience``
 

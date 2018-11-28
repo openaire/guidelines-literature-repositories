@@ -1,7 +1,7 @@
 .. _dci:geolocation:
 
-21. Geo Location (O)
-====================
+Geo Location (O)
+================
 
 ``datacite:geoLocation``
 

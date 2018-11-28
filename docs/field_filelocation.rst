@@ -1,7 +1,7 @@
 .. _aire:file:
 
-23. File Location (MA)
-======================
+File Location (MA)
+==================
 
 ``oaire:file``
 

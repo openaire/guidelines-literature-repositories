@@ -1,7 +1,7 @@
 .. _aire:citationIssue:
 
-26. Citation Issue (R)
-======================
+Citation Issue (R)
+==================
 
 ``oaire:citationIssue``
 

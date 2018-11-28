@@ -1,7 +1,7 @@
 .. _dc:language:
 
-8. Language (MA)
-================
+Language (MA)
+=============
 
 ``dc:language``
 

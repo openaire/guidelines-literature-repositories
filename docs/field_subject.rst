@@ -1,7 +1,7 @@
 .. _dci:subject:
 
-17. Subject (MA)
-^^^^^^^^^^^^^^^^
+Subject (MA)
+============
 
 ``datacite:subject``
 

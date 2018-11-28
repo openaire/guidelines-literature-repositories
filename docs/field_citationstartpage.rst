@@ -1,7 +1,7 @@
 .. _aire:citationStartPage:
 
-27. Citation Start Page (R)
-===========================
+Citation Start Page (R)
+=======================
 
 ``oaire:citationStartPage``
 

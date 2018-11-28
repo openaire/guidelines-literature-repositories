@@ -72,6 +72,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 .. _ISO 639-3: https://iso639-3.sil.org/ 
 
 .. toctree::
+   :numbered:
    :maxdepth: 1
    :hidden:
 

@@ -1,7 +1,7 @@
 .. _aire:citationConferencePlace:
 
-30. Citation Conference Place (R)
-=================================
+Citation Conference Place (R)
+=============================
 
 ``oaire:citationConferencePlace``
 

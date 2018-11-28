@@ -1,7 +1,7 @@
 .. _aire:version:
 
-22. Resource Version (R)
-===========================
+Resource Version (R)
+====================
 
 ``oaire:version``
 

@@ -1,7 +1,7 @@
 .. _dc:source:
 
-16. Source (R)
-==============
+Source (R)
+==========
 
 ``dc:source``
 

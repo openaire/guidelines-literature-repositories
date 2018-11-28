@@ -1,7 +1,7 @@
 .. _dci:identifier:
 
-14 Resource Identifier (M)
-==========================
+Resource Identifier (M)
+=======================
 
 ``datacite:identifier``
 

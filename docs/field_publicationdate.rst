@@ -1,7 +1,7 @@
 .. _dci:datePublication:
 
-10. Publication Date (M)
-========================
+Publication Date (M)
+====================
 
 ``datacite:date``
 

@@ -1,7 +1,7 @@
 .. _aire:citationTitle:
 
-24. Citation Title (R)
-======================
+Citation Title (R)
+==================
 
 ``oaire:citationTitle``
 

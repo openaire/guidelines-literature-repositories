@@ -1,7 +1,7 @@
 .. _dc:format:
 
-13. Format (R)
-==============
+Format (R)
+==========
 
 ``dc:format``
 

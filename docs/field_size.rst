@@ -1,7 +1,7 @@
 .. _dci:size:
 
-20. Size (O)
-^^^^^^^^^^^^
+Size (O)
+========
 
 ``datacite:size``
 

@@ -1,7 +1,7 @@
 .. _dci:accessrights:
 
-15. Access Rights (M)
-=====================
+Access Rights (M)
+=================
 
 ``datacite:rights``
 

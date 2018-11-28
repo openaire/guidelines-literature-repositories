@@ -1,7 +1,7 @@
 .. _aire:citationVolume:
 
-25. Citation Volume (R)
-=======================
+Citation Volume (R)
+===================
 
 ``oaire:citationVolume``
 
