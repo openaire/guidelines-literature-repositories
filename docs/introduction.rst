@@ -7,19 +7,17 @@ Aim
 ^^^
 The OpenAIRE Guidelines for Literature Repository Managers 4.0 provide
 orientation for repository managers to define and implement their local data
-management policies according to the requirements of the OpenAIRE - Open Access
-Infrastructure for Research in Europe.
+management policies according to the requirements of the `OpenAIRE - Open Access
+Infrastructure for Research in Europe <http://www.openaire.eu>`_.
 
-Initially, the requirements of the OpenAIRE infrastructure, and the previous
-versions of the OpenAIRE Guidelines, were established to support and monitor the
-implementation of the `FP7 OA pilot <http://www.openaire.eu>`_. However, this
-version of the Guidelines, according to the expansion of the aims of the
-OpenAIRE project and infrastructure, has a broader scope. In fact, these
+The OpenAIRE Guidelines were established to support the `Open Access strategy of the European Commission <http://ec.europa.eu/research/openscience/index.cfm?pg=openaccess>`_
+and to meet requirements of the OpenAIRE infrastructure.
+This new version of the Guidelines, according to the expansion of the aims of the
+OpenAIRE initiative and its infrastructure, has a broader scope. In fact, these
 Guidelines are intended to guide repository manager to expose to the OpenAIRE
-infrastructure not only EC funded publications, but also other open access and non-open access
-publications, regardless of their funding.
+infrastructure **open access and non-open access publications** together with **funding information**, where applicable.
 
-So, by implementing these Guidelines, repository managers will not only be
+By implementing these Guidelines, repository managers will not only be
 enabling authors who deposit publications in their repository to fulfill the EC
 Open Access requirements, and eventually also the requirements of other
 (national or international) funders with whom OpenAIRE cooperates,
@@ -27,18 +25,34 @@ but also incorporating their publications into the OpenAIRE infrastructure for
 discoverability and utilizing value-added services provided by the OpenAIRE portal.
 
 The OpenAIRE Guidelines for Literature Repository Managers 4.0 are 
-part of a set of OpenAIRE Guidelines that also includes the OpenAIRE Guidelines
-for Data Archive Managers  and the OpenAIRE CERIF-XML profile.
+part of a set of OpenAIRE Guidelines that also include the OpenAIRE Guidelines
+for Data Archive Managers, the OpenAIRE Guidelines for CRIS managers, the OpenAIRE Guidelines for Software Repository Managers, and the Guidelines for Other Research Products Repository Managers.
 
 What's new
 ^^^^^^^^^^
-In comparison with previous versions of the Guidelines, this 4.0 version introduces
+In comparison with previous versions of the Guidelines, this version introduces
 the following major changes:
 
 * an application profile and schema based on Dublin Core and DataCite incl. a new OAI-metadataPrefix
 * support of identifier schemes for authors, organizations, funders, scholarly resources
 * introduction of COAR Controlled Vocabularies
-* compliance with the OpenAIRE Content Acquisition Policy, published on 05-Oct-2018, https://doi.org/10.5281/zenodo.1446407
+* compliance with the `OpenAIRE Content Acquisition Policy <https://doi.org/10.5281/zenodo.1446407>`_, published on 05-Oct-2018.
+
+How this document is structured
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Chapter two provides a brief overview of how to configure and use OAI-PMH for OpenAIRE metadata harvesting.
+Chapter three describes the application profile.
+It assignes properties from Dublin Core and DataCite metadata schemes to OpenAIRE fields.
+Each OpenAIRE field is described in detail by
+
+* the name of the field
+* how it is mapped to an element in such metadata schemes
+* the cardinality of the field
+* definition and usage instructions with regard to allowed values in properties, sub-properties and attributes
+* example(s)
+
+XML-Schema files for the application profile and sample XML files are part of these Guidelines but also available on GitHub, https://github.com/openaire/guidelines-literature-repositories/tree/master/schemas and https://github.com/openaire/guidelines-literature-repositories/tree/master/samples .
 
 Acknowledgements & Contributors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -56,6 +70,7 @@ Acknowledgements & Contributors
 * Paolo Manghi (CNR, Italy)
 * Aenne Loehden (Bielefeld University, Germany)
 * Andreas Czerniak (Bielefeld University, Germany)
+* Amelie Bäcker (Bielefeld University, Germany)
 
 *LA Referencia*
 
@@ -80,7 +95,7 @@ Acknowledgements & Contributors
 
 Versions
 ^^^^^^^^
-* 4.0, November 2018
+* 4.0, November 2018 `doi:10.5281/zenodo.1299203 <http://dx.doi.org/10.5281/zenodo.1299203>`
 
 * 4.0 draft, November 2017
 

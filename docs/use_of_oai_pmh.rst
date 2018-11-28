@@ -44,8 +44,8 @@ This includes bibliographic metadata describing open access and non open access 
 
 Compatibility of Aggregators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Besides individual repositories and journals, also aggregators (e.g., on the national level) can become OpenAIRE compatible. In this case, additional provenance information on the original content providers harvested by the aggregator has to be encoded for OpenAIRE.
-In accordance with the `OAI-PMH guidelines <http://www.openarchives.org/OAI/2.0/guidelines-provenance.htm>`_, the provenance information has to be provided in the ``about`` element of an OAI record, as displayed in the following example:
+Besides individual repositories and journals, also aggregators (e.g., on the national level) can become OpenAIRE compatible. In this case, additional provenance information on the original content providers harvested by such an aggregator has to be encoded for OpenAIRE on the metadata record level.
+In accordance with the `OAI-PMH guidelines <http://www.openarchives.org/OAI/2.0/guidelines-provenance.htm>`_, the provenance information has to be provided in the ``about`` node element of an OAI record, as displayed in the following example:
 
 .. code-block:: xml
    :linenos:
@@ -65,4 +65,18 @@ In accordance with the `OAI-PMH guidelines <http://www.openarchives.org/OAI/2.0/
         </originDescription>
       </provenance>
     </about>
+
+This means information encoded in the following elements is expected (taken from https://www.openarchives.org/OAI/2.0/guidelines-provenance.htm):
+
+* baseURL - the baseURL of the originating repository from which the metadata record was harvested.
+* identifier - the unique identifier of the item in the originating repository from which the metadata record was disseminated.
+* datestamp - the datestamp of the metadata record disseminated by the originating repository.
+* metadataNamespace - the XML namespace URI of the metadata format of the record harvested from the originating repository.
+* originDescription - an optional originDescription block which was that obtained when the metadata record was harvested. A set of nested originDescription blocks will describe provenance over a sequence of harvests.
+
+Each originDescription must also have the following two attributes which relate to the act of harvesting and any subsequent processing:
+
+* harvestDate - the responseDate of the OAI-PMH response that resulted in the record being harvested from the originating repository.
+* altered - a boolean value which must be true if the harvested record was altered before being disseminated again.
+
 
