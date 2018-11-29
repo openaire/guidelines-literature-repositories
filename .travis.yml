@@ -6,7 +6,7 @@ language: python
 # language: java
 
 python:
-    - "2.7"
+    - "3.6"
 
 # install: true
 install:
