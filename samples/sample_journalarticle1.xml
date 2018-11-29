@@ -4,7 +4,7 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
     xmlns="http://namespace.openaire.eu/schema/oaire/"
-    xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ ../schemas/openaire-v4.xsd">
+    xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ https://www.openaire.eu/schema/repo-lit/4.0/openaire.xsd">
     <!-- 
        example of a journal article indexed in EuropePMC, metadata derived from http://europepmc.org/oai.cgi?verb=GetRecord&metadataPrefix=pmc&identifier=oai:europepmc.org:4525452 
     -->
