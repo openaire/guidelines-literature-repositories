@@ -5,7 +5,7 @@
  xmlns:dcterms="http://purl.org/dc/terms/"
  xmlns:datacite="http://datacite.org/schema/kernel-4"
  xmlns="http://namespace.openaire.eu/schema/oaire/"
- xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ file:/Users/miriam/Documents/OPENAIRE/guidelines/guidelines-literature-repositories/schemas/openaire-v4.xsd">
+ xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ https://www.openaire.eu/schema/repo-lit/4.0/openaire.xsd">
     <dc:coverage xml:lang="ja-JP">
     </dc:coverage>
     <datacite:creators>
