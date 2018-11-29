@@ -1,10 +1,10 @@
 .. _literature_intro:
 
 Introduction
-------------
+============
 
 Aim
-^^^
+---
 The OpenAIRE Guidelines for Literature Repository Managers 4.0 provide
 orientation for repository managers to define and implement their local data
 management policies according to the requirements of the `OpenAIRE - Open Access
@@ -29,7 +29,7 @@ part of a set of OpenAIRE Guidelines that also include the OpenAIRE Guidelines
 for Data Archive Managers, the OpenAIRE Guidelines for CRIS managers, the OpenAIRE Guidelines for Software Repository Managers, and the Guidelines for Other Research Products Repository Managers.
 
 What's new
-^^^^^^^^^^
+----------
 In comparison with previous versions of the Guidelines, this version introduces
 the following major changes:
 
@@ -39,7 +39,7 @@ the following major changes:
 * compliance with the `OpenAIRE Content Acquisition Policy <https://doi.org/10.5281/zenodo.1446407>`_, published on 05-Oct-2018.
 
 How this document is structured
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
 
 Chapter two provides a brief overview of how to configure and use OAI-PMH for OpenAIRE metadata harvesting.
 Chapter three describes the application profile.
@@ -52,10 +52,8 @@ Each OpenAIRE field is described in detail by
 * definition and usage instructions with regard to allowed values in properties, sub-properties and attributes
 * example(s)
 
-`XML Schema files <https://github.com/openaire/guidelines-literature-repositories/tree/master/schemas>`_ for the application profile and `sample XML files <https://github.com/openaire/guidelines-literature-repositories/tree/master/samples>`_ are part of these Guidelines but also available on the `GitHub repository <https://github.com/openaire/guidelines-literature-repositories>`_.
-
 Acknowledgements & Contributors
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
 
 **Editors**
 
@@ -94,8 +92,8 @@ Acknowledgements & Contributors
 * Pierre Lasou (Université Laval, CA)
 
 Versions
-^^^^^^^^
-* 4.0, November 2018 `doi:10.5281/zenodo.1299203 <http://dx.doi.org/10.5281/zenodo.1299203>`
+--------
+* 4.0, November 2018 `doi:10.5281/zenodo.1299203 <http://dx.doi.org/10.5281/zenodo.1299203>`_
 
 * 4.0 draft, November 2017
 

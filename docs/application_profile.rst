@@ -1,7 +1,7 @@
 .. _application_profile:
 
 Application Profile Overview
-----------------------------
+============================
 
 The properties of the Application Profile for OpenAIRE Literature Repository Guidelines are listed in this section.
 The following requirement levels for the metadata properties are used:
@@ -64,6 +64,23 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`aire:citationConferenceDate`       oaire:citationConferenceDate
 :ref:`dct:audience`                      dcterms:audience
 ======================================== ============================= ========================================================================================
+
+The application profile is implemented in XML Schema.
+`The files <https://github.com/openaire/guidelines-literature-repositories/tree/master/schemas>`_ 
+for the application profile and `sample XML files <https://github.com/openaire/guidelines-literature-repositories/tree/master/samples>`_ are part of these Guidelines and also available on the `GitHub repository <https://github.com/openaire/guidelines-literature-repositories>`_.
+
+In the XML metadata documents the schema must be declared as follows:
+
+.. code-block:: xml
+   :linenos:
+
+   <resource xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:datacite="http://datacite.org/schema/kernel-4"
+     xmlns="http://namespace.openaire.eu/schema/oaire/"
+     xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ https://www.openaire.eu/schema/repo-lit/4.0/openaire.xsd">
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/
 .. _COAR Access Right Vocabulary: http://vocabularies.coar-repositories.org/documentation/access_rights/
