@@ -26,21 +26,21 @@ This documentation uses the following namespace abbreviations:
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
 
 ======================================== ============================= ========================================================================================
-OpenAIRE-Field                           Metadata Element              Refinement by vocabulary
+OpenAIRE-Field                           Metadata Element              Refinement by Vocabulary
 ======================================== ============================= ========================================================================================
 :ref:`dci:title`                         datacite:title                :ref:`title type <vocab:titletype_titletype>`
 :ref:`dci:creator`                       datacite:creator              :ref:`name type <vocab:nametype_nametype>`
 :ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
-                                                                       | :ref:`name type <vocab:contributortype_contributortype>`
+                                                                       | :ref:`contributor type <vocab:contributortype_contributortype>`
 :ref:`aire:fundingReference`             oaire:fundingReference        :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
 :ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`
 :ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`
                                                                        | :ref:`relation type <vocab:relationtype_relationtype>`
                                                                        | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`
-:ref:`dci:dateEmbargo`                   datacite:date                 
+:ref:`dci:dateEmbargo`                   datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`dc:language`                       dc:language                   `IETF BCP 47`_, `ISO 639-3`_
 :ref:`dc:publisher`                      dc:publisher
-:ref:`dci:datePublication`               datacite:date                 
+:ref:`dci:datePublication`               datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format

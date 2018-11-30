@@ -39,7 +39,7 @@ Use the date of the embargo start as value in one property and the date of the e
 Attribute dateType (M)
 ----------------------
 
-The type of date. Use the controlled term ``Accepted`` to indicate the start and the term ``Available`` to indicate the end of an embargo period.
+The type of date. Choose from the :ref:`date type <vocab:datetype_datetype>` vocabulary the controlled term ``Accepted`` to indicate the start and the term ``Available`` to indicate the end of an embargo period.
 
 Example
 ~~~~~~~

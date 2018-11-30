@@ -1,6 +1,7 @@
 
 *Controlled List Values:*
 
-* Alternative Title
+* AlternativeTitle
 * Subtitle
 * TranslatedTitle
+* Other
