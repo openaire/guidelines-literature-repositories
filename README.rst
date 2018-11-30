@@ -2,6 +2,7 @@ OpenAIRE Guidelines for Literature Repository Managers based on Dublin Core and 
 ========================================================================================================
 
 Release 4.0
+
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1299203.svg
    :target: https://doi.org/10.5281/zenodo.1299203
    :alt: v.4.0 DOI
