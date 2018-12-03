@@ -53,7 +53,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dci:size`                          datacite:size
 :ref:`dci:geolocation`                   datacite:geoLocation
 :ref:`aire:version`                      oaire:version                 `COAR Version Vocabulary`_ 
-:ref:`aire:file`                         oaire:file        
+:ref:`aire:file`                         oaire:file                    `COAR Access Right Vocabulary`_
 :ref:`aire:citationTitle`                oaire:citationTitle 	
 :ref:`aire:citationVolume`               oaire:citationVolume
 :ref:`aire:citationIssue`                oaire:citationIssue
