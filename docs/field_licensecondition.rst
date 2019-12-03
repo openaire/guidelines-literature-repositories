@@ -48,5 +48,5 @@ Example
    :linenos:
 
    <!-- example 1 -->
-   <oaire:licenseCondition startDate="2019-02-01" uri="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial</oaire:licenseCondition>
+   <oaire:licenseCondition startDate="2019-02-01" uri="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</oaire:licenseCondition>
 
