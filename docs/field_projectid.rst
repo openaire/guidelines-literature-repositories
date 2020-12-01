@@ -82,7 +82,7 @@ An example utilizing all fields:
 
    <oaire:fundingReferences>
     <oaire:fundingReference>
-     <oaire:funderName>European Commission</datacite:funderName>
+     <oaire:funderName>European Commission</oaire:funderName>
      <oaire:funderIdentifier funderIdentifierType="Crossref Funder ID">http://doi.org/10.13039/100010661</oaire:funderIdentifier>
      <oaire:fundingStream>Horizon 2020 Framework Programme</oaire:fundingStream>
      <oaire:awardNumber awardURI="http://cordis.europa.eu/project/rcn/194062_en.html">643410</oaire:awardNumber>
