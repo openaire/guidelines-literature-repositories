@@ -90,4 +90,4 @@ An example utilizing all fields:
     </oaire:fundingReference>
    </oaire:fundingReferences>
 
-.. _Crossref Funder Registry: http://fundref.org/services/funder-registry
+.. _Crossref Funder Registry: https://www.crossref.org/services/funder-registry/
