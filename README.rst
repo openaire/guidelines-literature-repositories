@@ -1,5 +1,5 @@
-OpenAIRE Guidelines for Literature Repository Managers based on Dublin Core and DataCite Metadata Kernel
-========================================================================================================
+OpenAIRE Guidelines for institutional and thematic Repository Managers based on Dublin Core and DataCite Metadata Kernel
+========================================================================================================================
 
 Release 4.0
 ~~~~~~~~~~~

@@ -3,7 +3,7 @@
 Application Profile Overview
 ============================
 
-The properties of the Application Profile for OpenAIRE Literature Repository Guidelines are listed in this section.
+The properties of the Application Profile for OpenAIRE institutional and thematic Repository Guidelines are listed in this section.
 The following requirement levels for the metadata properties are used:
 
 Mandatory (M)
@@ -25,35 +25,40 @@ This documentation uses the following namespace abbreviations:
 * ``datacite``: http://datacite.org/schema/kernel-4
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
 
-======================================== ============================= ========================================================================================
-OpenAIRE-Field                           Metadata Element              Refinement by Vocabulary
-======================================== ============================= ========================================================================================
+======================================== ============================= ================================================================================ ==============
+OpenAIRE-Field                           Metadata Element              Refinement by Vocabulary                                                         FAIR
+======================================== ============================= ================================================================================ ==============
 :ref:`dci:title`                         datacite:title                :ref:`title type <vocab:titletype_titletype>`
 :ref:`dci:creator`                       datacite:creator              :ref:`name type <vocab:nametype_nametype>`
 :ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
                                                                        | :ref:`contributor type <vocab:contributortype_contributortype>`
 :ref:`aire:fundingReference`             oaire:fundingReference        :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
 :ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`
-:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`
-                                                                       | :ref:`relation type <vocab:relationtype_relationtype>`
-                                                                       | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`
+:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`     | RDA-I3-01M
+                                                                       | :ref:`relation type <vocab:relationtype_relationtype>`                         | RDA-I3-02M
+                                                                       | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`    | RDA-I3-03M
+                                                                                                                                                        | RDA-I3-04M
 :ref:`dci:dateEmbargo`                   datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`dc:language`                       dc:language                   `IETF BCP 47`_, `ISO 639-3`_
 :ref:`dc:publisher`                      dc:publisher
 :ref:`dci:datePublication`               datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
-:ref:`dc:format`                         dc:format
-:ref:`dci:identifier`                    datacite:identifier           :ref:`identifier type <vocab:identifiertype_identifiertype>`
-:ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_
+:ref:`dc:format`                         dc:format                                                                                                      RDA-I1-01D
+:ref:`dci:identifier`                    datacite:identifier           :ref:`identifier type <vocab:identifiertype_identifiertype>`                     | RDA-F1-01M
+                                                                                                                                                        | RDA-F1-02M
+                                                                                                                                                        | RDA-A1.1-01D
+:ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_                                                  RDA-A1-01M
 :ref:`dc:source`                         dc:source
-:ref:`dci:subject`                       datacite:subject              
-:ref:`aire:licenseCondition`             oaire:licenseCondition
+:ref:`dci:subject`                       datacite:subject                                                                                               RDA-I1-01M  
+:ref:`aire:licenseCondition`             oaire:licenseCondition                                                                                         | RDA-R1.1-01M
+                                                                                                                                                        | RDA-R1.1-02M
+                                                                                                                                                        | RDA-R1.1-03M
 :ref:`dc:coverage`                       dc:coverage
 :ref:`dci:size`                          datacite:size
 :ref:`dci:geolocation`                   datacite:geoLocation
 :ref:`aire:version`                      oaire:version                 `COAR Version Vocabulary`_ 
-:ref:`aire:file`                         oaire:file                    `COAR Access Right Vocabulary`_
+:ref:`aire:file`                         oaire:file                    `COAR Access Right Vocabulary`_                                                  RDA-F3-01M
 :ref:`aire:citationTitle`                oaire:citationTitle 	
 :ref:`aire:citationVolume`               oaire:citationVolume
 :ref:`aire:citationIssue`                oaire:citationIssue
@@ -63,7 +68,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`aire:citationConferencePlace`      oaire:citationConferencePlace
 :ref:`aire:citationConferenceDate`       oaire:citationConferenceDate
 :ref:`dct:audience`                      dcterms:audience
-======================================== ============================= ========================================================================================
+======================================== ============================= ================================================================================ ==============
 
 The application profile is implemented in XML Schema.
 `The files <https://github.com/openaire/guidelines-literature-repositories/tree/master/schemas>`_ 
@@ -74,12 +79,12 @@ In the XML metadata documents the schema must be declared as follows:
 .. code-block:: xml
    :linenos:
 
-   <resource xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   <oaire:resource xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:datacite="http://datacite.org/schema/kernel-4"
-     xmlns="http://namespace.openaire.eu/schema/oaire/"
+     xmlns:oaire="http://namespace.openaire.eu/schema/oaire/"
      xsi:schemaLocation="http://namespace.openaire.eu/schema/oaire/ https://www.openaire.eu/schema/repo-lit/4.0/openaire.xsd">
 
 .. _COAR Resource Type Vocabulary: http://vocabularies.coar-repositories.org/documentation/resource_types/

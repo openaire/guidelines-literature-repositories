@@ -51,6 +51,20 @@ The type of the Identifier (occurrences: 1).
 .. note::
    Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
 
+
+
+`FAIR enabled <fair_enabled.html>`_
+~~~~~~~~~~~~
+
+============= =========== ===================================================
+Indicator     Priority    Description                                       
+============= =========== ===================================================
+RDA-F1-01M    essential   Metadata is identified by a persistent identifier 
+RDA-F1-02M    essential   Metadata is identified by a global unique id      
+RDA-A1.1-01D  important   Data is accessible through a free access protocol 
+============= =========== ===================================================
+
+
 Example
 ~~~~~~~
 

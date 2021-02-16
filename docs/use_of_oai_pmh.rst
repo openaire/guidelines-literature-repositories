@@ -62,7 +62,9 @@ In accordance with the `OAI-PMH guidelines <http://www.openarchives.org/OAI/2.0/
           <metadataNamespace>
             http://www.openarchives.org/OAI/2.0/oai_dc/
           </metadataNamespace>
-        </originDescription>
+          <repositoryId>opendoar:98765</repositoryId>
+          <repositoryName>DSpace Library</repositoryName>
+         </originDescription>
       </provenance>
     </about>
 
@@ -72,11 +74,19 @@ This means information encoded in the following elements is expected (taken from
 * identifier - the unique identifier of the item in the originating repository from which the metadata record was disseminated.
 * datestamp - the datestamp of the metadata record disseminated by the originating repository.
 * metadataNamespace - the XML namespace URI of the metadata format of the record harvested from the originating repository.
-* originDescription - an optional originDescription block which was that obtained when the metadata record was harvested. A set of nested originDescription blocks will describe provenance over a sequence of harvests.
+* originDescription - an optional originDescription block which was that obtained when the metadata record was harvested. A set of nested 
+                      *originDescription* blocks will describe provenance over a sequence of harvests.
 
-Each originDescription must also have the following two attributes which relate to the act of harvesting and any subsequent processing:
+Each *originDescription* must also have the following two attributes which relate to the act of harvesting and any subsequent processing:
 
 * harvestDate - the responseDate of the OAI-PMH response that resulted in the record being harvested from the originating repository.
 * altered - a boolean value which must be true if the harvested record was altered before being disseminated again.
+
+As an PoC extension for the aggregator community, we wanted to make the proposal for two more elements to reflect the 
+non-persistent identifier of the OAI-PMH protocol for a repsoitory:
+
+* repositoryId - structured with registry with controlled vocabulary: `opendoar <https://https://v2.sherpa.ac.uk/opendoar/>`_, `re3data <https://re3data.org>`_, `doaj <https://doaj.org>`_, 
+  and `dris <https://dspacecris.eurocris.org/cris/explore/dris>`_ and followed by the registryId (without precending zeros), eg. ``dris:98765``.
+* repositoryName - human readable name of the repository.
 
 
