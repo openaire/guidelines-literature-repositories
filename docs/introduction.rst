@@ -5,7 +5,7 @@ Introduction
 
 Aim
 ---
-The OpenAIRE Guidelines for institutional and thematic Repository Managers 4.0 provide
+The OpenAIRE Guidelines for institutional and thematic Repository Managers 4.1 provide
 orientation for repository managers to define and implement their local data
 management policies according to the requirements of the `OpenAIRE - Open Access
 Infrastructure for Research in Europe <http://www.openaire.eu>`_.
@@ -95,9 +95,9 @@ Acknowledgments & Contributors
 
 Versions
 --------
-* 4.1 draft, January 2021
+* 4.1-rc, February 2021
 
-  * Corrections, refined examples, enhance provenance elemnt 
+  * Corrections, refined examples, enhance provenance element and adding FAIR description
 
 * 4.0, November 2018 `doi:10.5281/zenodo.1299203 <http://dx.doi.org/10.5281/zenodo.1299203>`_
 
