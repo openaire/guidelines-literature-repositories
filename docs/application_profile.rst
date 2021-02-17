@@ -25,6 +25,8 @@ This documentation uses the following namespace abbreviations:
 * ``datacite``: http://datacite.org/schema/kernel-4
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
 
+The metadata format should be called "oai_openaire".
+
 ======================================== ============================= ========================================================================================
 OpenAIRE-Field                           Metadata Element              Refinement by Vocabulary
 ======================================== ============================= ========================================================================================

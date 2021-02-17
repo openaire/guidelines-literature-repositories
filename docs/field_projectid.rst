@@ -75,7 +75,7 @@ Title of the project, award or grant (occurrence: 0-1).
 Example
 ~~~~~~~
 
-An example utilizing all fields:
+Examples utilizing all fields:
 
 .. code-block:: xml
    :linenos:
@@ -89,5 +89,33 @@ An example utilizing all fields:
      <oaire:awardTitle>Open Access Infrastructure for Research in Europe 2020</oaire:awardTitle>
     </oaire:fundingReference>
    </oaire:fundingReferences>
+   
+ .. code-block:: xml
+   :linenos:
+   
+   <oaire:fundingReferences>
+    <oaire:fundingReference>
+      <oaire:funderName>Deutsche Forschungsgemeinschaft</datacite:funderName>
+      <oaire:funderIdentifier funderIdentifierType="Crossref Funder ID"> http://dx.doi.org/10.13039/501100001659</oaire:funderIdentifier>
+      <oaire:fundingStream>Transregios</oaire:fundingStream>
+      <oaire:awardNumber awardURI="https://gepris.dfg.de/gepris/projekt/276833197">276833197</oaire:awardNumber>
+      <oaire:awardTitle>Quantitative Quality Assessment of Computational Photography</oaire:awardTitle>
+      </oaire:fundingReference>
+    </oaire:fundingReferences>
+  
+.. code-block:: xml
+   :linenos:
+   
+   <oaire:fundingReferences>
+     <oaire:fundingReference>
+      <oaire:funderName>SNSF</datacite:funderName>
+      <oaire:funderIdentifier funderIdentifierType="ISNI">http://www.isni.org/isni/0000000106723101</oaire:funderIdentifier>
+      <oaire:fundingStream>International short research visits</oaire:fundingStream>
+      <oaire:awardNumber awardURI="http://p3.snf.ch/project-151094">151094</oaire:awardNumber>
+      <oaire:awardTitle>Amygdala fMRI and social cognition in patients with unilateral MTLE and Urbach-Wiethe disease</oaire:awardTitle>  
+     </oaire:fundingReference>
+   </oaire:fundingReferences>
+
+
 
 .. _Crossref Funder Registry: https://www.crossref.org/services/funder-registry/
