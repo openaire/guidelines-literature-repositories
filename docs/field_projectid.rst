@@ -96,7 +96,7 @@ Examples utilizing all fields:
    
    <oaire:fundingReferences>
     <oaire:fundingReference>
-      <oaire:funderName>Deutsche Forschungsgemeinschaft</datacite:funderName>
+      <oaire:funderName>Deutsche Forschungsgemeinschaft</oaire:funderName>
       <oaire:funderIdentifier funderIdentifierType="Crossref Funder ID"> http://dx.doi.org/10.13039/501100001659</oaire:funderIdentifier>
       <oaire:fundingStream>Transregios</oaire:fundingStream>
       <oaire:awardNumber awardURI="https://gepris.dfg.de/gepris/projekt/276833197">276833197</oaire:awardNumber>
@@ -109,7 +109,7 @@ Examples utilizing all fields:
    
    <oaire:fundingReferences>
      <oaire:fundingReference>
-      <oaire:funderName>SNSF</datacite:funderName>
+      <oaire:funderName>SNSF</oaire:funderName>
       <oaire:funderIdentifier funderIdentifierType="ISNI">http://www.isni.org/isni/0000000106723101</oaire:funderIdentifier>
       <oaire:fundingStream>International short research visits</oaire:fundingStream>
       <oaire:awardNumber awardURI="http://p3.snf.ch/project-151094">151094</oaire:awardNumber>
