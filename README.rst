@@ -22,3 +22,8 @@ Status
    :target: https://readthedocs.org/projects/openaire-guidelines-for-literature-repository-managers/?badge=latest
    :alt: Documentation Status
 
+
+Translation
+~~~~~~
+
+Spanish: https://github.com/memoemg/openAIRE4
