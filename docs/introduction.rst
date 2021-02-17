@@ -59,9 +59,9 @@ Acknowledgments & Contributors
 
 **Editors**
 
-* Jochen Schirrwagen (Bielefeld University, Germany)
-* Miriam Baglioni (CNR, Italy)
-* Andreas Czerniak (Bielefeld University, Germany)
+* `Jochen Schirrwagen <https://orcid.org/0000-0002-0458-1004>`_ (Bielefeld University, Germany)
+* `Miriam Baglioni <https://orcid.org/0000-0002-2273-9004>`_ (CNR, Italy)
+* `Andreas Czerniak <https://orcid.org/0000-0003-3883-4169>`_ (Bielefeld University, Germany)
 
 **Experts & Reviewers**
 
@@ -97,7 +97,7 @@ Versions
 --------
 * 4.1-rc, February 2021
 
-  * Corrections, refined examples, enhance provenance element and adding FAIR description
+  * Corrections, refined examples, enhance provenance element, and adding FAIR descriptions
 
 * 4.0, November 2018 `doi:10.5281/zenodo.1299203 <http://dx.doi.org/10.5281/zenodo.1299203>`_
 
