@@ -25,7 +25,11 @@ The ideal use of this element is to use a direct link or a link to a jump-off pa
 
 Smart practice:
 
-* use a stable URL
+* use a stable, sustainable URL
+
+**Remarks**
+
+* adapted from `DataCite MetadataKernel`_ v4.1
 
 **Do Not Confuse With**
 
@@ -51,6 +55,20 @@ The type of the Identifier (occurrences: 1).
 .. note::
    Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
 
+
+
+`FAIR enabled <fair_enabled.html>`_
+~~~~~~~~~~~~
+
+============= =========== ===================================================
+Indicator     Priority    Description                                       
+============= =========== ===================================================
+RDA-F1-01M    essential   Metadata is identified by a persistent identifier 
+RDA-F1-02M    essential   Metadata is identified by a global unique id      
+RDA-A1.1-01D  important   Data is accessible through a free access protocol 
+============= =========== ===================================================
+
+
 Example
 ~~~~~~~
 
@@ -60,3 +78,6 @@ In this example the handle redirects to the jump-off page. A jump-off page is a 
    :linenos:
 
    <datacite:identifier identifierType="Handle">http://hdl.handle.net/1234/5628</datacite:identifier>
+
+
+.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/

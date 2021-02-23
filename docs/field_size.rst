@@ -37,9 +37,9 @@ Example
 .. code-block:: xml
    :linenos:
 
-     <datacite.sizes>
+     <datacite:sizes>
 	     <datacite:size>15 pages</datacite:size>
 	     <datacite:size>6 MB</datacite:size>
-     </datacite.sizes>
+     </datacite:sizes>
 
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/

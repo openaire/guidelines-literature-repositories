@@ -5,6 +5,7 @@
 conceptURI                                    label
 ============================================= ========================
 http://purl.org/coar/resource_type/c_1162     ``annotation``
+http://purl.org/coar/resource_type/c_0640     ``journal``
 http://purl.org/coar/resource_type/c_6501     ``journal article``
 http://purl.org/coar/resource_type/c_545b     ``letter to the editor``
 http://purl.org/coar/resource_type/c_b239     ``editorial``
@@ -50,6 +51,7 @@ http://purl.org/coar/resource_type/c_18cd     ``musical composition``
 http://purl.org/coar/resource_type/c_18cc     ``sound``
 http://purl.org/coar/resource_type/c_12ce     ``video``
 http://purl.org/coar/resource_type/c_8a7e     ``moving image``
+http://purl.org/coar/resource_type/c_2659     ``periodical``
 http://purl.org/coar/resource_type/c_ecc8     ``still image``
 http://purl.org/coar/resource_type/c_c513     ``image``
 http://purl.org/coar/resource_type/c_12cd     ``map``

@@ -1,7 +1,7 @@
 .. _dci:creator:
 
-Creator (M)
-===========
+Creator (MA)
+============
 
 ``datacite:creator``
 
