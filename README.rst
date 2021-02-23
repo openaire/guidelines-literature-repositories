@@ -1,12 +1,12 @@
 OpenAIRE Guidelines for institutional and thematic Repository Managers based on Dublin Core and DataCite Metadata Kernel
 ========================================================================================================================
 
-Release 4.1-rc
-~~~~~~~~~~~~~~
+Release 4.1-rc1
+~~~~~~~~~~~~~~~
 
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1299203.svg
    :target: https://doi.org/10.5281/zenodo.1299203
-   :alt: v.4.1 DOI
+   :alt: v.4.0 DOI
 
 .. image:: https://readthedocs.org/projects/openaire-guidelines-for-literature-repository-managers/badge/?version=latest
    :target: https://readthedocs.org/projects/openaire-guidelines-for-literature-repository-managers/?badge=v4.1.0
