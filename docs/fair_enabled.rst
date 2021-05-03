@@ -12,11 +12,11 @@ The following section describe the FAIRification process of the OpenAIRE Guideli
 Overview
 ~~~~~~~~
 
-The FAIR maturity model: specification and guidelines of the `Research Data Alliance (RDA) <https://www.rd-alliance.org>`_ (DOI: `10.15497/rda00045 <https://doi.org/10.15497/rda00045>`_)
+The `FAIR maturity model: specification and guidelines <https://www.rd-alliance.org/group/fair-data-maturity-model-wg/outcomes/fair-data-maturity-model-specification-and-guidelines-0>`_ of the `Research Data Alliance (RDA) <https://www.rd-alliance.org>`_ (DOI: `10.15497/rda00050 <https://doi.org/10.15497/rda00050>`_)
 has the aim to specify the objective indicators for the FAIR assessment. The guidelines are intended to assist evaluators to implement the indicators in the evaluation approach or tool 
 they manage.
 
-The evaluation level analyse is done thru the RDA provided sheet at https://www.rd-alliance.org/system/files/FAIR_evaluation_levels_v0.01.xlsx . 
+The evaluation level analyse is done thru the RDA provided sheet at `https://www.rd-alliance.org/system/files/FAIR_evaluation_levels_v0.01.xlsx`_. 
 The result of this evaluation shows the figure below.
 
 

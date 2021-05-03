@@ -32,3 +32,4 @@
 * ``IsSourceOf`` (indicates A is a source upon which B is based)
 * ``IsRequiredBy`` (indicates A is required by B)
 * ``Requires`` (indicates A requires B)
+* ``IsPublishedIn`` (indicates that A is published in B)

@@ -2,19 +2,21 @@ Use of OAI-PMH
 ==============
 
 OpenAIRE supports a number of transfer protocols and interfaces for collecting bibliographic metadata.
-The usage of one of the major protocols, `OAI-PMH v2.0 protocol <http://www.openarchives.org/OAI/openarchivesprotocol.html>`_, in the context of these Guidelines and its application profile is described below.
+The usage of one of the major protocols, `OAI-PMH v2.0 protocol <http://www.openarchives.org/OAI/openarchivesprotocol.html>`_, 
+in the context of these Guidelines and its application profile is described below.
+
 
 Metadata Format
-^^^^^^^^^^^^^^^
+---------------
 OpenAIRE expects metadata to be encoded following the metadata format defined in the OpenAIRE Application Profile.
 The recommended metadataPrefix is ``oai_openaire``. 
 For information on how to use the individual properties, please refer to the section :ref:`application_profile`.
 
 Metadata Content
-^^^^^^^^^^^^^^^^
+----------------
 
 OpenAIRE collects metadata of scientific products according to the OpenAIRE Content Acquisition Policy published at https://doi.org/10.5281/zenodo.1446407 .
-This includes bibliographic metadata describing open access and non open access items.
+This includes bibliographic metadata describing open access and non-open access items.
 
 .. OpenAIRE OAI Set
    ~~~~~~~~~~~~~~~~
@@ -42,10 +44,19 @@ This includes bibliographic metadata describing open access and non open access 
 
 .. FIXME
 
+Harvesting Batch_Size
+---------------------
+The common convention for the harvesting *batch_size* via OAI-PMH is '100' records per request [`Open Archives - OAI Flow Control <http://www.openarchives.org/OAI/openarchivesprotocol.html#FlowControl>`_]. 
+If more records are available beyond that first page with *batch_size* records, a "resumptionToken" is presented.
+OpenAIRE recommendation is to have a *batch_size* between **100 and 500** records per request. 
+
+A higher value of *batch_size* would be desirable if the requirements are in place.
+
+
 Compatibility of Aggregators
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------
 Besides individual repositories and journals, also aggregators (e.g., on the national level) can become OpenAIRE compatible. In this case, additional provenance information on the original content providers harvested by such an aggregator has to be encoded for OpenAIRE on the metadata record level.
-In accordance with the `OAI-PMH guidelines <http://www.openarchives.org/OAI/2.0/guidelines-provenance.htm>`_, the provenance information has to be provided in the ``about`` node element of an OAI record, as displayed in the following example:
+In accordance with the `OAI-PMH provenance guidelines <http://www.openarchives.org/OAI/2.0/guidelines-provenance.htm>`_, the provenance information has to be provided in the ``about`` node element of an OAI record, as displayed in the following example:
 
 .. code-block:: xml
    :linenos:

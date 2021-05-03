@@ -18,7 +18,7 @@ Guidelines are intended to guide repository manager to expose to the OpenAIRE
 infrastructure **open access and non-open access publications** together with **funding information**, where applicable.
 
 By implementing these Guidelines, repository managers will not only be
-enabling authors who deposit publications in their repository to fulfill the EC
+enabling authors who deposit publications in their repository to fulfill the European Commission (EC)
 Open Access requirements, and eventually also the requirements of other
 (national or international) funders with whom OpenAIRE cooperates,
 but also incorporating their publications into the OpenAIRE infrastructure for
@@ -26,19 +26,29 @@ discoverability and utilizing value-added services provided by the OpenAIRE port
 
 The OpenAIRE Guidelines for institutional and thematic Repository Managers 4.0 are 
 part of a set of OpenAIRE Guidelines that also include the OpenAIRE Guidelines
-for Data Archive Managers, the OpenAIRE Guidelines for CRIS managers, the OpenAIRE Guidelines for Software Repository Managers, and the Guidelines for Other Research Products Repository Managers.
+for Data Archive Managers, the OpenAIRE Guidelines for CRIS managers, the OpenAIRE Guidelines 
+for Software Repository Managers, and the Guidelines for Other Research Products Repository Managers.
+
 
 What's new
 ----------
 In comparison with previous versions of the Guidelines, this version introduces
 the following major changes:
 
+since 4.0:
+* covering of FAIR principles elements
+* proof of concept: enhancement of *provenance* information of with **repositoryId's** and **repositoryName's** for Aggregators
+* add new value to controlled ``relationType`` vocabulary: **IsPublishedIn** and is adopted from DataCite Schema v4.4.
+* Note on OAI-PMH repository *batch_size* 
+
+since v3.0:
 * covering of FAIR principles elements
 * proof of concept: enhancement of provenance information of with repositoryId's and repositoryName's for Aggregators
 * an application profile and schema based on Dublin Core and DataCite incl. a new OAI-metadataPrefix
 * support of identifier schemes for authors, organizations, funders, scholarly resources
 * introduction of COAR Controlled Vocabularies
 * compliance with the `OpenAIRE Content Acquisition Policy <https://doi.org/10.5281/zenodo.1446407>`_, published on 05-Oct-2018.
+
 
 How this document is structured
 -------------------------------
@@ -53,6 +63,7 @@ Each OpenAIRE field is described in detail by
 * the cardinality of the field
 * definition and usage instructions with regard to allowed values in properties, sub-properties and attributes
 * example(s)
+
 
 Acknowledgments & Contributors
 ------------------------------
