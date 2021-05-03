@@ -84,6 +84,8 @@ Acknowledgments & Contributors
 * Paolo Manghi (CNR, Italy)
 * Aenne Loehden (Bielefeld University, Germany)
 * Amelie Bäcker (Bielefeld University, Germany)
+* Alessia Bardi (CNR, Italy)
+
 
 *LA Referencia*
 

@@ -7,7 +7,7 @@ These guidelines describe the application profile v4.1-rc1 for institutional and
 .. toctree::
    :maxdepth: 1
 
-   introductions
+   introduction
    use_of_oai_pmh
    application_profile
    fair_enabled
