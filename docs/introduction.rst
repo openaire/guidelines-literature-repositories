@@ -35,13 +35,15 @@ What's new
 In comparison with previous versions of the Guidelines, this version introduces
 the following major changes:
 
-since 4.0:
+since v4.0:
+
 * covering of FAIR principles elements
 * proof of concept: enhancement of *provenance* information of with **repositoryId's** and **repositoryName's** for Aggregators
 * add new value to controlled ``relationType`` vocabulary: **IsPublishedIn** and is adopted from DataCite Schema v4.4.
 * Note on OAI-PMH repository *batch_size* 
 
 since v3.0:
+
 * covering of FAIR principles elements
 * proof of concept: enhancement of provenance information of with repositoryId's and repositoryName's for Aggregators
 * an application profile and schema based on Dublin Core and DataCite incl. a new OAI-metadataPrefix
