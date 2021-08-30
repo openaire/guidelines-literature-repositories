@@ -31,6 +31,10 @@ When :ref:`dci:accessrights` is set to::
 
 the start and end date of the embargo period must be provided.
 
+**Do Not Confuse With**
+
+* :ref:`dci:datePublication` (Use ``datacite:date`` for **Publication Date** related to the resource.)
+
 Property date (MA, 2)
 -----------------------
 
