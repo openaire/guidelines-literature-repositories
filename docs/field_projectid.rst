@@ -97,7 +97,7 @@ Examples utilizing all fields:
    <oaire:fundingReferences>
     <oaire:fundingReference>
       <oaire:funderName>Deutsche Forschungsgemeinschaft</oaire:funderName>
-      <oaire:funderIdentifier funderIdentifierType="Crossref Funder ID"> http://dx.doi.org/10.13039/501100001659</oaire:funderIdentifier>
+      <oaire:funderIdentifier funderIdentifierType="Crossref Funder ID">http://dx.doi.org/10.13039/501100001659</oaire:funderIdentifier>
       <oaire:fundingStream>Transregios</oaire:fundingStream>
       <oaire:awardNumber awardURI="https://gepris.dfg.de/gepris/projekt/276833197">276833197</oaire:awardNumber>
       <oaire:awardTitle>Quantitative Quality Assessment of Computational Photography</oaire:awardTitle>

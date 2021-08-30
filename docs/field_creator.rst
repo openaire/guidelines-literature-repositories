@@ -70,7 +70,7 @@ Uniquely identifies an individual or legal entity, according to various schemes 
 The format is dependent upon scheme.
 
 .. note::
-   OpenAIRE recommends including a nameIdentifier such as an ORCID or a ISNI if available.
+   OpenAIRE recommends including a nameIdentifierSchema such as an ORCID, ISNI, ROR, or GRID if available.
 
 
 .. _dci:creator_nameIdentifier_nameIdentifierScheme:
@@ -111,4 +111,4 @@ Example
      </datacite:creator>
    </datacite:creators>
 
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+.. _DataCite MetadataKernel: https://schema.datacite.org/meta/kernel-4.4/

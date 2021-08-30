@@ -75,4 +75,4 @@ Example
    <datacite:date dateType="Issued">2000-12-25</datacite:date>
 
 .. _DRIVER Guidelines v2 element date: https://wiki.surfnet.nl/display/DRIVERguidelines/Date
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+.. _DataCite MetadataKernel: https://schema.datacite.org/meta/kernel-4.4/

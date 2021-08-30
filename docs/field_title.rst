@@ -63,4 +63,4 @@ Example
       <datacite:title xml:lang="en-US" titleType="Subtitle">A survey</datacite:title>
     </datacite:titles>
 
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+.. _DataCite MetadataKernel: https://schema.datacite.org/meta/kernel-4.4/

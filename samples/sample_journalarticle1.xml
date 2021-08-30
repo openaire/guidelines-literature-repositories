@@ -20,7 +20,7 @@
         </datacite:creator>
         <datacite:creator>
             <datacite:creatorName>Wallentin, Carl‐Johan</datacite:creatorName>
-            <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="">http://orcid.org/0000-0003-1983-9378</datacite:nameIdentifier>
+            <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org">https://orcid.org/0000-0003-1983-9378</datacite:nameIdentifier>
         </datacite:creator>
     </datacite:creators>
 

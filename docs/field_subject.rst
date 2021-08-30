@@ -82,4 +82,4 @@ Example
     </datacite:subject>
    </datacite:subjects>
 
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+.. _DataCite MetadataKernel: https://schema.datacite.org/meta/kernel-4.4/

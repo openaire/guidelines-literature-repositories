@@ -4,3 +4,4 @@
 * ISNI
 * GRID
 * Crossref Funder
+* ROR

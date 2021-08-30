@@ -80,4 +80,4 @@ In this example the handle redirects to the jump-off page. A jump-off page is a 
    <datacite:identifier identifierType="Handle">http://hdl.handle.net/1234/5628</datacite:identifier>
 
 
-.. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
+.. _DataCite MetadataKernel: https://schema.datacite.org/meta/kernel-4.4/
