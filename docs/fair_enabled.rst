@@ -19,6 +19,27 @@ they manage.
 The evaluation level analyse is done thru the RDA provided sheet at `https://www.rd-alliance.org/system/files/FAIR_evaluation_levels_v0.01.xlsx`_. 
 The result of this evaluation shows the figure below.
 
+In the case of *Findablility* indicators
+
+- RDA-F2-01M: Rich metadata is provided to allow discovery
+- RDA-F4-01M: Metadata is offered in such a way that it can be harvested and indexed
+
+are implicity covered.
+
+In such a case for *Accessiblity* indicators
+
+- RDA-A1-02M: Metadata can be accessed manually (i.e. with human intervention)
+- RDA-A1-04M: Metadata is accessed through standardised protocol
+
+are implemented via the standardized OAI-PMH interface.
+
+And for *Reusablility* indicator
+
+- RDA-R1.3-02M: Metadata is expressed in compliance with a machine-understandable community standard
+
+is implicity covered by the guidelines.
+
+
 
 .. image:: _static/FAIR-Indicator_InstThemRepoGuidelines.png
     :width: 800px
@@ -26,3 +47,20 @@ The result of this evaluation shows the figure below.
     :alt: analyzed FAIR Indicator for the OpenAIRE Guidelines for instiutional and thematic repository managers
 
 
+Out of the scope of these guidelines are the indicators:
+
+- RDA-A1-02D: Data can be accessed manually (i.e. with human intervention)
+- RDA-A2-01M: Metadata is guaranteed to remain available after data is no longer available
+- RDA-I2-01D: Data uses FAIR-compliant vocabularies
+- RDA-I3-01D: Data includes references to other data
+- RDA-I3-02D: Data includes qualified references to other data
+
+
+Not directly supported or crosswalks exists are:
+
+- RDA-A1.2-01D: Data is accessible through an access protocol that supports authentication and authorisation
+- RDA-I1-02D: Data uses machine-understandable knowledge representation
+- RDA-R1.2-01M: Metadata includes provenance information according to community-specific standards
+- RDA-R1.2-02M: Metadata includes provenance information according to a cross-community language
+- RDA-R1.3-01D: Data complies with a community standard
+- RDA-R1.3-02D: Data is expressed in compliance with a machine-understandable community standard

@@ -4,6 +4,7 @@
 * ARK
 * DOI
 * Handle
+* IGSN
 * PURL
 * URL
 * URN

@@ -2,7 +2,7 @@
 
 .. _dci:title_title:
 
-Title (M)
+Title (**M**)
 =========
 
 ``datacite:title``

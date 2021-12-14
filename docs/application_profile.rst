@@ -6,10 +6,10 @@ Application Profile Overview
 The properties of the Application Profile for OpenAIRE institutional and thematic Repository Guidelines are listed in this section.
 The following requirement levels for the metadata properties are used:
 
-Mandatory (M)
+Mandatory (**M**)
   The property must always be present in the metadata. An empty value for the property is not allowed.
 
-Mandatory if Applicable (MA)
+Mandatory if Applicable (**MA**)
   When the property value can be obtained it must be present in the metadata
 
 Recommended (R)
@@ -29,11 +29,11 @@ This documentation uses the following namespace abbreviations:
 OpenAIRE-Field                           Metadata Element              Refinement by Vocabulary                                                         FAIR
 ======================================== ============================= ================================================================================ ==============
 :ref:`dci:title`                         datacite:title                :ref:`title type <vocab:titletype_titletype>`
-:ref:`dci:creator`                       datacite:creator              :ref:`name type <vocab:nametype_nametype>`
+:ref:`dci:creator`                       datacite:creator              :ref:`name type <vocab:nametype_nametype>`                                       | RDA-I3-01M
 :ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
                                                                        | :ref:`contributor type <vocab:contributortype_contributortype>`
 :ref:`aire:fundingReference`             oaire:fundingReference        :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
-:ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`
+:ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`   | RDA-F1-02M
 :ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`     | RDA-I3-01M
                                                                        | :ref:`relation type <vocab:relationtype_relationtype>`                         | RDA-I3-02M
                                                                        | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`    | RDA-I3-03M
