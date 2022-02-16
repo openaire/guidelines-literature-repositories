@@ -16,28 +16,28 @@ The `FAIR maturity model: specification and guidelines <https://www.rd-alliance.
 has the aim to specify the objective indicators for the FAIR assessment. The guidelines are intended to assist evaluators to implement the indicators in the evaluation approach or tool 
 they manage.
 
-The evaluation level analyse is done thru the RDA provided sheet at `https://www.rd-alliance.org/system/files/FAIR_evaluation_levels_v0.01.xlsx`_. 
+The evaluation level analyse is done thru the RDA FAIR Data Maturity specification sheet provided at `https://www.rd-alliance.org/system/files/FAIR_evaluation_levels_v0.01.xlsx <https://www.rd-alliance.org/system/files/FAIR_evaluation_levels_v0.01.xlsx>`_.
 The result of this evaluation shows the figure below.
 
-In the case of *Findablility* indicators
+In the case of *Findability* indicators
 
 - RDA-F2-01M: Rich metadata is provided to allow discovery
 - RDA-F4-01M: Metadata is offered in such a way that it can be harvested and indexed
 
-are implicity covered.
+are implicit covered.
 
-In such a case for *Accessiblity* indicators
+In such a case for *Accessibility* indicators
 
 - RDA-A1-02M: Metadata can be accessed manually (i.e. with human intervention)
 - RDA-A1-04M: Metadata is accessed through standardised protocol
 
 are implemented via the standardized OAI-PMH interface.
 
-And for *Reusablility* indicator
+And for *Reusability* indicator
 
 - RDA-R1.3-02M: Metadata is expressed in compliance with a machine-understandable community standard
 
-is implicity covered by the guidelines.
+is implicit covered by the guidelines.
 
 
 
