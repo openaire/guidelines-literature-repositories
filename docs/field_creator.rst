@@ -8,7 +8,7 @@ Creator (MA)
 Cardinality
 ~~~~~~~~~~~
 
-*Mandatory*
+*Mandatory if applicable*
 
 *Occurrence: 1-n*
 
