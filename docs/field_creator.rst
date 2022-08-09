@@ -8,7 +8,7 @@ Creator (MA)
 Cardinality
 ~~~~~~~~~~~
 
-*Mandatory*
+*Mandatory if applicable*
 
 *Occurrence: 1-n*
 
@@ -26,8 +26,8 @@ The authors of the publication in priority order. May be a corporate/institution
 
 * adapted from `DataCite MetadataKernel`_ v4.1
 
-Property creator (M, 1-n)
--------------------------
+Property creator (MA, 1-n)
+--------------------------
 
 
 .. _dci:creator_creatorName:
@@ -95,6 +95,12 @@ Subproperty affiliation (R)
 
 The organizational or institutional affiliation of the creator (occurrence: 0-n).
 
+Attribute affiliationIdentifier (R)
+-----------------------------------
+
+Dedicated to the 'Subproperty affiliation' enhance this attribute the institution and organization affiliation with a
+unique identifier from `ROR <https://ror.org>`_, `GRID <https://www.grid.ac/>`_, `ISNI <https://isni.org/>`_, `CrossRef FunderID <https://www.crossref.org/services/funder-registry/>`_ (occurrence: 0-1).
+
 Example
 ~~~~~~~
 .. code-block:: xml
@@ -103,7 +109,7 @@ Example
    <datacite:creators>
      <datacite:creator>
        <datacite:creatorName>Evans, R.J.</datacite:creatorName>
-       <datacite:affiliation>Institute of Science and Technology</datacite:affiliation>
+       <datacite:affiliation affiliationIdentifier="https://ror.org/01ab23cd4">Institute of Science and Technology</datacite:affiliation>
        <datacite:nameIdentifier nameIdentifierScheme="ORCID"
                        schemeURI="http://orcid.org">
          1234-1234-1234-1234
