@@ -12,6 +12,14 @@ OpenAIRE expects metadata to be encoded following the metadata format defined in
 The recommended metadataPrefix is ``oai_openaire``. 
 For information on how to use the individual properties, please refer to the section :ref:`application_profile`.
 
+The OAI-PMH verb **ListMetadataFormats** should be offer the metadataPrefix ``oai_openaire`` as
+================= ========================================================
+metadataPrefix    oai_openaire
+metadataNamespace http://namespace.openaire.eu/schema/oaire/
+schema            https://www.openaire.eu/schema/repo-lit/4.0/openaire.xsd
+================= ========================================================
+
+
 Metadata Content
 ----------------
 
