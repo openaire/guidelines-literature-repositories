@@ -51,6 +51,11 @@ Specify the type of object the file represents. Select it from the following con
 * ``software``
 * ``other``
 
+Attribute version (O)
+---------------------
+
+Specify the version of object.
+
 Example
 ~~~~~~~
 
