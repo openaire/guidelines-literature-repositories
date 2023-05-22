@@ -5,7 +5,7 @@ Introduction
 
 Aim
 ---
-The OpenAIRE Guidelines for Literature Repository Managers 4.0 provide
+The OpenAIRE Guidelines for Institutional and Thematic Repository Managers 4.0 provide
 orientation for repository managers to define and implement their local data
 management policies according to the requirements of the `OpenAIRE - Open Access
 Infrastructure for Research in Europe <http://www.openaire.eu>`_.
@@ -24,7 +24,7 @@ Open Access requirements, and eventually also the requirements of other
 but also incorporating their publications into the OpenAIRE infrastructure for
 discoverability and utilizing value-added services provided by the OpenAIRE portal.
 
-The OpenAIRE Guidelines for Literature Repository Managers 4.0 are 
+The OpenAIRE Guidelines for Institutional and Thematic Repository Managers 4.0 are
 part of a set of OpenAIRE Guidelines that also include the OpenAIRE Guidelines
 for Data Archive Managers, the OpenAIRE Guidelines for CRIS managers, the OpenAIRE Guidelines for Software Repository Managers, and the Guidelines for Other Research Products Repository Managers.
 

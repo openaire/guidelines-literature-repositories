@@ -24,7 +24,7 @@
  <xs:element name="resource">
   <xs:annotation>
     <xs:documentation>
-      This schema defines the xml format for OpenAIRE Guidelines for Literature Repositories v4.
+      This schema defines the xml format for OpenAIRE Guidelines for Institutional and Thematic Repositories v4.
       
       The schema represents an application profile consisting of
       * elements from Dublin Core with optional refinement attributes xml:lang and rdf:resource

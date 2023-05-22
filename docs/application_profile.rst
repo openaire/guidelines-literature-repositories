@@ -3,7 +3,7 @@
 Application Profile Overview
 ============================
 
-The properties of the Application Profile for OpenAIRE Literature Repository Guidelines are listed in this section.
+The properties of the Application Profile for OpenAIRE Institutional and Thematic Repository Guidelines are listed in this section.
 The following requirement levels for the metadata properties are used:
 
 Mandatory (M)
