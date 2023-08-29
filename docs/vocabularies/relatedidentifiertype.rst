@@ -17,6 +17,7 @@
 * ``PISSN`` – International Standard Serial Number (print version)
 * ``PMID`` – PubMed ID
 * ``PURL`` – Persistent Uniform Resource Locator
+* ``SWHID`` – SoftWare Heritage persistent IDentifier
 * ``UPC`` – Universal Product Code is a barcode symbology used for tracking trade items in stores. Its most common form, the UPC-A, consists of 12 numerical digits.
 * ``URL`` – Uniform Resource Locator
 * ``URN`` – Uniform Resource Name
