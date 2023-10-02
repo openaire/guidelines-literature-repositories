@@ -106,10 +106,10 @@ Example
    :linenos:
 
    <datacite:contributors>
-	   <datacite:contributor>
+	   <datacite:contributor contributorType="ContactPerson">
 	     <datacite:contributorName>Evans, R. J.</datacite:contributorName>
 	   <datacite:contributor>
-	   <datacite:contributor>
+	   <datacite:contributor contributorType="HostingInstitution">
 	     <datacite:contributorName>International Human Genome Sequencing Consortium</datacite:contributorName>
 	   </datacite:contributor>
    </datacite:contributors>
