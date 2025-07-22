@@ -8,7 +8,7 @@ File Location (MA)
 Cardinality
 ~~~~~~~~~~~
 
-*Recommended*
+*Mandatory if Applicable*
 
 *Occurrence: 0-n*
 
