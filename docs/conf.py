@@ -57,8 +57,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenAIRE Guidelines for institutional and thematic Repository Managers'
-copyright = u'2021, OpenAIRE. This work is licensed under Creative Commons Attribution 4.0 International'
+project = 'OpenAIRE Guidelines for institutional and thematic Repository Managers'
+copyright = '2021, OpenAIRE. This work is licensed under Creative Commons Attribution 4.0 International'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -230,8 +230,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'OpenAIREGuidelines.tex', u'OpenAIRE Interoperability Guidelines for institutional & thematic Repository Managers',
-   u'OpenAIRE Guidelines Team', 'manual', True),
+  (master_doc, 'OpenAIREGuidelines.tex', 'OpenAIRE Interoperability Guidelines for institutional & thematic Repository Managers',
+   'OpenAIRE Guidelines Team', 'manual', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -261,8 +261,8 @@ latex_show_urls = 'footnote'
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'openaireguidelines', u'OpenAIRE Guidelines',
-     [u'OpenAIRE'], 1)
+    ('index', 'openaireguidelines', 'OpenAIRE Guidelines',
+     ['OpenAIRE'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -275,8 +275,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'OpenAIREGuidelines', u'OpenAIRE Guidelines',
-   u'OpenAIRE', 'OpenAIREGuidelines', 'One line description of project.',
+  ('index', 'OpenAIREGuidelines', 'OpenAIRE Guidelines',
+   'OpenAIRE', 'OpenAIREGuidelines', 'One line description of project.',
    'Miscellaneous'),
 ]
 
