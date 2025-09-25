@@ -1,3 +1,6 @@
 # Python requirements file with packages needed to build the documentation.
-Sphinx==1.8.2
-sphinx-rtd-theme
+#Sphinx==1.8.2
+#sphinx-rtd-theme
+
+sphinx
+sphinx_rtd_theme
