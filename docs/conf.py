@@ -57,8 +57,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'OpenAIRE Guidelines for institutional and thematic Repository Managers'
-copyright = '2021, OpenAIRE. This work is licensed under Creative Commons Attribution 4.0 International'
+project = u'OpenAIRE Guidelines for Institutional and Thematic Repository Managers'
+copyright = u'2018, OpenAIRE. This work is licensed under Creative Commons Attribution 4.0 International'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -231,7 +231,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'OpenAIREGuidelines.tex', u'OpenAIRE Interoperability Guidelines for institutional & thematic Repository Managers',
+  (master_doc, 'OpenAIREGuidelines.tex', u'OpenAIRE Interoperability Guidelines for Institutional and Thematic Repository Managers',
    u'OpenAIRE Guidelines Team', 'manual', True),
 ]
 
