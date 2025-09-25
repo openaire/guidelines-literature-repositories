@@ -19,7 +19,7 @@ import os
 # on_rtd is whether we are on readthedocs.org
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
-# if not on_rtd:
+if not on_rtd:
     import sphinx_rtd_theme
     html_theme = 'sphinx_rtd_theme'
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
@@ -57,8 +57,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenAIRE Guidelines for Institutional and Thematic Repository Managers'
-copyright = u'2018, OpenAIRE. This work is licensed under Creative Commons Attribution 4.0 International'
+project = 'OpenAIRE Guidelines for institutional and thematic Repository Managers'
+copyright = '2021, OpenAIRE. This work is licensed under Creative Commons Attribution 4.0 International'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -108,7 +108,7 @@ pygments_style = 'sphinx'
 #keep_warnings = False
 
 def setup(app):
-#    if hasattr(app, 'add_js_file'):
+    if hasattr(app, 'add_js_file'):
         app.add_js_file('https://hypothes.is/embed.js')
 
 # -- Options for HTML output ----------------------------------------------
@@ -197,25 +197,24 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine = "xelatex"
 
 latex_elements = {
         'preamble': r'''
            \usepackage[none]{hyphenat}
-           \usepackage{fancyhdr}
-           \pagestyle{fancy}
-           \makeatletter
-           \\fancypagestyle{normal}{
-           \\fancyhf{}
-           \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
-           \\fancyfoot[L]{ \\thepage}
-           \\fancyfoot[R]{ % right
-     			 \includegraphics[height=0.3in]{../../_static/by.png}
-          }
-          }
-          \\renewcommand{\headrulewidth}{0.4pt}
-          \\renewcommand{\\footrulewidth}{0.4pt}
-          \makeatother
+          % \usepackage{fancyhdr}
+          % \pagestyle{fancy}
+          % \makeatletter
+          % \\fancypagestyle{normal}{
+          % \\fancyhf{}
+          % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
+          % \\fancyfoot[L]{ \\thepage}
+          % \\fancyfoot[R]{ % right
+     			% \includegraphics[height=0.3in]{../../_static/by.png}
+          %}
+          %}
+          %\\renewcommand{\headrulewidth}{0.4pt}
+          %\\renewcommand{\\footrulewidth}{0.4pt}
+          %\makeatother
            ''',
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
@@ -232,8 +231,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'OpenAIREGuidelines.tex', u'OpenAIRE Interoperability Guidelines for Institutional and Thematic Repository Managers',
-   u'OpenAIRE Guidelines Team', 'manual', True),
+  (master_doc, 'OpenAIREGuidelines.tex', 'OpenAIRE Interoperability Guidelines for institutional & thematic Repository Managers',
+   'OpenAIRE Guidelines Team', 'manual', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -263,8 +262,8 @@ latex_show_urls = 'footnote'
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'openaireguidelines', u'OpenAIRE Guidelines',
-     [u'OpenAIRE'], 1)
+    ('index', 'openaireguidelines', 'OpenAIRE Guidelines',
+     ['OpenAIRE'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -277,8 +276,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'OpenAIREGuidelines', u'OpenAIRE Guidelines',
-   u'OpenAIRE', 'OpenAIREGuidelines', 'One line description of project.',
+  ('index', 'OpenAIREGuidelines', 'OpenAIRE Guidelines',
+   'OpenAIRE', 'OpenAIREGuidelines', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -296,8 +295,7 @@ texinfo_documents = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-# OLD Sphinx < 8: intersphinx_mapping = {'http://docs.python.org': None}
+# OLD Sphinx < 8: intersphinx_mapping = {'http://docs.python.org/': None}
 intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+    'python': ('https://docs.python.org/3', None),
 }
