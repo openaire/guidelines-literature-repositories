@@ -231,8 +231,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'OpenAIREGuidelines.tex', 'OpenAIRE Interoperability Guidelines for institutional & thematic Repository Managers',
-   'OpenAIRE Guidelines Team', 'manual', True),
+  (master_doc, 'OpenAIREGuidelines.tex', u'OpenAIRE Interoperability Guidelines for institutional & thematic Repository Managers',
+   u'OpenAIRE Guidelines Team', 'manual', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -263,7 +263,7 @@ latex_show_urls = 'footnote'
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'openaireguidelines', 'OpenAIRE Guidelines',
-     ['OpenAIRE'], 1)
+     [u'OpenAIRE'], 1)
 ]
 
 # If true, show URL addresses after external links.
