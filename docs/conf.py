@@ -197,24 +197,25 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
+latex_engine = "xelatex"
 
 latex_elements = {
         'preamble': r'''
            \usepackage[none]{hyphenat}
-          % \usepackage{fancyhdr}
-          % \pagestyle{fancy}
-          % \makeatletter
-          % \\fancypagestyle{normal}{
-          % \\fancyhf{}
-          % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
-          % \\fancyfoot[L]{ \\thepage}
-          % \\fancyfoot[R]{ % right
-     			% \includegraphics[height=0.3in]{../../_static/by.png}
-          %}
-          %}
-          %\\renewcommand{\headrulewidth}{0.4pt}
-          %\\renewcommand{\\footrulewidth}{0.4pt}
-          %\makeatother
+           \usepackage{fancyhdr}
+           \pagestyle{fancy}
+           \makeatletter
+           \\fancypagestyle{normal}{
+           \\fancyhf{}
+           \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
+           \\fancyfoot[L]{ \\thepage}
+           \\fancyfoot[R]{ % right
+     			 \includegraphics[height=0.3in]{../../_static/by.png}
+          }
+          }
+          \\renewcommand{\headrulewidth}{0.4pt}
+          \\renewcommand{\\footrulewidth}{0.4pt}
+          \makeatother
            ''',
 # The paper size ('letterpaper' or 'a4paper').
 'papersize': 'a4paper',
