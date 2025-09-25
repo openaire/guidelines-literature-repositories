@@ -108,7 +108,7 @@ pygments_style = 'sphinx'
 #keep_warnings = False
 
 def setup(app):
-    if hasattr(app, 'add_js_file'):
+#    if hasattr(app, 'add_js_file'):
         app.add_js_file('https://hypothes.is/embed.js')
 
 # -- Options for HTML output ----------------------------------------------
