@@ -199,7 +199,7 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
-        'preamble': r'''
+        'preamble': '''
            \usepackage[none]{hyphenat}
           % \usepackage{fancyhdr}
           % \pagestyle{fancy}
