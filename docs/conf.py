@@ -203,32 +203,32 @@ htmlhelp_basename = 'OpenAIREGuidelinesdoc'
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
-        'preamble': r'''
-           \usepackage[none]{hyphenat}
-          % \usepackage{fancyhdr}
-          % \pagestyle{fancy}
-          % \makeatletter
-          % \\fancypagestyle{normal}{
-          % \\fancyhf{}
-          % \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
-          % \\fancyfoot[L]{ \\thepage}
-          % \\fancyfoot[R]{ % right
-     			% \includegraphics[height=0.3in]{../../_static/by.png}
-          %}
-          %}
-          %\\renewcommand{\headrulewidth}{0.4pt}
-          %\\renewcommand{\\footrulewidth}{0.4pt}
-          %\makeatother
-           ''',
-# The paper size ('letterpaper' or 'a4paper').
-'papersize': 'a4paper',
+    "preamble": """
+\\usepackage[none]{hyphenat}
+% \\usepackage{fancyhdr}
+% \\pagestyle{fancy}
+% \\makeatletter
+% \\fancypagestyle{normal}{
+%   \\fancyhf{}
+%   \\fancyhead[LE,RO]{\\small \\nouppercase{\\rightmark}}
+%   \\fancyfoot[L]{\\thepage}
+%   \\fancyfoot[R]{% right
+%     \\includegraphics[height=0.3in]{../../_static/by.png}
+%   }
+% }
+% \\renewcommand{\\headrulewidth}{0.4pt}
+% \\renewcommand{\\footrulewidth}{0.4pt}
+% \\makeatother
+""",
+    # The paper size ('letterpaper' or 'a4paper').
+    "papersize": "a4paper",
 
-# The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+    # The font size ('10pt', '11pt' or '12pt').
+    # "pointsize": "10pt",
 
-# Additional stuff for the LaTeX preamble.
-#'preamble': '',
-'extraclassoptions': 'openany',
+    # Additional stuff for the LaTeX preamble.
+    # "preamble": "",
+    "extraclassoptions": "openany",
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
