@@ -1,8 +1,8 @@
 ###############################################################################
-OpenAIRE Guidelines for institutional and thematic Repository Managers v4.1-rc1
+OpenAIRE Guidelines for Repositories v4.1
 ###############################################################################
 
-These guidelines describe the application profile v4.1-rc1 for institutional and thematic Repository managers to be compatible with OpenAIRE.
+These guidelines describe the application profile v4.1 for Repository managers to be compatible with OpenAIRE.
 
 .. toctree::
    :maxdepth: 1
