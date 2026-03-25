@@ -17,7 +17,10 @@
 * ``PISSN`` – International Standard Serial Number (print version)
 * ``PMID`` – PubMed ID
 * ``PURL`` – Persistent Uniform Resource Locator
-* ``UPC`` – Universal Product Code is a barcode symbology used for tracking trade items in stores. Its most common form, the UPC-A, consists of 12 numerical digits.
+* ``RAiD`` – Research Activity Identifier (RAiD) is a persistent identifier (PID) and global registry dedicated to research projects.
+* ``RRID`` – Research Resource Identifier assigned to help researchers cite key resources (antibodies, model organisms and software projects) in the biomedical literature to improve transparency of research methods.
+* ``RAiD`` – Research Activity Identifier (RAiD) is a persistent identifier (PID) and global registry dedicated to research projects.
+* ``SWHID`` – Software Hash Identifier is a persistent, intrinsic identifier for software source code artifacts such as source code files, source trees, commits, and other objects typically found in version control systems.
 * ``URL`` – Uniform Resource Locator
 * ``URN`` – Uniform Resource Name
 * ``WOS`` – Web of Science accession number
