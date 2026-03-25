@@ -1,9 +1,9 @@
-.. _dc:description:
+.. _dci:description:
 
 Description (MA)
 ================
 
-``dc:description``
+``datacite:description``
 
 
 Cardinality
@@ -27,6 +27,8 @@ This element is used for a textual description of the content. When a resource c
 **Remarks**
 
 * introduced in `DRIVER Guidelines v2 element description`_
+* adapted from `DataCite MetadataKernel`_ v4.7
+
 
 Property description (MA, 0-n)
 ------------------------------
@@ -34,6 +36,20 @@ Property description (MA, 0-n)
 Use the textual description as value.
 
 .. _dc:description_lang:
+
+Attribute descriptionType (M)
+------------------
+
+The type of the description (occurrence: 0-1). Mandatory if description property is used.
+
+**Controlled list values**
+
+* Abstract
+* Methods
+* SeriesInformation
+* TableOfContents
+* TechnicalInfo
+* Other
 
 Attribute lang (O)
 ------------------
@@ -47,14 +63,12 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <dc:description>
+   <datacite:description descriptionType="Abstract">
      Foreword [by] Hazel Anderson; Introduction; The scientific heresy:
      transformation of a society; Consciousness as causal reality [etc]
-   </dc:description>
+   </datacite:description>
 
-   <dc:description xml:lang="en-US">
+   <datacite:description xml:lang="en-US">
      A number of problems in quantum state and system identification are
      addressed.
-   </dc:description>
-
-.. _DRIVER Guidelines v2 element description: https://wiki.surfnet.nl/display/DRIVERguidelines/Description
+   </datacite:description>
