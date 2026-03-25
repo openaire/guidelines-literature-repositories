@@ -101,6 +101,18 @@ Attribute affiliationIdentifier (R)
 Dedicated to the 'Subproperty affiliation' enhance this attribute the institution and organization affiliation with a
 unique identifier from `ROR <https://ror.org>`_, `GRID <https://www.grid.ac/>`_, `ISNI <https://isni.org/>`_, `CrossRef FunderID <https://www.crossref.org/services/funder-registry/>`_ (occurrence: 0-1).
 
+Attribute affiliationIdentifierScheme (R)
+-----------------------------------
+
+The type of the affiliationIdentifier (occurrence: 1). Mandatory if publisherIdentifier is used.
+
+*Controlled list values*
+
+* ROR
+* GRID
+* ISNI
+* CrossRef FunderID
+
 Example
 ~~~~~~~
 .. code-block:: xml
@@ -109,7 +121,7 @@ Example
    <datacite:creators>
      <datacite:creator>
        <datacite:creatorName>Evans, R.J.</datacite:creatorName>
-       <datacite:affiliation affiliationIdentifier="https://ror.org/01ab23cd4">Institute of Science and Technology</datacite:affiliation>
+       <datacite:affiliation affiliationIdentifier="https://ror.org/01ab23cd4" affiliationIdentifierScheme="ROR">Institute of Science and Technology</datacite:affiliation>
        <datacite:nameIdentifier nameIdentifierScheme="ORCID"
                        schemeURI="http://orcid.org">
          1234-1234-1234-1234
