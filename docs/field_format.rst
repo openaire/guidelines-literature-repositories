@@ -1,9 +1,9 @@
-.. _dc:format:
+.. _dci:format:
 
 Format (R)
 ==========
 
-``dc:format``
+``datacite:format``
 
 Cardinality
 ~~~~~~~~~~~
@@ -25,9 +25,9 @@ Based on best practice, the IANA registered list of Internet Media Types (MIME t
 
 If one specific resource (an instance of scientific output) has more than one physical formats (e.g. postscript and pdf) stored as different object files, all formats are mentioned in the DC element format, for example:
 
-* ``<dc:format>application/pdf</dc:format>``
-* ``<dc:format>application/postscript</dc:format>``
-* ``<dc:format>application/vnd.oasis.opendocument.text</dc:format>``
+* ``<datacite:format>application/pdf</datacite:format>``
+* ``<datacite:format>application/postscript</datacite:format>``
+* ``<datacite:format>application/vnd.oasis.opendocument.text</datacite:format>``
 
 **Do Not Confuse With**
 
@@ -39,6 +39,7 @@ DC element ``format`` describes the media type of this resource. ``oaire:resourc
 **Remarks**
 
 * introduced in `DRIVER Guidelines v2 element format`_
+* adapted from `DataCite MetadataKernel`_ v4.7
 
 Property format (R, 0-n)
 ------------------------
@@ -51,11 +52,9 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <dc:format>video/quicktime</dc:format>
-   <dc:format>application/pdf</dc:format>
-   <dc:format>application/xml</dc:format>
-   <dc:format>application/xhtml+xml</dc:format>
-   <dc:format>application/html</dc:format>
-   <dc:format>application/vnd.oasis.opendocument.text</dc:format>
-
-.. _DRIVER Guidelines v2 element format: https://wiki.surfnet.nl/display/DRIVERguidelines/Format
+   <datacite:format>video/quicktime</datacite:format>
+   <datacite:format>application/pdf</datacite:format>
+   <datacite:format>application/xml</datacite:format>
+   <datacite:format>application/xhtml+xml</datacite:format>
+   <datacite:format>application/html</datacite:format>
+   <datacite:format>application/vnd.oasis.opendocument.text</datacite:format>
