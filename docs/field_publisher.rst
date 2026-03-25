@@ -48,7 +48,10 @@ Attribute publisherIdentifier (R)
 
 Uniquely identifies the publisher, according to various schemes.
 
-.. include:: vocabularies/relatedidentifiertype.rst
+* https://ror.org/037wpkx04 
+* https://wikidata.org/wiki/Q29673
+* https://doi.org/10.25504/FAIRsharing.066ce6
+
 
 Attribute publisherIdentifierScheme (M)
 -----------------------------------
