@@ -1,9 +1,9 @@
-.. _dc:language:
+.. _dci:language:
 
 Language (MA)
 =============
 
-``dc:language``
+``datacite:language``
 
 Cardinality
 ~~~~~~~~~~~
@@ -48,11 +48,11 @@ Example
    :linenos:
 
 
-   <dc:language>eng</dc:language>
-   <dc:language>deu</dc:language>
-   <dc:language>nld</dc:language>
-   <dc:language>nld/dut</dc:language>
-   <dc:language>dut</dc:language>
-   <dc:language>nl</dc:language>
+   <datacite:language>eng</datacite:language>
+   <datacite:language>deu</datacite:language>
+   <datacite:language>nld</datacite:language>
+   <datacite:language>nld/datacite</dc:language>
+   <datacite:language>dut</datacite:language>
+   <datacite:language>nl</datacite:language>
 
-.. _DRIVER Guidelines v2 element language: https://wiki.surfnet.nl/display/DRIVERguidelines/Language
+.. _DataCite MetadataKernel: https://schema.datacite.org/meta/kernel-4.7/
