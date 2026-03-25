@@ -52,7 +52,6 @@ Uniquely identifies the publisher, according to various schemes.
 * https://wikidata.org/wiki/Q29673
 * https://doi.org/10.25504/FAIRsharing.066ce6
 
-
 Attribute publisherIdentifierScheme (M)
 -----------------------------------
 
@@ -67,7 +66,20 @@ The URI of the publisherIdentifierScheme (occurrences: 0-1).
 
 **Allowed values, examples, other constraints**
 
-Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+Examples:
+
+https://ror.org/
+https://www.wikidata.org/wiki/
+https://doi.org/
+
+Attribute lang (O)
+-----------------------------------
+
+The language of the publisher name (occurrences: 0-1).
+
+**Allowed values, examples, other constraints**
+
+Use the ``xml:lang`` attribute to indicate the language of the title. The value of the attribute should be chosen from IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_.
 
 Example
 ~~~~~~~
@@ -75,9 +87,6 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <dc:publisher>
-     Loughborough University. Department of Computer Science
-   </dc:publisher>
-   <dc:publisher>John Wiley &amp; Sons, Inc. (US)</dc:publisher>
-
-.. _DRIVER Guidelines v2 element publisher: https://wiki.surfnet.nl/display/DRIVERguidelines/Publisher
+   <datacite:publisher xml:lang="en" publisherIdentifier="https://ror.org/0198xy071" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">
+     Milano University Press
+   </datacite:publisher>
