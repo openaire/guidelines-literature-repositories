@@ -1,9 +1,9 @@
-.. _dc:publisher:
+.. _dci:publisher:
 
 Publisher (MA)
 ==============
 
-``dc:publisher``
+``datacite:publisher``
 
 Cardinality
 ~~~~~~~~~~~
@@ -36,12 +36,35 @@ In most cases the publisher and the creator are not the same.
 
 **Remarks**
 
-* introduced in `DRIVER Guidelines v2 element publisher`_
+* adapted from `DataCite MetadataKernel`_ v4.7
 
 Property publisher (MA, 0-n)
 ----------------------------
 
 Use the name of the publisher as value.
+
+Attribute publisherIdentifier (R)
+-----------------------------------
+
+Uniquely identifies the publisher, according to various schemes.
+
+.. include:: vocabularies/relatedidentifiertype.rst
+
+Attribute publisherIdentifierScheme (M)
+-----------------------------------
+
+The type of the publisherIdentifier (occurrence: 1). Mandatory if *publisherIdentifier* is used.
+
+.. include:: vocabularies/publisherIdentifierScheme.rst
+
+Attribute schemeURI (R)
+-----------------------------------
+
+The URI of the publisherIdentifierScheme (occurrences: 0-1).
+
+**Allowed values, examples, other constraints**
+
+Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
 
 Example
 ~~~~~~~
