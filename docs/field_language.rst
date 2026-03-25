@@ -34,7 +34,7 @@ If ISO 639-2 and 639-1 are sufficient for the contents of a repository they can 
 
 **Remarks**
 
-* introduced in `DRIVER Guidelines v2 element date`_
+* introduced in `DRIVER Guidelines v2 element language`_
 * adapted from `DataCite MetadataKernel`_ v4.7
 
 Property language (MA, 0-n)
