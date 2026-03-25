@@ -25,6 +25,8 @@ The authors of the publication in priority order. May be a corporate/institution
 **Remarks**
 
 * adapted from `DataCite MetadataKernel`_ v4.1
+* added affiliationIdentifier and affiliationIdentifierScheme attributes from `DataCite MetadataKernel`_ v4.7
+
 
 Property creator (MA, 1-n)
 --------------------------
