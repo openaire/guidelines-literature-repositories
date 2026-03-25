@@ -20,6 +20,7 @@ An identifier of a related resource other than the primary Identifier applied to
 **Remarks**
 
 * adapted from `DataCite MetadataKernel`_ v4.1
+* additional relationType elements from `DataCite MetadataKernel`_ v4.7
 
 Property relatedIdentifier (R, 0-n)
 -----------------------------------
