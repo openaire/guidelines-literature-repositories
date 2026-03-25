@@ -37,7 +37,7 @@ In most cases the publisher and the creator are not the same.
 
 **Remarks**
 
-* introduced in `DRIVER Guidelines v2 element date`_
+* introduced in `DRIVER Guidelines v2 element publisher`_
 * adapted from `DataCite MetadataKernel`_ v4.7
 
 Property publisher (MA, 0-n)
