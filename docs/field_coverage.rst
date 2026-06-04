@@ -24,6 +24,7 @@ It is recommended to use literal or non-literal values. If necessary, repeat thi
 **Remarks**
 
 * introduced in `DRIVER Guidelines v2 element coverage`_
+* this version of the application profile adopts the Date element in combination with dateType="Coverage" attribute from DataCite MetadataKernel v4.1.
 * to describe spatial location information (a place name or geographic coordinates) use the property :ref:`dci:geolocation`
 
 Property coverage (R, 0-n)
@@ -39,15 +40,6 @@ Example Spatial: temporal topic:
 .. code-block:: xml
    :linenos:
 
-   <dc:coverage>2000-2010</dc:coverage>
-
-Example Spatial: BOX:
-
-.. code-block:: xml
-   :linenos:
-
-   <dc:coverage>
-     scheme=historic; content=Ming Dynasty
-   </dc:coverage>
-
-.. _DRIVER Guidelines v2 element coverage: https://wiki.surfnet.nl/display/DRIVERguidelines/Coverage
+   <datacite:dates>
+      <datacite:date dateType="Coverage">1578-01-01/1810-12-31</datacite:date>
+   </datacite:dates>
