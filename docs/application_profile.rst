@@ -39,22 +39,22 @@ OpenAIRE-Field                           Metadata Element              Refinemen
                                                                        | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`    | RDA-I3-03M
                                                                                                                                                         | RDA-I3-04M
 :ref:`dci:dateEmbargo`                   datacite:date                 :ref:`date type <vocab:datetype_datetype>`
-:ref:`dc:language`                       dc:language                   `IETF BCP 47`_, `ISO 639-3`_
-:ref:`dc:publisher`                      dc:publisher
+:ref:`dci:language`                      datacite:language             `IETF BCP 47`_, `ISO 639-3`_
+:ref:`dci:publisher`                     datacite:publisher
 :ref:`dci:datePublication`               datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
-:ref:`dc:description`                    dc:description
-:ref:`dc:format`                         dc:format                                                                                                      RDA-I1-01D
+:ref:`dci:description`                   datacite:description
+:ref:`dci:format`                        datacite:format                                                                                                  RDA-I1-01D
 :ref:`dci:identifier`                    datacite:identifier           :ref:`identifier type <vocab:identifiertype_identifiertype>`                     | RDA-F1-01M
                                                                                                                                                         | RDA-F1-02M
                                                                                                                                                         | RDA-A1.1-01D
 :ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_                                                  RDA-A1-01M
-:ref:`dc:source`                         dc:source
+:ref:`dci:source`                        datacite:source
 :ref:`dci:subject`                       datacite:subject                                                                                               RDA-I1-01M  
 :ref:`aire:licenseCondition`             oaire:licenseCondition                                                                                         | RDA-R1.1-01M
                                                                                                                                                         | RDA-R1.1-02M
                                                                                                                                                         | RDA-R1.1-03M
-:ref:`dc:coverage`                       dc:coverage
+:ref:`dci:coverage`                      datacite:coverage
 :ref:`dci:size`                          datacite:size
 :ref:`dci:geolocation`                   datacite:geoLocation
 :ref:`aire:version`                      oaire:version                 `COAR Version Vocabulary`_ 
