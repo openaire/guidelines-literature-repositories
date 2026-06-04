@@ -1,4 +1,4 @@
-.. _dci:coverage:
+.. _dci:date:
 
 Coverage (R)
 ============
