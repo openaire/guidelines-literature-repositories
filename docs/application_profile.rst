@@ -20,7 +20,6 @@ Optional (O)
 
 This documentation uses the following namespace abbreviations:
 
-* ``dc``: http://purl.org/dc/elements/1.1/
 * ``dcterms``: http://purl.org/dc/terms/
 * ``datacite``: http://datacite.org/schema/kernel-4
 * ``oaire``: http://namespace.openaire.eu/schema/oaire/
