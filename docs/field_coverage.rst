@@ -3,7 +3,7 @@
 Coverage (R)
 ============
 
-``dc:coverage``
+``datacite:date``
 
 Cardinality
 ~~~~~~~~~~~
