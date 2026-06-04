@@ -1,4 +1,4 @@
-.. _dc:coverage:
+.. _dci:coverage:
 
 Coverage (R)
 ============
