@@ -48,17 +48,17 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`dci:identifier`                    datacite:identifier           :ref:`identifier type <vocab:identifiertype_identifiertype>`                     | RDA-F1-01M
                                                                                                                                                         | RDA-F1-02M
                                                                                                                                                         | RDA-A1.1-01D
-:ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_                                                  RDA-A1-01M
+:ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_                                                  | RDA-A1-01M
 :ref:`dci:source`                        datacite:source
-:ref:`dci:subject`                       datacite:subject                                                                                               RDA-I1-01M  
+:ref:`dci:subject`                       datacite:subject                                                                                               | RDA-I1-01M  
 :ref:`aire:licenseCondition`             oaire:licenseCondition                                                                                         | RDA-R1.1-01M
                                                                                                                                                         | RDA-R1.1-02M
                                                                                                                                                         | RDA-R1.1-03M
-:ref:`dci:coverage`                      datacite:coverage
+:ref:`dci:coverage`                      datacite:coverage             :ref:`date type <vocab:datetype_datetype>`
 :ref:`dci:size`                          datacite:size
 :ref:`dci:geolocation`                   datacite:geoLocation
 :ref:`aire:version`                      oaire:version                 `COAR Version Vocabulary`_ 
-:ref:`aire:file`                         oaire:file                    `COAR Access Right Vocabulary`_                                                  RDA-F3-01M
+:ref:`aire:file`                         oaire:file                    `COAR Access Right Vocabulary`_                                                  | RDA-F3-01M
 :ref:`aire:citationTitle`                oaire:citationTitle 	
 :ref:`aire:citationVolume`               oaire:citationVolume
 :ref:`aire:citationIssue`                oaire:citationIssue
