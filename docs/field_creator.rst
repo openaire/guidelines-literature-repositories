@@ -104,7 +104,7 @@ Dedicated to the 'Subproperty affiliation' enhance this attribute the institutio
 unique identifier from `ROR <https://ror.org>`_, `GRID <https://www.grid.ac/>`_, `ISNI <https://isni.org/>`_, `CrossRef FunderID <https://www.crossref.org/services/funder-registry/>`_ (occurrence: 0-1).
 
 Attribute affiliationIdentifierScheme (R)
------------------------------------
+-----------------------------------------
 
 The type of the affiliationIdentifier (occurrence: 1). Mandatory if affiliationIdentifier is used.
 
