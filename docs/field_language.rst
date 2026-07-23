@@ -52,7 +52,7 @@ Example
    <datacite:language>eng</datacite:language>
    <datacite:language>deu</datacite:language>
    <datacite:language>nld</datacite:language>
-   <datacite:language>nld/datacite</dc:language>
+   <datacite:language>nld</datacite</dc:language>
    <datacite:language>dut</datacite:language>
    <datacite:language>nl</datacite:language>
 
