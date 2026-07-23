@@ -106,7 +106,7 @@ unique identifier from `ROR <https://ror.org>`_, `GRID <https://www.grid.ac/>`_,
 Attribute affiliationIdentifierScheme (R)
 -----------------------------------
 
-The type of the affiliationIdentifier (occurrence: 1). Mandatory if publisherIdentifier is used.
+The type of the affiliationIdentifier (occurrence: 1). Mandatory if affiliationIdentifier is used.
 
 *Controlled list values*
 
