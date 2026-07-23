@@ -53,7 +53,7 @@ OpenAIRE-Field                           Metadata Element              Refinemen
 :ref:`aire:licenseCondition`             oaire:licenseCondition                                                                                         | RDA-R1.1-01M
                                                                                                                                                         | RDA-R1.1-02M
                                                                                                                                                         | RDA-R1.1-03M
-:ref:`dci:date`                      datacite:date             :ref:`date type <vocab:datetype_datetype>`
+:ref:`dci:date`                          datacite:date                 :ref:`date type <vocab:datetype_datetype>`
 :ref:`dci:size`                          datacite:size
 :ref:`dci:geolocation`                   datacite:geoLocation
 :ref:`aire:version`                      oaire:version                 `COAR Version Vocabulary`_ 
