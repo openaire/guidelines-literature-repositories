@@ -55,7 +55,7 @@ Uniquely identifies the publisher, according to various schemes.
 * https://doi.org/10.25504/FAIRsharing.066ce6
 
 Attribute publisherIdentifierScheme (M)
------------------------------------
+---------------------------------------
 
 The type of the publisherIdentifier (occurrence: 1). Mandatory if *publisherIdentifier* is used.
 
