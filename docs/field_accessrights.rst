@@ -48,7 +48,7 @@ Property accessRights (M, 1)
 
 Use the label of the vocabulary term as value.
 
-Attribute uri (M)
+Attribute rightsURI (M)
 -----------------
 
 Use the conceptURI of the vocabulary term.
