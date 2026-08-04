@@ -72,7 +72,9 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <datacite:date dateType="Issued">2000-12-25</datacite:date>
+   <datacite:dates>
+      <datacite:date dateType="Issued">2000-12-25</datacite:date>
+   </datacite:dates>
 
 .. _DRIVER Guidelines v2 element date: https://wiki.surfnet.nl/display/DRIVERguidelines/Date
 .. _DataCite MetadataKernel: http://schema.datacite.org/meta/kernel-4.1/
