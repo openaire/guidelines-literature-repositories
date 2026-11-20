@@ -97,13 +97,13 @@ Example of a dataset collected by an instrument (as recommended by DataCite):
       <datacite:relatedIdentifier relatedIdentifierType="DOI" relationType="IsCollectedBy" resourceTypeGeneral="Instrument">10.xxxx/instrument-pid</datacite:relatedIdentifier>
    </datacite:relatedIdentifiers>
 
-Example of a publication referring to an instrument used (e.g. mentioned in the methods section):
+Example of a publication referencing an instrument used in the research (e.g. mentioned in the methods section):
 
 .. code-block:: xml
    :linenos:
 
    <datacite:relatedIdentifiers>
-      <datacite:relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementedBy" resourceTypeGeneral="Instrument">10.xxxx/instrument-pid</datacite:relatedIdentifier>
+      <datacite:relatedIdentifier relatedIdentifierType="DOI" relationType="References" resourceTypeGeneral="Instrument">10.xxxx/instrument-pid</datacite:relatedIdentifier>
    </datacite:relatedIdentifiers>
 
 .. _DataCite MetadataKernel: https://schema.datacite.org/meta/kernel-4.4/
