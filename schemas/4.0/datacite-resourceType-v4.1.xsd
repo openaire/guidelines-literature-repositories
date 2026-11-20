@@ -16,6 +16,7 @@
             <xs:enumeration value="Event"/>
             <xs:enumeration value="Image"/>
             <xs:enumeration value="InteractiveResource"/>
+            <xs:enumeration value="Instrument"/>
             <xs:enumeration value="Model"/>
             <xs:enumeration value="PhysicalObject"/>
             <xs:enumeration value="Service"/>

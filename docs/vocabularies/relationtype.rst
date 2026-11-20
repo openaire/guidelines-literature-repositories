@@ -33,3 +33,5 @@
 * ``IsRequiredBy`` (indicates A is required by B)
 * ``Requires`` (indicates A requires B)
 * ``IsPublishedIn`` (indicates that A is published in B)
+* ``IsCollectedBy`` (indicates that B is used to collect A, e.g. an instrument used to collect data)
+* ``Collects`` (indicates that A is used to collect B, e.g. an instrument collecting data)
