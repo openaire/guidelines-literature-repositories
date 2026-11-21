@@ -45,6 +45,8 @@
       <xs:enumeration value="IsSourceOf"/>
       <xs:enumeration value="IsRequiredBy"/>
       <xs:enumeration value="Requires"/>
+      <xs:enumeration value="IsCollectedBy"/>
+      <xs:enumeration value="Collects"/>
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>

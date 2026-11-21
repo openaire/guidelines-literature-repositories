@@ -11,7 +11,9 @@ python:
 # install: true
 install:
     - pip install -r requirements.txt
+    - pip install lxml
 
 script:
     - "sphinx-build -qnN docs docs/_build/html"
+    - "python -m unittest discover tests -v"
 #    - travis_wait mvn test -B

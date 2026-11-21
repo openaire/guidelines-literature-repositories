@@ -8,6 +8,7 @@
 * Event
 * Image
 * InteractiveResource
+* Instrument
 * Model
 * PhysicalObject
 * Service
